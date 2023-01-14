@@ -5,16 +5,3 @@
 body {
   background-color: #020015;
 }
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.14);
-  border-radius: 100px;
-}
-
-::-webkit-scrollbar-track {
-  background: #020015; /* color of the tracking area */
-}
