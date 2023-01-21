@@ -14,7 +14,7 @@ export const PageHead = ({
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/instinctsLogo.jpeg" />
+      <link rel="icon" href="/images/instinctsLogo.jpeg" />
     </Head>
   );
 };
