@@ -3,10 +3,10 @@ var footer_text_element = "</>";
 
 export const Footer = () => {
   return (
-    <footer className="h-80 w-full flex flex-col items-center justify-center shadow-xl border-[0.02rem] border-gray-400 border-opacity-20 bg-black/20 rounded-md lg:rounded-xl backdrop-blur-lg text-white font-main">
-      <p className="text-3xl">Instincts 2023 - Lost Continent</p>
-      <p className="text-lg">SSN and SNUC&apos;s Annual Cultural Fest</p>
-      <p className="text-lg">All rights reserved © SSN SNUC</p>
+    <footer className="h-80 w-full flex flex-col items-center justify-center shadow-xl border-[0.02rem] border-gray-400 border-opacity-20 bg-black/20 rounded-md lg:rounded-xl backdrop-blur-lg text-white font-main text-center">
+      <p className="mb-4 text-3xl">Instincts 2023 - Lost Continent</p>
+      <p className="text-xl">SSN & SNUC&apos;s Annual Cultural Fest</p>
+      <p className="text-xl">All rights reserved &copy; SSN SNUC</p>
       <p className="mt-6 text-lg">{footer_text_element} With ❤️ by</p>
       <div className="flex items-center gap-4 mt-5">
         <a href="https://twitter.com/Amanrk28">
