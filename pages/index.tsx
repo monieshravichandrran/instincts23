@@ -1,5 +1,4 @@
-import { Footer } from "components/footer";
-import { PageHead } from "components/PageHead";
+import { Footer, PageHead } from "components";
 import Image from "next/image";
 import { useTranslation } from "utils/hooks/use-translation";
 
