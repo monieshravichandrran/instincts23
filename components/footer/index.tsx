@@ -1,3 +1,4 @@
+import { InstagramLogo } from "phosphor-react";
 import React from "react";
 var footer_text_element = "</>";
 
@@ -7,6 +8,13 @@ export const Footer = () => {
       <p className="mb-4 text-3xl">Instincts 2023 - Lost Continent</p>
       <p className="text-xl">SSN & SNUC&apos;s Annual Cultural Fest</p>
       <p className="text-xl">All rights reserved &copy; SSN SNUC</p>
+      <a
+        className="mt-2"
+        href="https://www.instagram.com/ssnsnucinstincts/"
+        rel="noopener noreferrer"
+      >
+        <InstagramLogo size={32} />
+      </a>
       <p className="mt-6 text-lg">{footer_text_element} With ❤️ by</p>
       <div className="flex items-center gap-4 mt-5">
         <a href="https://twitter.com/Amanrk28">

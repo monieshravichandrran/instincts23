@@ -10,14 +10,14 @@ export default function Home() {
       <PageHead title={title} description={description} />
       <div className="flex flex-col items-center justify-center min-h-screen p-4">
         <img
-          src="/images/SNUC-blue.png"
+          src="/images/SNUC-white.png"
           alt="SNUC"
           className="w-[100px] lg:w-[180px] absolute top-5 left-5"
         />
         <img
-          src="/images/SSN-blue.png"
+          src="/images/SSN-white.png"
           alt="SSN"
-          className="w-[80px] lg:w-[150px] absolute top-1 right-1"
+          className="w-[70px] lg:w-[120px] absolute top-3 right-3"
         />
         <Image
           src="/images/Instincts.png"
