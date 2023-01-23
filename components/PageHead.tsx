@@ -7,7 +7,7 @@ interface IPageHead {
 
 export const PageHead = ({
   title = "SSN SNUC Instincts 2023",
-  description,
+  description = "SSN SNUC's 18th Cultural Fest based on Lost Continent",
 }: IPageHead) => {
   return (
     <Head>

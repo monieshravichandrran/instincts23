@@ -1,2 +1,3 @@
 export { Footer } from "./footer";
+export { CollegeLogo } from "./Logo";
 export { PageHead } from "./PageHead";
