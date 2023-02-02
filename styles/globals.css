@@ -104,9 +104,9 @@ body {
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #F0E68C, 0 0 40px #F0E68C, 0 0 50px #F0E68C, 0 0 60px #F0E68C 0 0 70px #F0E68C;
+    text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 20px #F0E68C, 0 0 30px #F0E68C, 0 0 40px #F0E68C, 0 0 60px #F0E68C 0 0 70px #F0E68C;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #F2D2BD, 0 0 40px #C70039, 0 0 50px #C70039, 0 0 60px #C70039, 0 0 70px #C70039, 0 0 80px #C70039;
+    text-shadow: 0 0 5px #fff, 0 0 15px #F2D2BD, 0 0 30px #C70039, 0 0 40px #C70039, 0 0 45px #C70039, 0 0 70px #C70039, 0 0 80px #C70039;
   }
 }
