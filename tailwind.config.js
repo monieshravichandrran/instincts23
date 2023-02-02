@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require("tailwindcss/defaultTheme");
-const plugin = require("tailwindcss/plugin");
+const defaultTheme = require("tailwindcss/defaultTheme")
+const plugin = require("tailwindcss/plugin")
 
 module.exports = {
   content: [
@@ -42,6 +42,7 @@ module.exports = {
       letterSpacing: {
         "wide-wide": "0.2em",
       },
+      screens: { sm: { max: "640px" } },
     },
   },
   plugins: [
@@ -53,7 +54,7 @@ module.exports = {
           }),
         },
         { values: theme("textShadow") }
-      );
+      )
     }),
   ],
-};
+}
