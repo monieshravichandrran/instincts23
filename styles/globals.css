@@ -13,7 +13,9 @@ body {
   background-color: #020015;
   background-image: url("/images/bg2.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 @font-face {
