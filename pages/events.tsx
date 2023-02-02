@@ -16,7 +16,7 @@ export default function Events() {
           All events for SSN Instincts are powered by our different clubs, do
           check them out!
         </h2>
-        <div className="p-4 text-xl shadow-2xl rounded-br-3xl grid lg:grid-cols-3 gap-10 w-[90vw] sm:grid-cols-2">
+        <div className="p-4 text-xl rounded-br-3xl grid grid-cols-1 lg:grid-cols-3 gap-10 w-[90vw] md:grid-cols-2">
           {Clubs.map((item, index) => (
             <Club
               key={index}
