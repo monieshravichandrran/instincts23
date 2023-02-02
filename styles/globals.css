@@ -54,3 +54,59 @@ body {
     background-position: top left;
   }
 }
+
+.button {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  color: #7E5936;
+  border: 2px solid #7E5936;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:after {
+  content: "";
+  background-color: #ffefcd;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 13px 50px 13px;
+  }
+}
+
+.glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 20px #F0E68C, 0 0 30px #F0E68C, 0 0 40px #F0E68C, 0 0 60px #F0E68C 0 0 70px #F0E68C;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 15px #F2D2BD, 0 0 30px #C70039, 0 0 40px #C70039, 0 0 45px #C70039, 0 0 70px #C70039, 0 0 80px #C70039;
+  }
+}

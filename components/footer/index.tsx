@@ -31,6 +31,13 @@ export const Footer = () => {
             alt="Aman Khemka"
           />
         </a>
+        <a href="https://www.instagram.com/iammoniesh208/">
+          <img
+            className="w-24 h-24 duration-300 cursor-pointer hover:scale-125"
+            src="/images/moniesh.png"
+            alt="Moniesh"
+          />
+        </a>
       </div>
     </footer>
   );
