@@ -21,7 +21,7 @@ export const Club = ({ imageSource, alternate, clubName, description, link }: Ch
           width={300}
           className="mb-[4rem] p-8 lg:p-8"
         />
-        <h2 className="mb-4 text-3xl font-bold text-center">{clubName}</h2>
+        <h2 className="mb-4 text-3xl font-bold text-center glow">{clubName}</h2>
         <p className="my-10 text-lg text-center">{description}</p>
         <div className="flex justify-center mb-4"><Button href={link} children="Explore" large /></div>
       </div>
