@@ -59,7 +59,7 @@ export const CollegeLogo = () => {
               onClick={() => setNav(!nav)}
               className="rounded-full shadow-lg bg-white shadow-gray-800 p-3 cursor-pointer "
             >
-              <AiOutlineClose />
+              <AiOutlineClose color="black" />
             </div>
           </div>
           <div className="border-b border-gray-300 my-4"></div>
