@@ -6,34 +6,35 @@ export const CollegeLogo = () => {
   const [nav, setNav] = useState(false);
   return (
     <>
-      <div className="hidden md:flex">
+      <div className="">
         <img
           src="/images/SNUC-white.png"
           alt="SNUC"
           className="w-[100px] lg:w-[180px] absolute top-5 left-5"
         />
-        <div className="inline-block absolute top-3 text-white right-3 sm:text-xl md:text-2xl">
+
+        <div className=" absolute top-3 text-white right-3 sm:text-xl md:text-2xl">
           <Link
             href="/events"
-            className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110"
+            className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110 sm:hidden"
           >
             Events
           </Link>
           <Link
             href="/about"
-            className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110"
+            className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110 sm:hidden"
           >
             About
           </Link>
           <img
             src="/images/SSN-white.png"
             alt="SSN"
-            className="inline-block w-[70px] lg:w-[120px]"
+            className="inline-block w-[70px] lg:w-[120px] sm:mr-14"
           />
         </div>
       </div>
       <div
-        className="md:hidden lg:hidden cursor-pointer absolute top-5 right-5"
+        className="md:hidden lg:hidden cursor-pointer absolute top-3 right-5"
         onClick={() => setNav(!nav)}
       >
         <AiOutlineMenu size={30} color="white" />
