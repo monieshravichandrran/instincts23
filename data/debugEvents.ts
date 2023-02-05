@@ -2,86 +2,56 @@ export const debugEvents =
 {
     elc: [
         {
-            eventNames: "SSN Debates",
-            description: "A team debate competition. Speakers from each of the two competing teams will be given time to speak and each team will be given time to rebut.",
-            rules: ["3 minutes for each speaker and 1 minute for rebuttal", "Preparation time will be given for each topic", "Registration is on a first-come-first-serve basis."],
-            date: "May 13, 2023",
-            fromTime: "10AM", toTime: "4PM",
-            venue: "Old ECE Seminar Hall",
-            team_size: 3,
+            eventNames: "Debate",
+            description: "You'll meet many people on your way to the lost continent who you'll have to verbally spar with to get your way. Don't hold back when it comes to debate; only the toughest, and the audacious can survive the Lost continent.Come join us at Instincts Debate - put your skills to test against the other explorers. May the best survive the journey!",
+            rules: ["Each debating round will consist of two teams - one to propose(for) the motion and one to oppose(against) the motion.", "3 minutes for each speaker to present their argument and 1 minute for rebuttal each.", "Preparation time will be given for each topic.", "Registration is on a first-come-first-serve basis."],
+            date: "TBD",
+            fromTime: undefined, toTime: undefined,
+            venue: "TBD",
+            team_size: "2",
             type: "Team",
             organizers: [
                 {
-                    name: "Lohita",
+                    name: "Shivangi Pandey",
+                    phone: "8095295398"
+                },
+                {
+                    name: "Aditi Kannan",
+                    phone: "9791011123"
+                },
+                {
+                    name : "Nirgun",
+                    phone: "8072237166"
+                }
+            ]
+        },
+        {
+            eventNames: "Navigate (Creative Writing)",
+            description: "Draw us a map with your words, let your metaphors be your SOS signals and while we make our way to rescue you from the lost continent, please feel free to bask in the beauty of your descriptions. ",
+            rules: ["The poems must be entirely the original work of the participant.", "Late submissions will result in a deduction of points."],
+            date: "TBD",
+            fromTime: undefined, toTime: undefined,
+            venue: "TBD",
+            type: "Individual",
+            organizers: [
+                {
+                    name: "Lohita S",
                     phone: "7550175954"
                 },
                 {
-                    name: "Shivangi",
-                    phone: "8095295398"
-                }
-            ]
-        },
-        {
-            eventNames: "JAM",
-            description: "A moderated speaking event where the objective is to speak for as long as possible without making any errors, while your opponents keep trying to object to your speaking.",
-            rules: ["Each round of this game is for a duration of 60 seconds each.", "Points are awarded for the amount of time spoken for, as well as correct objections.", "In case of a wrong objection, points will be deducted."],
-            date: "May 14, 2023",
-            fromTime: "9AM", toTime: "12PM",
-            venue: "IT Seminar Hall",
-            type: "Individual",
-            organizers: [
-                {
-                    name: "Aditya Pahadsingh",
-                    phone: "6382395235"
-                },
-                {
-                    name: "Arjun Mukesh",
-                    phone: "9500147579"
-                }
-            ]
-        },
-        {
-            eventNames: "SUCC - Stand Up Comedy Contest",
-            description: "Exactly as the name suggests, the participants will be required to perform a set to a judge and an audience. Everybody is welcome, if you're funny, we'll laugh at your jokes. If not... Well, we'll laugh at you.",
-            rules: ["Keep your sets under 5 minutes.", "Sets in English are preferred, Tamil and Hindi are okay as well.", "Obscenity is to be avoided!"],
-            date: "May 13, 2023",
-            fromTime: "2PM", toTime: "5PM",
-            venue: "CSE Seminar Hall",
-            type: "Individual",
-            organizers: [
-                {
-                    name: "Eros Cicero",
-                    phone: "9790494077"
-                }
-            ]
-        },
-        {
-            eventNames: "A Musing Affair",
-            description: "An online writing event over the span of multiple weeks leading up to instincts. Weekly prompts will be sent out to all participants and they will be required to submit a write up before they get the next prompt..",
-            rules: ["Submissions are collected via email.", "Late submissions will result in a deduction of points."],
-            date: "May 13, 2023",
-            fromTime: "2PM", toTime: "5PM",
-            venue: "CSE Seminar Hall",
-            type: "Individual",
-            organizers: [
-                {
-                    name: "Varshi",
-                    phone: "8838953236"
-                },
-                {
-                    name: "Bhavya",
-                    phone: "8778294632"
+                    name: "Shama",
+                    phone: "6383142169"
                 }
             ]
         },
         {
             eventNames: "Potpourri",
-            description: "Competition with a variety of events. This is a team event that includes various activities like Dumb charades and Pictionary, based on which they will be awarded points. The team with the most points at the end wins.",
-            rules: ["Submissions are collected via email.", "Late submissions will result in a deduction of points."],
-            date: "May 13, 2023",
-            fromTime: "2PM", toTime: "5PM",
-            venue: "Central Seminar Hall",
-            team_size: 2,
+            description: "Potpourri a mixture you’ll find when you land. Sweet or venomous you’ll never know. Solve the puzzles with your loyal band. With every win your team’s honour will grow",
+            rules: ["Two round event.", " Round 1 is a written quiz with a time limit of 1 hour.", "Teams that clear first round enter round 2.", "Round 2 is a miscellaneous round of team games"],
+            date: "TBD",
+            fromTime: undefined, toTime: undefined,
+            venue: "TBD",
+            team_size: "2-3",
             type: "Team",
             organizers: [
                 {
@@ -89,237 +59,238 @@ export const debugEvents =
                     phone: "8939756211"
                 },
                 {
-                    name: "Navin",
-                    phone: "9791188138"
+                    name: "Karunya",
+                    phone: "73056 34359"
                 }
             ]
         }
     ],
-    gaming: [
-        {
-            eventNames: "VALORANT - Spike Mania",
-            description: "Plan your strike and plant the spike! Clutch your way to the top in classic 5v5 team battles. With a prize pool of over 15000, what are you waiting for? Come and join us in this epic valo cup.",
-            rules: ["Please refer to the RULEBOOK given below in the link: (the link will be added)"],
-            date: "May 13, 2022",
-            fromTime: "2PM", toTime: "5PM",
-            venue: "IT Lab 1",
-            team_size: 5,
-            type: "Team",
-            organizers: [
-                {
-                    name: "Varshi",
-                    phone: "8838953236"
-                },
-                {
-                    name: "Shravan",
-                    phone: "9042017781"
-                }
-            ]
-        },
-        {
-            eventNames: "BGMI – Headshot",
-            description: "We bring to you BGMI 'Headshot', a squad tournament event to test your concentration, patience, strategizing skills, and critical thinking, to make your way out to the top. Put forward your best game and get the chance to win amazing prizes.",
-            rules: ["Please refer to the RULEBOOK given below in the link: (the link will be added)"],
-            date: "Prelims - May 13, 2022, Finals - May 14, 2022",
-            fromTime: "9AM", toTime: "12PM",
-            venue: "Prelims - IT Lab 2, Finals - IT Lab 1",
-            team_size: 4,
-            type: "Team",
-            organizers: [
-                {
-                    name: "Varshi",
-                    phone: "8838953236"
-                },
-                {
-                    name: "Anish",
-                    phone: "9618314560"
-                }
-            ]
-        }
-    ],
+    gaming: [],
     sfc: [{
         eventNames: "Reels of Fire",
-        description: "Reels of Fire is a fiercely competitive shortfilm contest, where aspiring filmmakers, from all around the nation, create a diverse array of short films and vie for a chance to win the prestigious ‘Best Short Film’ Award, amongst other prizes. The submitted films are perused by members of the SSN Film Club and 10 of the best films are shortlisted. The shortlisted films are screened at our auditorium on the day of the main event. Our panel of esteemed individuals from the Kollywood industry then judge the films and awards are handed out accordingly. Reels of Fire continues to remain a prestigious platform for budding talents. Here, they showcase their works to not only a large audience of young, passionate and enthusiastic filmgoers but also to people in the industry who can take them to the next level.",
+        description: "Reels of Fire is a fiercely competitive short film contest, where aspiring filmmakers worldwide can create a diverse array of short films and vie for a chance to win the prestigious ‘Best Short Film’ Award, amongst other categories. The submitted shorts are perused by the members of the SSN Film Club, where 10 of the best films are shortlisted. The shortlisted shorts will get screened at our auditorium on the day of the main event. Our panel of esteemed individuals from the Kollywood industry will judge the shorts, and award them with prizes accordingly. Reels of Fire continues to remain a prestigious platform for budding talents. Here, they showcase their works not only to a large audience of young, passionate, and enthusiastic filmgoers but also to the people in the industry who can take them to the next level.",
         rules: ["Duration - Films must be 30 minutes or shorter. However longer films will be considered if we find them exceptional.", "Only films made after or during the month of January 2021 may be submitted.", "Obscenities - Films must put to use the relevant censors to avoid the blatant display of obscenities. (Beep sounds for verbal obscenities, blurs for visual, etc)", "Language - Films in all languages are welcome. All films regardless of language must be subtitled in English.", "Final Verdicts - The decisions made by the judges are completely final and must be treated as such."],
-        date: "May 14, 2022",
-        fromTime: "2PM", toTime: "5PM",
+        date: "March 10, 2023",
+        fromTime: "9AM", toTime: "12AM",
         venue: "Main Auditorium",
-        type: "Individual",
+        type: "Lone-Wolf / Team",
+        team_size: "1-4",
         organizers: [
             {
-                name: "Abishek",
-                phone: "8939777009"
+                name: "Raghupathy J",
+                phone: "9962480903"
             },
             {
-                name: "Anirudh",
-                phone: "9092144353"
+                name: "Dharshanraj B",
+                phone: "9940630160"
+            },
+            {
+                name: "Raghupathy J",
+                phone: "9962480903"
+            },
+            {
+                name: "Mughilan",
+                phone: "7598955470"
+            }
+        ],
+        ruleBook: "https://drive.google.com/open?id=1XPZb8Xb_pwWayT4Jx8kYhQagMWOf9fad"
+    },
+    {
+        eventNames: "Lights, Camera, Sale!",
+        description: "Lights Camera Sale, an auction event. Several teams will compete by bidding on a topic or question related to movies. There are three rounds where the topic is given each time. The different teams are expected to bid and name the different answers in the category in a stipulated time. Teams are eliminated in each passing round according to the points scored. This is the first time we are conducting this particular event as part of Instincts, the biggest cultural fest in South India.",
+        rules: ["The entry fee per person is Rs.50/-","This game event can participate as an individual as well as a team of two.", "There are three rounds and each round is an elimination round.", "Based on the scores, the team will be proceeding to the next round.", "The first round is an Auction round followed by Kahoot and Connexion is the final round."],
+        date: "TBD",
+        fromTime: undefined, toTime: undefined,
+        venue: "TBD",
+        type: "Lone-Wolf / Team",
+        team_size: "2",
+        organizers: [
+            {
+                name: "Raghupathy J",
+                phone: "9962480903"
+            },
+            {
+                name: "Dharshanraj B",
+                phone: "9940630160"
+            },
+            {
+                name: "Raghupathy J",
+                phone: "9962480903"
+            },
+            {
+                name: "Mughilan",
+                phone: "7598955470"
             }
         ]
-    }],
+    }
+],
     sdc: [{
-        eventNames: "Vibe It (Designathon)",
-        description: `Ready to put your vibe into your design? Go, grab your friends and form a team! Choose a track and a topic to come up with a design using any design tool. The list of topics pertaining to the track chosen will be given on the spot. The best works will be awarded Cash Prizes on how well the idea is expressed and designed. Track 1 - Concept Art, Canvas Art, Mandala Track 2 - UI/UX (ideation + low fidelity prototype) Track 3 - Poster Making.PRIZES worth Rs. 15,000 with exciting FREE GOODIES for the participants! Winners of this contest will get the opportunity to INTERN with the new-age digital marketing agency ‘TUSKMELON’!
-        
-        True to their brand name, their content is equally unique. A new-age digital marketing agency driven by data, they are passionate about creating data-driven campaigns and brand experiences that help deliver phenomenal results for clients across all business portfolios. It is carefully curated and guided by the extensive analysis of the data, enabling them to convert leads into loyal customers. Apart from data, they also love ideas. When combined with a deep knowledge of data analytics, they fulﬁll their clients’ business objectives to fruition. At Tuskmelon, passion for work and the drive to achieve more is an important impetus to work. If you are one of them, the winners of "Vibe It" will get to intern with this esteemed organization. Interns will be duly paid for their work, based on their capabilities and internship performance.
-        
-        http://www.tuskmelon.com/`,
+        eventNames: "Designathon",
+        description: `Ready to put your vibe into your design? Go, grab your friends, and form a team! Choose a track and a topic to come up with a design using any design tool. The lone wolves too need not worry, as we do accept individual registrations as well. The list of topics pertaining to the track chosen will be given on the spot. The best works will be awarded cash prizes based on how well the idea is expressed and designed; perhaps design internships will be available as well, tsk tsk
+
+        The Designathon occurs over the course of two days, with track 1 happening on the first day and track 2 on the second day.`,
         rules: ["Open to all college students & inter-college teams are allowed.", "You are allowed to take part in only one of the aforementioned tracks.", "Topics will be given on the spot for each of the tracks mentioned.", "You will have around 2.5 hrs to design.", "You are free to use any design tool.", "Plagiarism will result in disqualification.", "For the UI/UX track, entire product design is not required.", "Please bring your own laptops and stationeries for designing. (you will be provided with extension cables and charging spots)"],
         date: "May 13, 2022",
         fromTime: "10AM", toTime: "1PM",
         venue: "IT Lab 1",
-        type: "Team",
-        team_size: 3,
+        type: "Lone-Wolf / Team",
+        team_size: "2 (Max)",
         organizers: [
             {
-                name: "Pooja",
-                phone: "9791114323"
+                name: "Gayathri",
+                phone: "87544 07646"
             },
             {
-                name: "Akila",
-                phone: "9790780481"
+                name: "T. Aditya Varun",
+                phone: "95660 73896"
             }
         ]
     }],
-    smc: [{
-        eventNames: "SSN Idol",
-        description: "SSN Idol is SMC\"s eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthral us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!",
-        rules: ["Participants MUST be college students with a valid college ID card.", "This is a two-stage event: Prelims and Finals. Both rounds will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge."],
-        date: "May 13, 2022",
-        fromTime: "2PM", toTime: "5PM",
-        venue: "Prelims - Mini Auditorium, Finals - Main Auditorium",
-        type: "Individual"
-    },
-    {
-        eventNames: "Band Hunt",
-        description: "Band hunt is SMC's band event. If you love playing Carnatic fusion, rock 'n' roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best. Music lovers everywhere, this event is handcrafted just for you. Don't miss it!!.",
-        rules: ["Participants MUST be college students with a valid college ID card and are required to purchase individual music passes", "Members of the band need not be from the same college. Cross college bands are allowed.", "Number of Members per band: 3-10", "Music of any genre and language is permitted.", "Original compositions will be given extra points when compared to covers", "Bands should send in online links of their performance videos for shortlisting purposes", "Each band (if shortlisted) will be given 18 mins on stage inclusive of setup time.", "Drumkit and Keyboard stand will be provided.", "Obscenity of any kind is strictly prohibited.", "The decision of the judges will be final and binding.", "Judging Criteria: Pitch, Rhythm & Tempo, Overall Tightness, Creativity & Originality."],
-        date: "May 14, 2022",
-        fromTime: "10AM", toTime: "1PM",
-        venue: "Open Air Theatre",
-        type: "Team",
-        team_size: 10
-    }],
-    spc: [
-        {
-            eventNames: "Let Experts Talk - LET",
-            description: "Participate in discussions, engage with fellow enthusiasts, and learn from the experts in our exclusive talk show. Listen and learn as leading professionals from the industry share their experiences and stories behind their work. Let Experts Talk is the exclusive summit where photographers from the industry who have been inspiring many young minds gather together and share their processes and insights in an engaging event for aspiring photographers to attend. Any student from any college is invited to attend the event and interact with senior Photographers and Cinematographers.",
-            date: "May 14, 2022",
-            fromTime: "12PM", toTime: "1PM",
-            venue: "Mini Auditorium",
-            type: "Individual",
-            organizers: [
-                {
-                    name: "Vasanthan",
-                    phone: "87542 22177"
-                },
-                {
-                    name: "Alfrin",
-                    phone: "97913 94453"
-                }
-            ]
-        },
-        {
-            eventNames: "Life at Street - Photography Contest",
-            description: "Think of the world before the pandemic - everyone rushing to the office, getting ready for school, all those hurrying towards something or someone, feels a long time, right? But what we have in those lives is a pause due to some weird contagion. Times have escalated from Indha Chennai traffic ah paathale, veruppu aagudhu daw to Enna daw Chennai maadhiri eh illa? We miss the times we all used to roam around the same streets several times without any reason, the sound of mothers crowd bargaining in the street shops for some unimaginable price than what was told and yet managing to win the deal, these are all getting Nostalgic right now, isn't it? What are you waiting for? Grab your camera... hit the streets... start shooting!",
-            rules: ["Open to all college students", "Two entries per participant", "No photo manipulation allowed", "No watermarks", "Plagiarism will result in disqualification"],
-            date: "TBC",
-            venue: "TBC",
-            type: "Individual",
-            organizers: [
-                {
-                    name: "Vasanthan",
-                    phone: "87542 22177"
-                },
-                {
-                    name: "Alfrin",
-                    phone: "97913 94453"
-                }
-            ]
-        }],
+    smc: [],
+    spc: [],
     saaral: [{
-        eventNames: "Sakalakala Vallavan",
-        description: "This event will test the teams on their multifaceted skills like general knowledge, problem-solving, Tamil literature, presence of mind, etc. Finally, the Jack(s) of all Trades will be crowned as winners.",
-        rules: ["Participants MUST be college students with a valid college ID card.", "Please refrain from any kind of vulgarity throughout the monologue.", "Kindly adhere to the time limit which is set at 4-6 minutes.", "Language used must primarily be English. Short phrases from other languages are acceptable."],
-        date: "May 14, 2022",
-        fromTime: "2PM", toTime: "5PM",
-        venue: "IT Classrooms",
+        eventNames: "Sagalakala Vallavan",
+        description: "It includes crosswords, vaiyai moodi pesavum, etc. The final points from all the above events of teams will be added and  winners will be awarded. ",
+        date: "Team",
+        fromTime: undefined, toTime: undefined,
+        venue: "TBD",
         type: "Team",
-        team_size: 2
+        team_size: "TBD"
     },
     {
         eventNames: "Pattimandram",
-        description: "This Offline event will be headed by a well-known judge, includes two teams in which team members will be selected by preliminary round.",
-        rules: ["Eligibility Round", "Participants will be selected on the basis of speech competition.", "Time limit will be announced prior to the Pattimandram.", "Pattimandram Finals", "The top six who are selected from the eligibility round will be given the opportunity for Pattimandram finals.", "Each person will get 7 minutes to speak.", "Attack on a specific person, pointless criticism, trespassing stage manners won't be encouraged."],
-        date: "May 14, 2022",
-        fromTime: "12PM", toTime: "1PM",
-        venue: "Main Auditorium",
+        description: "The event will be having a judge and 6 speakers. Best speakers will be awarded. It is an one hour event. ",
+        date: "TBD",
+        fromTime: undefined, toTime: undefined,
+        team_size: "TBD",
         type: "Individual"
-    },
-    {
-        eventNames: "Fire silambam",
-        description: "Fire silambam will be performed only by our club members, with prior training.",
-        date: "May 13, 2022",
-        fromTime: "5PM", toTime: "6PM",
-        venue: "Outside Admin Block",
-        type: "NA"
     }],
-    qfac: [
+    qfac: [],
+    lop: [],
+    arudhra: [
         {
-            eventNames: "General Quiz",
-            description: "A cultural fest mainstay, this quiz covers everything under the sun – from current affairs, to pop culture, to science and technology!",
-            rules: ["Participants MUST be college students with a valid college ID card.", "Number of Members per team: 1-3.", "A written prelims followed by a bounce/pounce finals with the top teams will be held.", "First-timers - don\"t worry, all rules will be explained in detail at the event.", "Cross-college teams and lone-wolves are welcome!"],
-            date: "May 13, 2022",
-            fromTime: "2PM", toTime: "5PM",
-            venue: "CSE Seminar Hall",
-            team_size: 3,
-            type: "Lone-Wolf / Team",
-            organizers: [
-                {
-                    name: "Akash",
-                    phone: "9445635421"
-                }
-            ]
-        },
-        {
-            eventNames: "SpEnt Quiz",
-            description: "Sports and Entertainment Quiz: A crowd favourite, this fun quiz tests you on your knowledge of sports, entertainment and pop-culture.",
-            rules: ["Participants MUST be college students with a valid college ID card.", "Number of Members per team: 1-3.", "A written prelims followed by a bounce/pounce finals with the top teams will be held.", "First-timers - don\"t worry, all rules will be explained in detail at the event.", "Cross-college teams and lone-wolves are welcome!"],
-            date: "Prelims - May 13, 2022, Finals - May 14, 2022",
-            fromTime: "10AM", toTime: "1PM",
-            venue: "CSE Seminar Hall",
-            team_size: 3,
-            type: "Lone Wolf/Team",
-            organizers: [
-                {
-                    name: "Akash",
-                    phone: "9445635421"
-                }
-            ]
+            eventNames: "Lights. Camera. Thadhinginathom.",
+            description: "Solo Dance Event",
+            date: "March 3, 2023",
+            fromTime: undefined, toTime: undefined,
+            venue: "TBD",
+            type: "Individual"
         }
     ],
-    lop: [{
-        eventNames: "Spotlight",
-        description: "Watching actors take centre stage, cheered on by a zealous crowd, secretly wishing it was you under the spotlight. Sound familiar? Well, now you have a platform to flaunt your inner thespian uninhibited. Participate in this monologue competition hosted by SSN's Theatre Club - Lights Out Please!",
-        rules: ["Participants MUST be college students with a valid college ID card.", "Please refrain from any kind of vulgarity throughout the monologue.", "Kindly adhere to the time limit which is set at 4-6 minutes.", "Language used must primarily be English. Short phrases from other languages are acceptable."],
-        date: "May 14, 2022",
-        fromTime: "2PM", toTime: "5PM",
-        venue: "IT Seminar Hall",
-        type: "Individual"
-    },
-    {
-        eventNames: "Quills Out Please!",
-        description: "Are you often lost in a world of your own thoughts, conjuring up vivid scenes and characters within your head? Or do you feel the bursting need to express your opinions in the form of a script? No matter what it is, if you have a story to tell, then we have a spot for you! Register now, for the scriptwriting competition, hosted by SSN\"s Theatre Club - Lights Out Please! With minimal rules and maximal allowance to let your creativity run wild, we guarantee a fun and enthralling experience!",
-        rules: ["Please submit only original scripts, ones that haven\"t been published elsewhere!", "Do keep the scripts clean and avoid explicit content.", "Please ensure that all the scripts contain a log-line, character sketches, and most importantly - a title!.", "Font: Times New Roman, Font size: 12, Line spacing: 1.5", "Page limit: 35 pages"],
-        date: "Deadline - May 10, 2022",
-        type: "Individual"
-    },
-    {
-        eventNames: "Enigma",
-        description: "Who doesn't enjoy a taste of theatrical mystery? We certainly recommend a healthy dose. SSN's Theatre Club- Lights Out Please! is excited to host its first mystery event, details of which will be disclosed only on the day of the competition. We\"ll give you a little hint though - actions speak louder than words; the script is a hoax, haven't you heard? If you\"re itching to find out more, we suggest you register for the event right away!",
-        rules: ["It\"s a secret shhh!"],
-        date: "May 14, 2022",
-        fromTime: "10AM", toTime: "1PM",
-        venue: "CSE Seminar Hall",
-        type: "Individual"
-    }]
+    n2k: [],
+    talents: [],
+    handila : [
+        {
+            eventNames: "Roaming paris",
+            description: "It’s time to say bonjour to your inner fashion creator et create costumes along with your amis. Instincts is back in the game with ‘Roaming Paris’!! This exclusive costume designing event will surely tickle your artistic minds for the day. Each team consisting of 2-3 members will be instructed as to what supplies are needed to design their costume on the spot and will be given 2.5 hours to complete the dress. Supplies required for the costume will be provided by the organizers and additionally each team is also allowed to bring their own art supplies.",
+            date: "TBD",
+            fromTime: undefined, toTime: undefined,
+            venue: "TBD",
+            type: "Team",
+            team_size: "2-3",
+            organizers: [
+                {
+                    name: "Srisailakhshmi R",
+                    phone: "9445916188"
+                },
+                {
+                    name: "A. Linda sheirly",
+                    phone: "7358219638"
+                },
+                {
+                    name: "Shreya R",
+                    phone: "9445799472"
+                },
+                {
+                    name: "Aneesha",
+                    phone: "9384029283"
+                }
+            ],
+            ruleBook: "https://drive.google.com/open?id=1t3dqdydxZU5gO3J1qC-XECm0DT4MuCGQ"
+        },
+        {
+            eventNames: "Soles on Fires",
+            description: "A competition for witty creative artists.  If a quick draw and guess is your  major then hands down this event is for you and your team. Only the best minds will draw and conquer while the others will be stuck in their own drawn hurdles. We're back with another event - 'Soles on Fire'! With 3-4 members in a team, this event highlights the excitement of a relay. The 1st member receives a topic and they should draw as understandably as possible on a chart provided by us. The second member enters 15 minutes later, and continues to draw, in turn, trying to guess the topic. Each member continues to do the same until the members have completed their time limit. The total duration is 1.5 hours, and supplies must be brought by the participants. An important note here is that the 1st member cannot communicate with remaining members. The group needs to guess the topic as they continue to draw.",
+            date: "TBD",
+            fromTime: undefined, toTime: undefined,
+            venue: "TBD",
+            type: "Team",
+            team_size: "3-4",
+            organizers: [
+                {
+                    name: "Srisailakhshmi R",
+                    phone: "9445916188"
+                },
+                {
+                    name: "Agilan M A",
+                    phone: "9790974144"
+                },
+                {
+                    name: "Suhash C",
+                    phone: "9566046423"
+                },
+                {
+                    name: "Adithan K",
+                    phone: "8939892155"
+                }
+            ],
+            ruleBook: "https://drive.google.com/open?id=1QRIqj9-R4ak3ZWKQhdIiqYwqJ1Z4-1cN"
+        },
+        {
+            eventNames: "Draw with comali",
+            description: "A picture can paint a thousand words but can you paint a picture with a few hindrances your way? inspired from the famous tv show Cook with comali here's an opportunity to showcase your talent on the canvas while facing a few hurdles and hindrances coming through. Will you and your partner overcome the challenges and still win? Join to find out.",
+            date: "TBD",
+            fromTime:  undefined, toTime: undefined,
+            venue: "TBD",
+            type: "Team",
+            team_size: "2-3",
+            organizers: [
+                {
+                    name: "Srisailakhshmi R",
+                    phone: "9445916188"
+                },
+                {
+                    name: "Anshita ",
+                    phone: "80150 80802"
+                },
+                {
+                    name: "Jagruti",
+                    phone: "9940027043"
+                },
+                {
+                    name: "Mugunthan",
+                    phone: "6379164202"
+                }
+            ],
+            ruleBook: "https://drive.google.com/open?id=1gmUTY_HKOBb2evipfZLzRGqJEVp4zJ6E"
+        },
+        {
+            eventNames: "What a look!",
+            description: "Sheets and walls are too mainstream, showcase your painting skill on the face of your friend! What a look! Is a fun & creative face painting/makeup event that will for sure be an electrifying experience with 2-3 participants per team. The topic will be given on the spot with the total duration of 1.5 hours. It is expected that participants bring their own supplies.",
+            date: "TBD",
+            fromTime: undefined, toTime: undefined,
+            venue: "TBD",
+            type: "Team",
+            team_size: "2",
+            organizers: [
+                {
+                    name: "Jagruti",
+                    phone: "9940027043"
+                },
+                {
+                    name: "Srisailakhshmi R",
+                    phone: "9445916188"
+                },
+                {
+                    name: "Fawaaz Ahmad F",
+                    phone: "9840218004"
+                },
+                {
+                    name: "Sanjay S ",
+                    phone: "7550124567"
+                }
+            ],
+            ruleBook: "https://drive.google.com/open?id=1QjRiqcAc81wq1et3F0jbvhhjP_uogayQ"
+        }
+    ]
 }

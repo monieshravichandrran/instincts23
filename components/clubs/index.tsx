@@ -28,7 +28,7 @@ export const Club = ({
           className="mb-[4rem] mx-auto p-8 lg:p-8"
         />
         <h2 className="mb-4 text-3xl font-bold text-center font-title">{clubName}</h2>
-        <p className="my-10 text-lg text-center">{description}</p>
+        <p className="my-10 text-lg md:text-xl font-black text-center">{description}</p>
         <div className="flex justify-center mb-4">
           <Button href={link} children="Explore" large />
         </div>
