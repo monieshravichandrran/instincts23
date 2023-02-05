@@ -151,7 +151,7 @@ export const debugEvents =
     saaral: [{
         eventNames: "Sagalakala Vallavan",
         description: "It includes crosswords, vaiyai moodi pesavum, etc. The final points from all the above events of teams will be added and  winners will be awarded. ",
-        date: "Team",
+        date: "TBD",
         fromTime: undefined, toTime: undefined,
         venue: "TBD",
         type: "Team",
@@ -171,7 +171,7 @@ export const debugEvents =
         {
             eventNames: "Lights. Camera. Thadhinginathom.",
             description: "Solo Dance Event",
-            date: "March 3, 2023",
+            date: "March 10, 2023",
             fromTime: undefined, toTime: undefined,
             venue: "TBD",
             type: "Individual"
