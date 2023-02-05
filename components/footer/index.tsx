@@ -30,7 +30,7 @@ export const Footer = () => {
             src="/images/moniesh.png"
             alt="Moniesh"
           />
-          <p className="ml-[-2rem] font-title text-large text-white font-body">Moniesh Ravichandran</p>
+          <p className="ml-[-1.5rem] font-title text-large text-white font-body">Moniesh Ravichandran</p>
         </a>
         <a href="https://twitter.com/Amanrk28">
           <img
