@@ -61,6 +61,34 @@ export const Clubs = [
     clubName: "SSN Photography Club",
     description: "Snap snapity snap, how do you manage to make the most drab things fab? Through the lense, the gang at SPC manage to capture the blazing poetry of the real and inspire us one snap at a time.",
     link: "/clubs/spc"
+  },
+  {
+    imageSource: "n2k.jpeg",
+    alternate: "n2k",
+    clubName: "N2K - Western Dance Crew",
+    description: "Happy feet got his gang together and so did we! Meet the consummate group of dancers who manage to tear the stage up every single time.",
+    link: "/clubs/n2k"
+  },
+  {
+    imageSource: "arudhra.png",
+    alternate: "arudhra",
+    clubName: "Arudhra - Classical Dance Team",
+    description: "A group characterized by grace, precision and a deep rooted sense of culture, Arudhra manages to extract your cultural identity with its inspirational classical dance performances.",
+    link: "/clubs/arudhra"
+  },
+  {
+    imageSource: "talents.png",
+    alternate: "talents",
+    clubName: "Student Variety Show",
+    description: "An all encompassing event where you can showcase your specific skill from the spectrum of arts where the stage demands peak creativity and performance!",
+    link: "/clubs/talents"
+  },
+  {
+    imageSource: "handila.png",
+    alternate: "handila",
+    clubName: "Handila(SNUC Art Club)",
+    description: "Art Club of SNU",
+    link: "/clubs/handila" 
   }
 ]
 

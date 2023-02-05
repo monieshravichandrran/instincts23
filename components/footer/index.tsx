@@ -24,19 +24,21 @@ export const Footer = () => {
       </a>
       <p className="mt-6 text-lg">{footerTextElement} With ❤️ by</p>
       <div className="flex items-center gap-4 mt-5">
-        <a href="https://twitter.com/Amanrk28">
-          <img
-            className="w-20 h-20 duration-300 cursor-pointer hover:scale-125"
-            src="/images/aman.png"
-            alt="Aman Khemka"
-          />
-        </a>
         <a href="https://www.instagram.com/iammoniesh208/">
           <img
-            className="w-24 h-24 duration-300 cursor-pointer hover:scale-125"
+            className="w-[6.5rem] h-[6.5rem] duration-300 cursor-pointer hover:scale-125"
             src="/images/moniesh.png"
             alt="Moniesh"
           />
+          <p className="ml-[-2rem] font-title text-large text-white font-body">Moniesh Ravichandran</p>
+        </a>
+        <a href="https://twitter.com/Amanrk28">
+          <img
+            className="mt-2 w-24 h-24 duration-300 cursor-pointer hover:scale-125"
+            src="/images/aman.png"
+            alt="Aman Khemka"
+          />
+          <p className="font-title text-large text-white font-body">Aman Khemka</p>
         </a>
       </div>
     </footer>
