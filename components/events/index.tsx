@@ -6,10 +6,15 @@ type people = {
   phone: string;
 }
 
+type ruleType = {
+  rules: string[];
+  ruleHead?: string;
+}
+
 type eventDetailsType = {
   eventNames: string;
   description: string;
-  rules?: string[];
+  rules?: ruleType[];
   date: string;
   fromTime?: string;
   toTime?: string;
@@ -55,24 +60,33 @@ export const Events = ({ clubName, eventDetails }: Children) => {
           <h2 className="font-title text-white  text-2xl mt-10">Rules</h2>
           {
             eventDetails[selecteId].rules?.length ?
-              <ul className="list-disc list-inside">
+              <>
                 {eventDetails[selecteId].rules?.map((li_item) => {
                   return (
-                    <li className="text-white font-body text-lg md:text-xl text-justify">
-                      {li_item}
-                    </li>
-                  )
-                })}
-              </ul> : <p className="text-white font-body text-lg md:text-xl text-justify">
-                  <b className="font-title mr-1">TBD</b>
-                </p>
+                    <>
+                      {li_item.ruleHead ?
+                        <p className="text-white font-body text-xl md:text-2xl text-justify my-4">{li_item.ruleHead}</p> : null}
+                      <ul className="list-disc list-inside">
+                        {li_item.rules?.map((item) => {
+                          return (<li className="text-white font-body text-lg md:text-xl text-justify">
+                            {item}
+                          </li>)
+                        })}
+                      </ul>
+                    </>
+                  );
+                }
+                )}
+              </> : <p className="text-white font-body text-lg md:text-xl text-justify">
+                <b className="font-title mr-1">TBD</b>
+              </p>
           }
           <div className="flex gap-5 flex-wrap mt-10">
             <p className="text-white font-body text-lg md:text-xl text-justify">
               <b className="font-title mr-1">Date:</b>{eventDetails[selecteId].date}
             </p>
             <p className="text-white font-body text-lg md:text-xl text-justify">
-              <b className="font-title mr-1">Time:</b> {(eventDetails[selecteId].fromTime && eventDetails[selecteId].toTime) ? <>{eventDetails[selecteId].fromTime} to {eventDetails[selecteId].toTime}</> : "NA"}
+              <b className="font-title mr-1">Time:</b> {(eventDetails[selecteId].fromTime && eventDetails[selecteId].toTime) ? <>{eventDetails[selecteId].fromTime} to {eventDetails[selecteId].toTime}</> : "TBD"}
             </p>
             <p className="text-white font-body text-lg md:text-xl text-justify">
               <b className="font-title mr-1">Venue:</b> {eventDetails[selecteId].venue}
@@ -87,14 +101,14 @@ export const Events = ({ clubName, eventDetails }: Children) => {
           <div>
             <h3 className="text-white text-lg mt-10 font-title">Contact Numbers</h3>
             {
-              eventDetails[selecteId].organizers?.length  ?
+              eventDetails[selecteId].organizers?.length ?
                 <>
                   {eventDetails[selecteId].organizers?.map((item) => {
                     return (
                       <p className="text-white font-body text-lg md:text-xl text-justify">
                         {item.name} - {item.phone}
                       </p>)
-                  })}</> :         <p className="text-white font-body text-lg md:text-xl text-justify">
+                  })}</> : <p className="text-white font-body text-lg md:text-xl text-justify">
                   <b className="font-title mr-1">TBD</b>
                 </p>
             }
