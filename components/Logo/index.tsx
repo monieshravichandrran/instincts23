@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -13,7 +16,7 @@ export const CollegeLogo = () => {
           className="w-[100px] lg:w-[180px] absolute top-5 left-5"
         />
 
-        <div className=" absolute top-3 text-white right-3 sm:text-xl md:text-2xl">
+        <div className="absolute text-white top-3 right-3 sm:text-xl md:text-2xl">
           <Link
             href="/events"
             className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110 sm:hidden"
@@ -34,7 +37,7 @@ export const CollegeLogo = () => {
         </div>
       </div>
       <div
-        className="md:hidden lg:hidden cursor-pointer absolute top-3 right-5"
+        className="absolute cursor-pointer md:hidden lg:hidden top-3 right-5"
         onClick={() => setNav(!nav)}
       >
         <AiOutlineMenu size={30} color="white" />
@@ -58,13 +61,13 @@ export const CollegeLogo = () => {
             </div>
             <div
               onClick={() => setNav(!nav)}
-              className="rounded-full shadow-lg bg-white shadow-gray-800 p-3 cursor-pointer "
+              className="p-3 bg-white rounded-full shadow-lg cursor-pointer shadow-gray-800 "
             >
               <AiOutlineClose color="black" />
             </div>
           </div>
-          <div className="border-b border-gray-300 my-4"></div>
-          <div className="py-4 flex-col">
+          <div className="my-4 border-b border-gray-300"></div>
+          <div className="flex-col py-4">
             <ul className="uppercase">
               <Link href="/events">
                 <li
