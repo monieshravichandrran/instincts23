@@ -219,7 +219,25 @@ export const debugEvents = {
     },
   ],
   smc: [],
-  spc: [],
+  spc: [{
+    eventNames: "Online Photography Contest",
+    description: "Got a knack for composing great pictures ? Or do you look for frames whenever your eyes are open ? If your answer is yes for either of the questions, flex your talents here and win alluring prizes. ",
+    date: "TBD",
+    fromTime: undefined, toTime: undefined,
+    venue: "TBD",
+    type: "Individual",
+    rules: [{ rules: ["Only one submission per participant", "Theme: Open Category ", "Participants must follow @ssn_photography_club & snuc_capturesque", "Basic Colour Correction is allowed, photo manipulation is to be prohibited", "No Watermarks", "Your submission along with your Name and Contact Details is to be emailed to ssnphotographyclub@ssn.edu.in with the subject OPC '23"] }],
+    organizers: [
+      {
+        name: "Venkatanathan M",
+        phone: "9176762175"
+      },
+      {
+        name: "Jaishree",
+        phone: "6379631417"
+      }
+    ]
+  }],
   saaral: [
     {
       eventNames: "Sagalakala Vallavan",
