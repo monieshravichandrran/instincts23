@@ -29,7 +29,6 @@ export const ComingSoon = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
