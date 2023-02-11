@@ -262,7 +262,35 @@ export const debugEvents = {
     },
   ],
   qfac: [],
-  lop: [],
+  lop: [
+    {
+      eventNames: "Quills Out Please!",
+      description:
+        "Do you have worlds built out of clouds, imagination running wild? Here's your chance to pen down your dream stories! (or if you've already written and formulated the script, why wait?) We see that you have a story to tell, so we present the place for you. Register now for Quills out please, the scriptwriting competition hosted by Lights out please, the SSN Theatre club.",
+      date: "TBD",
+      fromTime: undefined,
+      toTime: undefined,
+      venue: "TBD",
+      type: "Individual",
+      organizers: [
+        {
+          name: "Supraja Vaidhyanathan",
+          phone: "9444856059",
+        }
+      ],
+      rules: [
+        {
+          ruleHead: "Get maximal freedom to build your story from scratch (but stick to these minimal rules!)",
+          rules: [
+            "Scripts must be original, and unpublished elsewhere.",
+            "Explicit content is not encouraged.",
+            "Include a title, Log line, and Character sketches before the play!",
+            "Font: TNR, size: 12, line spacing: 1, limit: 40 pages."
+          ],
+        }
+      ]
+    },
+  ],
   arudhra: [
     {
       eventNames: "Lights. Camera. Thadhinginathom.",
@@ -446,4 +474,63 @@ export const debugEvents = {
         "https://drive.google.com/open?id=1QjRiqcAc81wq1et3F0jbvhhjP_uogayQ",
     },
   ],
+  business:[
+    {
+      eventNames: "The SNUC IPL Auction",
+      description:
+        "A recreation of the massively entertaining IPL Auction - where teams are expected to bid for players and build a title-winning squad for their franchise.",
+      date: "TBD",
+      fromTime: undefined,
+      toTime: undefined,
+      venue: "TBD",
+      type: "Team",
+      team_size: "3-6",
+      organizers: [
+        {
+          name: "Arjun K Swamy",
+          phone: "9962385392",
+        },
+        {
+          name: "Pranav RB",
+          phone: "7338712142",
+        },
+        {
+          name: "V Sreevathsan",
+          phone: "7395973995",
+        }
+      ],
+    },
+  ],
+  edc: [
+    {
+      eventNames: "Udaan",
+      description:
+        "Udaan is a platform which puts one’s general interpretation skills to test. It features a mixture of exciting fun filled rounds, which infuses the perspective of entrepreneurship into generic real world based scenarios.",
+      date: "TBD",
+      fromTime: undefined,
+      toTime: undefined,
+      venue: "TBD",
+      type: "Team",
+      team_size: "4-5",
+      organizers: [
+        {
+          name: "Pranav Aadhithya K.B",
+          phone: "7338773979",
+        },
+        {
+          name: "Dinesh S",
+          phone: "9360597265",
+        },
+        {
+          name: "Sowmya",
+          phone: "7338796632",
+        },
+        {
+          name: "Keshav Muralidhar",
+          phone: "9884039394"
+        }
+      ],
+      ruleBook: "https://drive.google.com/open?id=11D4UQm0RfqtYKQQHbNp2J18rYd2iX-ZZ"
+    },
+  ]
 };

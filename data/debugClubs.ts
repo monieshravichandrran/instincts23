@@ -102,4 +102,18 @@ export const Clubs = [
     description: "Art Club of SNU",
     link: "/clubs/handila",
   },
+  {
+    imageSource: "business.png",
+    alternate: "business",
+    clubName: "The SNUC Business Club",
+    description: "Business club of SNU",
+    link: "/clubs/business",
+  },
+  {
+    imageSource: "edc.png",
+    alternate: "edc",
+    clubName: "Lakshya - EDC",
+    description: "Lakshya - EDC",
+    link: "/clubs/edc",
+  },
 ];
