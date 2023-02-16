@@ -23,7 +23,7 @@ export const Club = ({
         <Image
           src={"/images/clubs/" + imageSource}
           alt={alternate}
-          className="mb-[4rem] mx-auto p-8 lg:p-8 w-[90vw] h-[90vw] sm:w-[85vw] sm:h-[85vw] md:w-[35vw] md:h-[35vw] lg:w-[23vw] lg:h-[23vw]"
+          className="mb-[4rem] mx-auto p-8 lg:p-8 w-[80vw] h-[80vw] sm:w-[75vw] sm:h-[75vw] md:w-[35vw] md:h-[35vw] lg:w-[23vw] lg:h-[23vw]"
         />
         <h2 className="mb-4 text-3xl font-bold text-center font-title">
           {clubName}
