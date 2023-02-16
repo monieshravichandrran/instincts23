@@ -105,6 +105,41 @@ export const debugEvents = {
           },
         ],
       },
+      {
+        eventNames: "Shipwreck",
+        description:
+          `Well, well, well. So you're on your way to the Lost Continent? Not so fast.
+          A cruel storm ravages your ship and there’s only one life jacket available. 
+          Successfully convince the captain why you deserve the life jacket and you live to see the treasures of the Lost Continent, fail and you’ve spoken your last words. 
+          `,
+        rules: [
+          {
+            rules: [
+              "Shipwreck is an individual event, participants can perform in English or Tamil.",
+              "Participants will be assigned famous personalities.",
+              "Judges' decisions are final."
+            ],
+          },
+          {
+            ruleHead: "Format",
+            rules: [
+              "Prelims with 3-5 minutes of speaking time.",
+              "The best participants in the prelims will be shortlisted for the Finals, the rules of which are based on the judges discretion."
+            ],
+          }
+        ],
+        date: "TBD",
+        fromTime: undefined,
+        toTime: undefined,
+        venue: "TBD",
+        type: "Individual",
+        organizers: [
+          {
+            name: "Arjun M",
+            phone: "9500147579",
+          }
+        ],
+      }
     ]
   },
   gaming: {
@@ -381,6 +416,31 @@ export const debugEvents = {
               "Explicit content is not encouraged.",
               "Include a title, Log line, and Character sketches before the play!",
               "Font: TNR, size: 12, line spacing: 1, limit: 40 pages."
+            ],
+          }
+        ]
+      },
+      {
+        eventNames: "Mono Acting",
+        description:
+          "Have you ever caught yourself giving a pretend Oscar acceptance speech with your shampoo bottle? Ever notice how you mimic your heroes in front of the mirror or how you instantly become depressed when a sad song comes on the car’s stereo? If you’ve done all this, here’s your chance to come up and do it on the stage! Sign up for the Mono Acting Competition hosted by Lights Out Please, the most celebrated and the only theatre club of SSN.",
+        date: "TBD",
+        fromTime: undefined,
+        toTime: undefined,
+        venue: "TBD",
+        type: "Individual",
+        organizers: [
+          {
+            name: "Pavithra Manikandan",
+            phone: "9677023007",
+          }
+        ],
+        rules: [
+          {
+            rules: [
+              "Please refrain from any kind of vulgarity throughout the monologue. ",
+              "Kindly adhere to the time limit.",
+              "Ensure that you use the space around you to the maximum. "
             ],
           }
         ]
