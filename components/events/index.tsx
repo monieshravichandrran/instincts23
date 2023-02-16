@@ -166,7 +166,7 @@ export const Events = ({ clubName, eventDetails }: Children) => {
           </div>
           {eventDetails.events[selecteId].ruleBook && (
             <a
-              className="relative left-[55%] sm:left-[60%] md:left-[70%] lg:left-[80%]   w-full text-right m-4 text-white px-6 py-2 text-green-100 rounded bg-gradient-to-r from-red-800 via-yellow-600 to-yellow-500"
+              className="mt-4 relative left-[55%] sm:left-[60%] md:left-[70%] lg:left-[80%]   w-full text-right m-4 text-white px-6 py-2 text-green-100 rounded bg-gradient-to-r from-red-800 via-yellow-600 to-yellow-500"
               href={eventDetails.events[selecteId].ruleBook}
             >
               Rule Book
