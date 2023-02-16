@@ -8,7 +8,7 @@ export default function Edc() {
       <PageHead />
       <CollegeLogo />
       <div className="min-h-screen lg:w-[98%] sm:w-full">
-        {debugEvents.edc?.length > 0 ? (
+        {debugEvents.edc?.events.length > 0 ? (
           <Events
             clubName={"Lakshya - EDC"}
             eventDetails={debugEvents.edc}

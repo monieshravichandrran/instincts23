@@ -8,7 +8,7 @@ export default function Talents() {
       <PageHead />
       <CollegeLogo />
       <div className="min-h-screen lg:w-[98%] sm:w-full">
-        {debugEvents.talents?.length > 0 ? (
+        {debugEvents.talents?.events.length > 0 ? (
           <Events
             clubName={"Student Variety Show"}
             eventDetails={debugEvents.talents}

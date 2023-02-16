@@ -8,7 +8,7 @@ export default function Gaming() {
       <PageHead />
       <CollegeLogo />
       <div className="min-h-screen lg:w-[98%] sm:w-full">
-        {debugEvents.gaming?.length > 0 ? (
+        {debugEvents.gaming?.events.length > 0 ? (
           <Events
             clubName={"SSN Gaming Club"}
             eventDetails={debugEvents.gaming}
