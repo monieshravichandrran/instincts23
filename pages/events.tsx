@@ -13,7 +13,7 @@ export default function Events() {
           Events
         </h2>
         <h2 className="mb-8 font-bold text-center lg:text-4xl sm:text-2xl">
-          All events for SSN Instincts are powered by our different clubs, do
+          All events for SSN SNUC Instincts are powered by our different clubs, do
           check them out!
         </h2>
         <div className="p-4 text-xl rounded-br-3xl grid grid-cols-1 lg:grid-cols-3 gap-10 w-[90vw] md:grid-cols-2">
