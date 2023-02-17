@@ -7,7 +7,7 @@ export const debugEvents = {
       },
       {
         name: "SNU English Literary Club",
-        imgsrc: "elc.jpeg"
+        imgsrc: "snuelc.jpg"
       }
     ],
     events: [
