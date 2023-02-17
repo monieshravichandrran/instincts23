@@ -675,6 +675,10 @@ export const debugEvents = {
       {
         name: "SNUC Business Club",
         imgsrc: "business.png"
+      },
+      {
+        name: "Lakshya - EDC",
+        imgsrc: "edc.png"
       }
     ], events: [
       {
@@ -701,6 +705,36 @@ export const debugEvents = {
             phone: "7395973995",
           }
         ],
+      },
+      {
+        eventNames: "Udaan",
+        description:
+          "Udaan is a platform which puts one’s general interpretation skills to test. It features a mixture of exciting fun filled rounds, which infuses the perspective of entrepreneurship into generic real world based scenarios.",
+        date: "TBD",
+        fromTime: undefined,
+        toTime: undefined,
+        venue: "TBD",
+        type: "Team",
+        team_size: "4-5",
+        organizers: [
+          {
+            name: "Pranav Aadhithya K.B",
+            phone: "7338773979",
+          },
+          {
+            name: "Dinesh S",
+            phone: "9360597265",
+          },
+          {
+            name: "Sowmya",
+            phone: "7338796632",
+          },
+          {
+            name: "Keshav Muralidhar",
+            phone: "9884039394"
+          }
+        ],
+        ruleBook: "https://drive.google.com/open?id=11D4UQm0RfqtYKQQHbNp2J18rYd2iX-ZZ"
       },
     ]
   },

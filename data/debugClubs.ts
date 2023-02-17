@@ -101,7 +101,7 @@ export const Clubs = [
     imageSource: "business.jpeg",
     alternate: "business",
     clubName: "Business",
-    description: "The SNUC Business Club has arrived on the Lost Continent for our first ever stint at Instincts! Prepare to set your sails in the direction of an event that will test your adaptability, business acumen and bidding(?!) skills. Maneuver your ships through the obstacles we throw at you and climb your way to the top of the lot! ",
+    description: "Business Club has arrived on the Lost Continent for our first ever stint at Instincts! Prepare to set your sails in the direction of an event that will test your adaptability, business acumen and bidding(?!) skills. Maneuver your ships through the obstacles we throw at you and climb your way to the top of the lot! ",
     link: "/clubs/business",
   },
   {
@@ -110,12 +110,5 @@ export const Clubs = [
     clubName: "Art",
     description: "HANDILA- the Art Club has recently joined hands with the INSTINCTS'23 to offer an unparalleled and thrilling experience to students, The search for a lost continent has long been an obsession of art and literature. With a combination of creative expression and real-world exploration, you can uncover the secrets of a lost continent. let your imagination take flight as you journey through an unknown land.From crafty costume designing to face makeup/painting and much more! With art as your guide, find the lost continent through adventure included!",
     link: "/clubs/art",
-  },
-  {
-    imageSource: "edc.png",
-    alternate: "edc",
-    clubName: "Lakshya - EDC",
-    description: "Lakshya - EDC",
-    link: "/clubs/edc",
-  },
+  }
 ];
