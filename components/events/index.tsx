@@ -47,7 +47,7 @@ export const Events = ({ clubName, eventDetails }: Children) => {
   const [selecteId, setSelectedId] = useState(0);
   return (
     <>
-    <div className="w-full mt-20 flex justify-center">
+    <div className="w-full mt-20 flex justify-center items-center">
       {eventDetails.clubs.map((item)=>{
         return(
           <div className="mx-auto p-4 lg:p-8">

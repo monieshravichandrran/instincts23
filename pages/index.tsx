@@ -1,4 +1,4 @@
-import { CollegeLogo, Footer, PageHead } from "components";
+import { CollegeLogo, Footer, PageHead, Button } from "components";
 import Image from "next/image";
 import { useTranslation } from "utils/hooks/use-translation";
 
@@ -27,6 +27,11 @@ export default function Home() {
           <p className="text-white text-[1.5rem] lg:text-[2.5rem] text-center font-title">
             Save the dates
           </p>
+          <div className="mt-10 flex justify-center text-[3rem] lg:text-[3rem] text-center font-title">
+            <Button href="/events" large>
+              Explore our events
+            </Button>
+          </div>
         </div>
       </div>
       <Footer />

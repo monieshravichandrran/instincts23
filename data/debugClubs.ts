@@ -3,9 +3,7 @@ export const Clubs = [
     imageSource: "literature.avif",
     alternate: "elc",
     clubName: "Literary",
-    description:
-      `The English Literature Clubs from SSN and SNU extend an invite to an adventure in the form of six stimulating events. Here’s a small glimpse into what the adventure encompasses:
-      Test your ability to entertain the inhabitants with your comedic skill in the Stand Up Comedy Competition (SUCC); Bottle up your valuable antidotes of one minute speeches to counter the effect of the venomous objections in JAM; Engage in competitive discussions and bring victory to the house you support in the Debate competition; Visit the eclectic marketplace of Potpourri for brain teasers, word games and many more; Fight for the life jacket to make your way to the lost continent in Shipwreck; Explore, at ease, the wonderful place you’ve found and make sure you let the rest of the world know about it through your creative writing skills in Navigate. `,
+    description: "Step into the world of words with the English Literature Clubs of SSN and SNU. The ELC is a space where language, literature, and creativity merge to form an exquisite blend of ideas, perspectives, and expression. From exploring the depths of classic literature to unleashing your inner performer on stage, our clubs offer a range of exciting opportunities to expand your literary horizons. So, come be a part of our world and discover the magic of language!",
     link: "/clubs/literary",
   },
   {
@@ -37,11 +35,11 @@ export const Clubs = [
     alternate: "tamil",
     clubName: "Tamil",
     description:
-      "இன்றைய சூழலில் பேச வேண்டிய விஷயங்களை மேடையிட்டு பேசும் சாரலின்  பட்டிமன்றத்திற்கும், தமிழ் குறவர் நாள்வரை போல் நான்கு போட்டிகளை உள்ளடக்கிய சகலகலா வல்லவன் போட்டிக்கும் அனைவரையும் வரவேற்பதில் பெருமிதம் கொள்கிறது சாரல் தமிழ் மன்றம். முதல் ஷோ சீட்டு வாங்கி தலைவர் பட வசனங்களை மணப்பாடமாய் பார்த்து பேசிய நமக்கு, திறமையை வெளி படுத்த ஒரு வாய்ப்பு தருகிறது வசன கர்த்தா போட்டி. இளங்கோவடிகள் முதல் அனிருத் வரை நம்மை இசையால் கட்டி போட்ட மாயத்தை ஊரறியும். அந்த இசையில் உள்ள பாடல்களில் சில சொற்களின் பொருளை சொல்ல பொருளை தரும் போட்டி இசை தமிழ். முத்தமிழில் மூன்றாம் தமிழாம் நாடகத்தை போற்றுவது வாயை மூடி பேசவும் போட்டி. திருக்குறளை குரலை பயன் படுத்தாமல் நடித்தே கண்டு பிடிக்க வைக்க வேண்டும். கடைசி போட்டி தொடரி போட்டி. செங்கலை வைத்து வீடு கட்டலாம் வார்த்தைகளை வைத்து கதை  கட்டலாம் வாருங்கள். தொடரியை போல் வார்த்தைகளை எடுத்து அதை கதையாய் தொடுக்க வெற்றி நமதே. தொலைந்த கண்டத்தை தேடும் முயற்சியில் வாசகங்களை வைத்து சாகசம் செய்ய இந்த இன்ஸ்டிங்க்ட்ஸில் சாரல் தமிழ் மன்றத்தோடு இணைவீர்.",
+      "தெள்ளத் தெளிந்த நீரோடையின் கல்லோசையும் போர் வீரனின் வில்லோசையும் விட சுகம் நகும் தமிழோசையை நிதம் பேசி நாளும் ரசிக்கும் யாவருக்கும் அகம் நிறைய நினைவுகள் தர காத்திருக்கிறது இந்த தமிழ் வீடு.",
     link: "/clubs/tamil",
   },
   {
-    imageSource: "design.jpeg",
+    imageSource: "design.webp",
     alternate: "design",
     clubName: "Design",
     description:
@@ -73,7 +71,7 @@ export const Clubs = [
     link: "/clubs/photography",
   },
   {
-    imageSource: "classical.jpeg",
+    imageSource: "classical.jpg",
     alternate: "Classical Dance",
     clubName: "Classical Dance",
     description:
@@ -90,7 +88,7 @@ export const Clubs = [
     link: "/clubs/western",
   },
   {
-    imageSource: "talents.png",
+    imageSource: "varietyshow.jpeg",
     alternate: "talents",
     clubName: "Variety Show",
     description:
@@ -100,7 +98,7 @@ export const Clubs = [
   {
     imageSource: "business.jpeg",
     alternate: "business",
-    clubName: "Business",
+    clubName: "Business & Entrepreneurship",
     description: "Business Club has arrived on the Lost Continent for our first ever stint at Instincts! Prepare to set your sails in the direction of an event that will test your adaptability, business acumen and bidding(?!) skills. Maneuver your ships through the obstacles we throw at you and climb your way to the top of the lot! ",
     link: "/clubs/business",
   },

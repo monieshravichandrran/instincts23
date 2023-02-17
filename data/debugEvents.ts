@@ -162,7 +162,7 @@ export const debugEvents = {
       },
       {
         name: "SNUC Film Club",
-        imgsrc: "sfc.png"
+        imgsrc: "snufc.jpg"
       }
     ], events: [
       {
@@ -200,7 +200,7 @@ export const debugEvents = {
             phone: "9962480903",
           },
           {
-            name: "Mughilan",
+            name: "Muhilan",
             phone: "7598955470",
           },
         ],
@@ -254,6 +254,10 @@ export const debugEvents = {
       {
         name: "Gradient - Design Club",
         imgsrc: "sdc.png"
+      },
+      {
+        name: "Aura - The SNUC Design Club",
+        imgsrc: "aura.png"
       }
     ], events: [
       {
@@ -302,9 +306,93 @@ export const debugEvents = {
       },
       {
         name: "SNUC ISAI",
-        imgsrc: "smc.png"
+        imgsrc: "isai.jpg"
       }
-    ], events: []
+    ], events:
+      [
+        {
+          eventNames: "Anunad",
+          description: "Anunad is SMC's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!",
+          date: "TBD",
+          fromTime: undefined, toTime: undefined,
+          venue: "TBD",
+          type: "Individual",
+          rules: [
+            { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge."] },
+            {
+              ruleHead: "Prelims",
+              rules: ["Each participant will be given 4 minutes with set up.","Use of a karaoke backing track is allowed. Participants using backing tracks must submit their tracks (in a USB device) at the desk before the event begins, aux connections will be available too.","Instrumental accompaniment is not allowed.","Use of Shruti box is permitted; use of a metronome isn't.","The judge's decision will be final."]
+            },
+            {
+              ruleHead: "Finals",
+              rules: ["The participant will be given 7 minutes to perform two songs; variety in the genre of songs performed will fetch more points.","One instrumental accompaniment may be used.","Rest of the rules are the same as in the prelims round."]
+            }
+          ],
+          organizers: [
+            {
+              name: "Swetha",
+              phone: "9486558751"
+            },
+            {
+              name: "Venkat",
+              phone: "9176762175"
+            }
+          ]
+        },
+        {
+          eventNames: "Riff Off",
+          description: "Riff Off is the solo instrumental event where you can showcase your talent as an individual. Be it with a guitar or drums, literally anything under the sky defined to be an instrument, the stage is yours! Come participate and explore your boundaries as a musician! ",
+          date: "TBD",
+          fromTime: undefined, toTime: undefined,
+          venue: "TBD",
+          type: "Individual",
+          rules: [
+            { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge."] },
+          ],
+          organizers: [
+            {
+              name: "Matthew",
+              phone: "8939972777"
+            },
+            {
+              name: "Arnav",
+              phone: "9899347675"
+            }
+          ]
+        },
+        {
+          eventNames: "Band Hunt",
+          description: `Band hunt is SMC's Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
+          Music Lovers everywhere, this event is handcrafted just for you. Don't miss it!!
+          `,
+          date: "TBD",
+          fromTime: undefined, toTime: undefined,
+          venue: "TBD",
+          type: "Team",
+          team_size: "3-10",
+          rules: [
+            { rules: ["Participants MUST be college students with a valid college ID card and are required to purchase individual music passes.", "Members of the band need not be from the same college. Cross college bands are allowed.", "Music of any genre and language is permitted.", "Original compositions will be given extra points when compared to covers."] },
+            {
+              ruleHead: "Online Shortlisting",
+              rules: ["Bands should send in an online link of their performance."," Note that the drive link shared must be accessible by ‘Anyone with the Link’."]
+            },
+            {
+              ruleHead: "Finals",
+              rules: ["Each band(if shortlisted) will be given 18 mins on stage inclusive of setup time.","Drum kit and Keyboard stand will be provided.","Obscenity of any kind is strictly prohibited.","The decision of the judges will be final and binding."]
+            }
+          ],
+          organizers: [
+            {
+              name: "Nikhil",
+              phone: "9566216996"
+            },
+            {
+              name: "Hrithin",
+              phone: "9941669034"
+            }
+          ]
+        },
+      ]
   },
   spc: {
     clubs: [
@@ -344,7 +432,7 @@ export const debugEvents = {
       },
       {
         name: "Mudivizhi",
-        imgsrc: "saaral.png"
+        imgsrc: "mudivili.jpg"
       }
     ], events: [
       {
@@ -373,24 +461,115 @@ export const debugEvents = {
   qfac: {
     clubs: [
       {
-        name: "SSN English Literary Club",
-        imgsrc: "elc.jpeg"
+        name: "Q Factorial - The SSN Quiz Club",
+        imgsrc: "qfac.png"
       },
       {
-        name: "SNU English Literary Club",
-        imgsrc: "elc.jpeg"
+        name: "Cognition - SNUC Quiz Club",
+        imgsrc: "cognition.png"
       }
-    ], events: []
+    ], events: [
+      {
+        eventNames: "Funda-Mavan",
+        description:
+          "General Quiz.",
+        date: "TBD",
+        fromTime: undefined,
+        toTime: undefined,
+        venue: "TBD",
+        type: "Lone Wolf/ Team",
+        team_size: "1-3",
+        organizers: [
+          {
+            name: "Eshwar Nevedh S.K",
+            phone: "9361329530",
+          },
+          {
+            name: "Arjun Mukesh",
+            phone: "9500147579"
+          }
+        ],
+        rules: [
+          {
+            rules: [
+              "Maximum three in a team",
+              "Will consist of a prelims and a finals.",
+              "Lone Wolf Participation allowed"
+            ],
+          }
+        ]
+      },
+      {
+        eventNames: "MELA Quiz",
+        description:
+          "Quiz on Music , Entertainment, Literature and Arts.",
+        date: "TBD",
+        fromTime: undefined,
+        toTime: undefined,
+        venue: "TBD",
+        type: "Lone Wolf/ Team",
+        team_size: "1-3",
+        organizers: [
+          {
+            name: "Varsha",
+            phone: "9499037154",
+          },
+          {
+            name: "Deepak",
+            phone: "6369075710"
+          }
+        ],
+        rules: [
+          {
+            rules: [
+              "Maximum three in a team",
+              "Lone Wolf Participation allowed",
+              "Prelims plus Final format, both happening offline."
+            ],
+          }
+        ]
+      },
+      {
+        eventNames: "Sports Quiz",
+        description:
+          "Quiz about all types of Sports ",
+        date: "TBD",
+        fromTime: undefined,
+        toTime: undefined,
+        venue: "TBD",
+        type: "Lone Wolf/ Team",
+        team_size: "1-3",
+        organizers: [
+          {
+            name: "Eshwar Nevedh S.K",
+            phone: "9361329530",
+          },
+          {
+            name: "Deepak",
+            phone: "6369075710"
+          }
+        ],
+        rules: [
+          {
+            rules: [
+              "Maximum three in a team",
+              "Lone Wolf Participation allowed",
+              "Will be conducted in a Prelims plus Finals format"
+            ],
+          }
+        ]
+      },
+    ]
   },
   lop: {
     clubs: [
       {
-        name: "SSN English Literary Club",
+        name: "Lights Out Please",
         imgsrc: "lop.png"
       },
       {
-        name: "SNU English Literary Club",
-        imgsrc: "lop.png"
+        name: "Atwas Theatre Club",
+        imgsrc: "atwas.jpg"
       }
     ], events: [
       {
@@ -455,7 +634,7 @@ export const debugEvents = {
       },
       {
         name: "Ameya - Classical Dance Team",
-        imgsrc: "arudhra.png"
+        imgsrc: "ameya.jpg"
       }
     ], events: [
       {
