@@ -18,7 +18,7 @@ export const ComingSoon = () => {
           className="mb-[4rem] lg:p-8"
         />
         <h1 className="text-[3rem] lg:text-[6rem] leading-[4rem] lg:leading-[8rem] font-title font-bold text-center mb-8 shimmer">
-          COMING SOON
+          EVENTS COMING SOON
         </h1>
         <div className="p-4 shadow-lg rounded-br-3xl">
           <p className="text-white text-[1.5rem] lg:text-[2.5rem] text-center font-title">
