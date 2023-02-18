@@ -33,7 +33,7 @@ export const Clubs = [
   {
     imageSource: "tamil.jpeg",
     alternate: "tamil",
-    clubName: "Tamil",
+    clubName: "தமிழ்",
     description:
       "தெள்ளத் தெளிந்த நீரோடையின் கல்லோசையும் போர் வீரனின் வில்லோசையும் விட சுகம் நகும் தமிழோசையை நிதம் பேசி நாளும் ரசிக்கும் யாவருக்கும் அகம் நிறைய நினைவுகள் தர காத்திருக்கிறது இந்த தமிழ் வீடு.",
     link: "/clubs/tamil",

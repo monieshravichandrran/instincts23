@@ -427,7 +427,7 @@ export const debugEvents = {
   saaral: {
     clubs: [
       {
-        name: "Saaral Tamil Mandram",
+        name: "சாரல் தமிழ் மன்றம்",
         imgsrc: "saaral.png"
       },
       {
@@ -447,14 +447,22 @@ export const debugEvents = {
         team_size: "TBD",
       },
       {
-        eventNames: "Pattimandram",
+        eventNames: "பட்டிமன்றம்",
         description:
-          "The event will be having a judge and 6 speakers. Best speakers will be awarded. It is an one hour event. ",
+          "தமிழர் சிந்தனை கலை வெளிப்பாட்டு வடிவங்களில் சிறப்பான ஒரு வடிவமே பட்டிமன்றம். முரண்பாடான பலநோக்கங்கள் உடைய கருத்துகளை விவரிக்கவும், விவாதிக்கவும் மேலும் பேச்சுத்திறனை வெளிப்படுத்தவும் ஒரு சிறந்த மேடையை சாரல் தமிழ் மன்றம் மாணவர்களுக்கு அளிக்கிறது. ",
         date: "TBD",
         fromTime: undefined,
         toTime: undefined,
         team_size: "TBD",
         type: "Individual",
+        rules: [{
+          ruleHead:"தகுதிச்சுற்று:",
+          rules:["கொடுக்கப்பட்ட தலைப்பில் போட்டியாளர்கள் 5 நிமிடங்கள் பேச வேண்டும்.","6 போட்டியாளர்கள் இறுதிச்சுற்றிற்கு தேர்ந்தெடுக்கப்படுவர்."]
+        },
+      {
+        ruleHead: "இறுதிச்சுற்று:",
+        rules: ["பிரதான அரங்கத்தில் இறுதிச்சுற்று நடைபெறும்.","போட்டியாளர்கள் இரு அணிகளாக பிரிக்கப்பட்டு பட்டிமன்றம் நடைபெறும்.","ஒவ்வொரு போட்டியாளருக்கும் பேசுவதற்கு 7 நிமிடங்கள் வழங்கப்படும்.","சிறந்து பேசிய போட்டியார்களுக்கு பரிசுகள் வழங்கப்படும்."]
+      }]
       },
     ]
   },
