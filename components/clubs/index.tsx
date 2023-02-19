@@ -19,19 +19,21 @@ export const Club = ({
 }: Children) => {
   return (
     <>
-      <div className="shadow-2xl p-2vw w-full  lg:w-[25vw] md:w-[36vw]lg:p-[5vw] sm:p-[2vw]">
+      <div className="shadow-2xl relative p-2vw w-full h-70vh lg:w-[25vw] md:w-[36vw]lg:p-[5vw] sm:p-[2vw]">
         <Image
           src={"/images/clubs/" + imageSource}
           alt={alternate}
+          width={244}
+          height={244}
           className="mb-4 mx-auto p-8 lg:p-8 w-[80vw] h-[80vw] sm:w-[75vw] sm:h-[75vw] md:w-[35vw] md:h-[35vw] lg:w-[23vw] lg:h-[23vw]"
         />
         <h2 className="mb-4 text-3xl font-bold text-center font-title">
           {clubName}
         </h2>
-        <p className="md:my-10 text-lg font-black text-center md:text-xl">
+        <p className="py-5 mb-20 text-lg font-black text-center md:text-xl">
           {description}
         </p>
-        <div className="flex justify-center mb-4">
+        <div className="flex absolute right-10 bottom-0  my-4 mt-10" >
           <Button href={link} large>
             Explore
           </Button>

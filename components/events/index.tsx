@@ -62,8 +62,8 @@ export const Events = ({ clubName, eventDetails }: Children) => {
         )
       })}
       </div>
-      <div className="lg:ml-10 flex flex-wrap flex-row min-h-[70vh] items-center justify-center">
-        <div className="lg:flex-1 sm:w-[95%] md:w-[95%] ml-2 mt-5 flex lg:flex-col  items-center sm:justify-center md:justify-center lg:justify-evenly  py-10  px-5 lg:min-h-[70vh] sm:min-h-fit md:min-h-fit shadow-2xl text-white sm:flex-row flex-wrap">
+      <div className="lg:ml-2 flex flex-wrap flex-row min-h-[70vh] pb-10 items-center justify-center ">
+        <div className="lg:flex-1 sm:w-[95%] md:w-[95%] mt-5 flex lg:flex-col  items-center sm:justify-center md:justify-center lg:justify-evenly  py-10  pr-1 pl-5 lg:min-h-[70vh] sm:min-h-fit md:min-h-fit shadow-2xl text-white sm:flex-row flex-wrap">
           {eventDetails.events.map((item, index) => (
             <div
               key={item.eventNames}
