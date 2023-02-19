@@ -51,7 +51,7 @@ export const Clubs = [
     alternate: "film",
     clubName: "Film",
     description:
-      "Crossing Seven Mountains and Seven Seas there is a lost Continent. On this continent, everyone has the skills to survive. One of the skills the people of the continent developed was to observe and want to see again when needed. SSN and SNU Film Club started with people who were interested in this all kinds of various jobs. Few people took the film. Everyone was a part of catching the light, writing the play, shooting or capturing, and many more. Few wrote their opinions on the things they saw. Few further dived deep down and made crafts and arts, which will make us view better. Interested people started to follow the people in this club and started to learn from them. When the continent is found, the people want to compete with others to show their skills. This SSN and SNU Film Club welcomes everyone to this continent of SSN Instincts where skills and knowledge of cinema are appreciated and awarded.",
+      "Crossing Seven Mountains and Seven seas there is a lost Continent. On this continent, everyone has the skills to survive. One of the skills the people of the continent developed was to observe and want to see again when needed. SSN and SNU Film Club started with people who were interested in this all kinds of various jobs. Those interested people started to learn from the club. When the continent is found, the people want to compete with others to show their skills. This SSN and SNU Film Club welcomes everyone to this continent of SSN Instincts where skills and knowledge of cinema are appreciated and awarded.",
     link: "/clubs/film",
   },
   {

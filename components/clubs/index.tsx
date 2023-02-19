@@ -33,7 +33,7 @@ export const Club = ({
         <p className="py-5 mb-20 text-lg font-black text-center md:text-xl">
           {description}
         </p>
-        <div className="flex absolute right-10 bottom-0  my-4 mt-10" >
+        <div className="flex w-full justify-center absolute bottom-0  my-4 mt-10" >
           <Button href={link} large>
             Explore
           </Button>
