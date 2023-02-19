@@ -13,7 +13,7 @@ export const CollegeLogo = () => {
         <img
           src="/images/SNUC-white.png"
           alt="SNUC"
-          className="w-[100px] lg:w-[180px] absolute top-5 left-5"
+          className="w-[100px] lg:w-[180px] absolute top-5 left-2"
         />
 
         <div className="absolute text-white top-3 right-3 sm:text-xl md:text-2xl">
