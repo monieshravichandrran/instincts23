@@ -15,7 +15,13 @@ export const CollegeLogo = () => {
           alt="SNUC"
           className="w-[100px] lg:w-[180px] absolute top-5 left-2"
         />
-
+        <Link href="/">
+          <img
+            src="/images/instinctsLogo1.png"
+            alt="SNUC"
+            className="w-16 h-16 mt-[-10px] md:w-20 md:h-20 md:mt-[-20px]"
+          />
+        </Link>
         <div className="absolute text-white top-3 right-3 sm:text-xl md:text-2xl">
           <Link
             href="/events"

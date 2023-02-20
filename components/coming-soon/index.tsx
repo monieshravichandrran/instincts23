@@ -9,7 +9,6 @@ export const ComingSoon = () => {
     <>
       <PageHead title={title} description={description} />
       <div className="flex flex-col items-center justify-center min-h-screen p-4">
-        <CollegeLogo />
         <Image
           src="/images/Instincts.png"
           alt="Instincts 2023 - Lost Continent"

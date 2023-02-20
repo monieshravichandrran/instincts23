@@ -6,13 +6,15 @@ export default function Elc() {
   return (
     <>
       <PageHead />
-      <CollegeLogo />
-      <div className="min-h-screen lg:w-[98%] sm:w-full">
-        {debugEvents.smc?.events.length > 0 ? (
-          <Events clubName={"SSN Music Club"} eventDetails={debugEvents.smc} />
-        ) : (
-          <ComingSoon />
-        )}
+      <div className="flex flex-col items-center justify-center min-h-screen p-2 md:p-4 m-auto text-white font-main">
+        <CollegeLogo />
+        <div className="min-h-screen lg:w-[98%] sm:w-full">
+          {debugEvents.smc?.events.length > 0 ? (
+            <Events clubName={"SSN Music Club"} eventDetails={debugEvents.smc} />
+          ) : (
+            <ComingSoon />
+          )}
+        </div>
       </div>
       <Footer />
     </>

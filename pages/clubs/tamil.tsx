@@ -5,12 +5,14 @@ export default function Elc() {
   return (
     <>
       <PageHead />
-      <CollegeLogo />
-      <div className="min-h-screen lg:w-[98%] sm:w-full">
-        <Events
-          clubName={"Saaral Thamizh Mandram"}
-          eventDetails={debugEvents.saaral}
-        />
+      <div className="flex flex-col items-center justify-center min-h-screen p-2 md:p-4 m-auto text-white font-main">
+        <CollegeLogo />
+        <div className="min-h-screen lg:w-[98%] sm:w-full">
+          <Events
+            clubName={"Saaral Thamizh Mandram"}
+            eventDetails={debugEvents.saaral}
+          />
+        </div>
       </div>
       <Footer />
     </>
