@@ -195,7 +195,6 @@ body {
   .item {
     align-self: baseline !important;
     width: 100%;
-    padding: 0 30px 150px 80px;
   }
   .item:before {
     left: 10px !important;
