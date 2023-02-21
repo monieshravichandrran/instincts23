@@ -2,6 +2,7 @@ import { CollegeLogo, Footer, PageHead } from "components";
 import { Club } from "components/clubs";
 import { Clubs } from "data/debugClubs";
 import React from "react";
+import Script from "next/script";
 
 export default function Events() {
   return (
@@ -16,7 +17,8 @@ export default function Events() {
           All events for SSN SNUC Instincts are powered by our different clubs, do
           check them out!
         </h2>
-        <div className="text-xl rounded-br-3xl grid grid-cols-1 lg:grid-cols-3 gap-10 w-[90vw] md:grid-cols-2">
+        <div id="container" className="class-container">
+        <div className="history text-xl rounded-br-3xl">
           {Clubs.map((item, index) => (
             <Club
               key={index}
@@ -28,8 +30,10 @@ export default function Events() {
             />
           ))}
         </div>
+        </div>
       </div>
       <Footer />
+      <Script src="controller.js" />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Button } from "components/button";
 import Image from "next/image";
+import Script from "next/script";
 import React from "react";
 
 type Children = {
@@ -19,7 +20,7 @@ export const Club = ({
 }: Children) => {
   return (
     <>
-      <div className="shadow-2xl relative p-2vw w-full h-70vh lg:w-[25vw] md:w-[36vw]lg:p-[5vw] sm:p-[2vw]">
+      <div data-text="SSN SNUC INSTINCTS" className="item shadow-2xl w-full">
         <Image
           src={"/images/clubs/" + imageSource}
           alt={alternate}
@@ -27,18 +28,19 @@ export const Club = ({
           height={244}
           className="mb-4 mx-auto p-8 lg:p-8 w-[80vw] h-[80vw] sm:w-[75vw] sm:h-[75vw] md:w-[35vw] md:h-[35vw] lg:w-[23vw] lg:h-[23vw]"
         />
-        <h2 className="mb-4 text-3xl font-bold text-center font-title">
+        <h2 className="content-title mb-4 text-3xl font-bold text-center font-title">
           {clubName}
         </h2>
-        <p className="py-5 mb-20 text-lg font-black text-center md:text-xl">
+        <p className="content-desc py-5 mb-20 text-lg font-black text-center md:text-xl">
           {description}
         </p>
-        <div className="flex w-full justify-center absolute bottom-0  my-4 mt-10" >
+        <div className="flex justify-center" >
           <Button href={link} large>
             Explore
           </Button>
         </div>
       </div>
+      <Script src="controller.js" />
     </>
   );
 };
