@@ -1,3 +1,4 @@
+console.clear();
 const slider = document.querySelector('.slider')
 const allImages = Array.from(document.querySelectorAll('.slider .image'));
 let state = {
