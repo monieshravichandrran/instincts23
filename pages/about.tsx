@@ -1,4 +1,4 @@
-import { CollegeLogo, Footer, PageHead } from "components";
+import { Button, CollegeLogo, Footer, PageHead } from "components";
 
 export default function About() {
   return (
@@ -22,6 +22,9 @@ export default function About() {
             country. This year, Instincts will be held offline with an exciting
             prize pool of Rup
           </p>
+          <Button href={"/gallery"} large>
+            Explore the Instincts Gallery
+          </Button>
         </div>
       </div>
       <Footer />

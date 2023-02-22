@@ -2,19 +2,18 @@ import { CollegeLogo, Footer, PageHead } from "components";
 import React from "react";
 import Script from "next/script";
 import Image from "next/image";
-import { Images } from "data/debugImages";
 
 export default function Events() {
   return (
     <div className="overflow-hidden">
       <PageHead />
-      <div className="flex flex-col items-center justify-center w-full min-h-screen p-2 md:p-4 m-auto text-white font-main gallerycont">
+      <div className="flex flex-col items-center justify-center w-full min-h-screen m-auto text-white">
         <CollegeLogo />
-        <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js" integrity="sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=" crossOrigin="anonymous"></script>
-        <script src="https://hammerjs.github.io/dist/hammer.js"></script>
-        <div className="h-[93vh] lg:w-[98%] sm:w-full flex flex-col items-end justify-center">
-        <div className="slider w-[96vw] md:w-[95vw]" data-state="0">
-
+        <Script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js" integrity="sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=" crossOrigin="anonymous"></Script>
+        <Script src="https://hammerjs.github.io/dist/hammer.js"></Script>
+        <Script src="slideIn.js" />
+        <div className="sm:w-full flex flex-col items-end justify-center">
+        <div className="slider mt-[-6.6vh]" data-state="0">
           <div className="status">
             <div className="point" data-current="0"></div>
             <div className="stat" data-key="0"></div>
@@ -132,7 +131,6 @@ export default function Events() {
         </div>
         </div>
       </div>
-      <script src="slideIn.js" />
     </div>
   );
 }

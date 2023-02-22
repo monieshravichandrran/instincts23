@@ -9,7 +9,7 @@ export const CollegeLogo = () => {
   const [nav, setNav] = useState(false);
   return (
     <>
-      <div className="">
+      <div className="z-40">
         <img
           src="/images/SNUC-white.png"
           alt="SNUC"

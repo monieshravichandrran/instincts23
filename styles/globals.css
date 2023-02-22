@@ -288,9 +288,11 @@ body {
   font-weight: normal;
 }
 
+
 .slider {
   position: relative;
   display: flex;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
@@ -299,7 +301,6 @@ body {
   bottom: 10px;
   right: 10px;
   display: flex;
-  padding-bottom: none !important;
 }
 .slider .status .point {
   position: absolute;
@@ -344,7 +345,6 @@ body {
 .slider .text {
   position: absolute;
   color: #fff;
-  text-shadow: 0 0 5px #000 3;
   z-index: 20;
   transform-origin: right top;
   transform: rotate(-90deg) translateY(calc(-88vh));
@@ -353,7 +353,6 @@ body {
   grid-template-rows: 1fr;
   text-transform: uppercase;
 }
-
 .slider .text div {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -383,12 +382,4 @@ body {
   z-index: 10;
   transform: translateY(0) scale(1);
   opacity: 1;
-}
-
-.gallerycont {
-  padding-bottom: 0 !important;
-}
-
-.btn-color {
-  background: linear-gradient(to right, #ae8141, #1f2937);
 }

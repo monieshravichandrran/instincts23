@@ -33,6 +33,11 @@ export default function Home() {
                 Explore our events
               </Button>
             </div>
+            <div className="mt-5 flex justify-center text-[3rem] lg:text-[3rem] text-center font-title">
+              <Button href="/gallery" large>
+                The Instincts Gallery
+              </Button>
+            </div>
           </div>
         </div>
       </div>
