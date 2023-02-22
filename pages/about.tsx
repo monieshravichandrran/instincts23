@@ -25,6 +25,7 @@ export default function About() {
         </div>
       </div>
       <Footer />
+      <script src="https://hammerjs.github.io/dist/hammer.js"></script>
     </>
   );
 }

@@ -11,7 +11,7 @@ export default function Events() {
       <div className="flex flex-col items-center justify-center w-full min-h-screen p-2 md:p-4 m-auto text-white font-main gallerycont">
         <CollegeLogo />
         <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js" integrity="sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=" crossOrigin="anonymous"></script>
-        <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+        <script src="https://hammerjs.github.io/dist/hammer.js" crossOrigin="anonymous"></script>
         <div className="min-h-screen lg:w-[98%] sm:w-full flex flex-col items-end justify-center">
         <div className="slider w-[98vw] md:w-[95vw]" data-state="0">
 
@@ -132,7 +132,7 @@ export default function Events() {
         </div>
         </div>
       </div>
-      <Script src="slideIn.js" />
+      <script src="slideIn.js" />
     </>
   );
 }
