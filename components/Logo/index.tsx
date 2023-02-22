@@ -49,7 +49,7 @@ export const CollegeLogo = () => {
         </div>
       </div>
       <div
-        className="absolute cursor-pointer md:hidden lg:hidden top-3 right-5"
+        className="absolute cursor-pointer md:hidden lg:hidden top-3 right-5 z-50"
         onClick={() => setNav(!nav)}
       >
         <AiOutlineMenu size={30} color="white" />
