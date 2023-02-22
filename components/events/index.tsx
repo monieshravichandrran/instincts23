@@ -126,13 +126,13 @@ export const Events = ({ clubName, eventDetails }: Children) => {
             </p>
           )}
           <div className="flex flex-col items-start justify-around mt-5">
-            <div className="flex items-center justify-between lg:w-[23%] sm:w-[80%] md:w-[35%]">
-              <div className="rounded-3xl bg-white flex justify-around items-center p-3 text-black w-[100px]">
-                <BsFillCalendarCheckFill size={20} />
+            <div className="flex items-center justify-between">
+              <div className="rounded-3xl bg-white flex justify-around items-center p-2 text-black w-fit sm:mr-3 md:mr-3">
+                <BsFillCalendarCheckFill size={20} className="mr-2" />
                 <p> {eventDetails.events[selecteId].date}</p>
               </div>
-              <div className="rounded-3xl bg-white flex justify-around items-center p-3 text-black w-[100px]">
-                <BsFillClockFill size={20} />
+              <div className="rounded-3xl bg-white flex justify-around items-center p-2 text-black w-fit">
+                <BsFillClockFill size={20} className="mr-2" />
                 <p>
                   {eventDetails.events[selecteId].fromTime &&
                   eventDetails.events[selecteId].toTime ? (
@@ -147,7 +147,7 @@ export const Events = ({ clubName, eventDetails }: Children) => {
               </div>
             </div>
 
-            <div className="rounded-3xl  flex justify-around items-center bg-white p-3 mt-3 text-black  w-[75px]">
+            <div className="rounded-3xl  flex justify-around items-center bg-white p-3 mt-3 text-black  w-fit">
               <RiTeamFill size={20} />
               <p>
                 {eventDetails.events[selecteId].team_size
