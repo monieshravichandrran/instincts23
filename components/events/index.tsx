@@ -148,7 +148,7 @@ export const Events = ({ clubName, eventDetails }: Children) => {
             </div>
 
             <div className="rounded-3xl  flex justify-around items-center bg-white p-3 mt-3 text-black  w-fit">
-              <RiTeamFill size={20} />
+              <RiTeamFill size={20} className="mr-2" />
               <p>
                 {eventDetails.events[selecteId].team_size
                   ? eventDetails.events[selecteId].team_size
