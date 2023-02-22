@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import {
   BsFillCalendarCheckFill,
@@ -51,6 +51,16 @@ type Children = {
 
 export const Events = ({ clubName, eventDetails }: Children) => {
   const [selecteId, setSelectedId] = useState(0);
+  const previousValue = useRef(selecteId);
+
+  useEffect(() => {
+    document.querySelector(`.btn-0`)?.classList.add("btn-color");
+  }, []);
+
+  useEffect(() => {
+    previousValue.current = selecteId;
+  }, [selecteId]);
+
   return (
     <>
       <div className="w-full mt-20 flex justify-center items-center">
@@ -71,11 +81,17 @@ export const Events = ({ clubName, eventDetails }: Children) => {
         })}
       </div>
       <div className="lg:ml-2 flex flex-wrap flex-row min-h-[100vh] pb-10 items-center justify-center ">
-        <div className="lg:flex-1 sm:w-[95%] md:w-[95%] mt-5 flex lg:flex-col  items-center sm:justify-center md:justify-center lg:justify-evenly  py-10  pr-1 pl-5 lg:min-h-[100vh] sm:min-h-fit md:min-h-fit shadow-2xl text-white sm:flex-row flex-wrap">
+        <div className="lg:flex-1 sm:w-[95%] md:w-[95%] mt-5 flex lg:flex-col  items-center sm:justify-center md:justify-center lg:justify-evenly  py-10  pr-1 pl-5 lg:min-h-[100vh] sm:min-h-fit md:min-h-fit shadow-2xl text-white sm:flex-row flex-wrap ">
           {eventDetails.events.map((item, index) => (
             <div
               key={item.eventNames}
               onClick={() => {
+                document
+                  .querySelector(`.btn-${previousValue.current}`)
+                  ?.classList.remove("btn-color");
+                document
+                  .querySelector(`.btn-${index}`)
+                  ?.classList.add("btn-color");
                 setSelectedId(index);
                 const clubs = document.querySelector(".clubs");
                 if (!clubs) return;
@@ -84,7 +100,7 @@ export const Events = ({ clubName, eventDetails }: Children) => {
                   clubs.classList.add("clubitem");
                 });
               }}
-              className="p-2 mb-2 bg-gray-800 rounded-lg font-title sm:mr-3 md:mr-3 md:text-xl hover:cursor-pointer hover:opacity-90"
+              className={` btn-${index} p-2 mb-2 rounded-lg font-title sm:mr-3 md:mr-3 md:text-xl hover:cursor-pointer hover:opacity-90 bg-gray-800 `}
             >
               {item.eventNames}
             </div>
