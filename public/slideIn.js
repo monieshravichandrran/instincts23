@@ -1,5 +1,6 @@
-const slider = document.querySelector('.slider')
+window.reload();
 
+const slider = document.querySelector('.slider')
 const allImages = Array.from(document.querySelectorAll('.slider .image'));
 let state = {
     photo: 0, 
