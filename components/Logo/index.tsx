@@ -96,6 +96,8 @@ export const CollegeLogo = () => {
                 >
                   About
                 </li>
+              </Link>
+              <Link href="/gallery">
                 <li
                   className="py-4 font-medium text-white"
                   onClick={() => setNav(false)}
