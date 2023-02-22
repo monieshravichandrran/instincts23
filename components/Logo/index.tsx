@@ -19,7 +19,7 @@ export const CollegeLogo = () => {
           <img
             src="/images/instinctsLogo1.png"
             alt="SNUC"
-            className="w-16 h-16 mt-[-10px] md:w-20 md:h-20 md:mt-[-20px]"
+            className="w-16 h-16 mt-[-10px] md:w-20 md:h-20 md:mt-[-20px] z-50"
           />
         </Link>
         <div className="absolute text-white top-3 right-3 sm:text-xl md:text-2xl">
@@ -34,6 +34,12 @@ export const CollegeLogo = () => {
             className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110 sm:hidden"
           >
             About
+          </Link>
+          <Link
+            href="/gallery"
+            className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110 sm:hidden"
+          >
+            Gallery
           </Link>
           <img
             src="/images/SSN-white.png"
@@ -89,6 +95,12 @@ export const CollegeLogo = () => {
                   onClick={() => setNav(false)}
                 >
                   About
+                </li>
+                <li
+                  className="py-4 font-medium text-white"
+                  onClick={() => setNav(false)}
+                >
+                  Gallery
                 </li>
               </Link>
             </ul>
