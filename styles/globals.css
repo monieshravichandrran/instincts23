@@ -383,3 +383,7 @@ body {
   transform: translateY(0) scale(1);
   opacity: 1;
 }
+
+.btn-color {
+  background: linear-gradient(to right, #ae8141, #1f2937);
+}
