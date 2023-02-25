@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 export const debugEvents = {
   elc: {
     clubs: [
@@ -26,8 +27,7 @@ export const debugEvents = {
           },
         ],
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         team_size: "2",
         type: "Team",
@@ -59,7 +59,7 @@ export const debugEvents = {
           },
         ],
         date: "TBD",
-        fromTime: undefined,
+        time: undefined,
         toTime: undefined,
         venue: "TBD",
         type: "Individual",
@@ -89,8 +89,7 @@ export const debugEvents = {
           },
         ],
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         team_size: "2-3",
         type: "Team",
@@ -129,8 +128,7 @@ export const debugEvents = {
           }
         ],
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Individual",
         organizers: [
@@ -181,8 +179,7 @@ export const debugEvents = {
           },
         ],
         date: "March 10, 2023",
-        fromTime: "9AM",
-        toTime: "12AM",
+        time: "9AM - 12AM",
         venue: "Main Auditorium",
         type: "Lone-Wolf / Team",
         team_size: "1-4",
@@ -223,8 +220,7 @@ export const debugEvents = {
           },
         ],
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Lone-Wolf / Team",
         team_size: "2",
@@ -280,8 +276,7 @@ export const debugEvents = {
           },
         ],
         date: "May 13, 2022",
-        fromTime: "10AM",
-        toTime: "1PM",
+        time: "10AM-1PM",
         venue: "IT Lab 1",
         type: "Lone-Wolf / Team",
         team_size: "2 (Max)",
@@ -314,18 +309,18 @@ export const debugEvents = {
           eventNames: "Anunad",
           description: "Anunad is SMC's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!",
           date: "TBD",
-          fromTime: undefined, toTime: undefined,
+          time: undefined,
           venue: "TBD",
           type: "Individual",
           rules: [
             { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge."] },
             {
               ruleHead: "Prelims",
-              rules: ["Each participant will be given 4 minutes with set up.","Use of a karaoke backing track is allowed. Participants using backing tracks must submit their tracks (in a USB device) at the desk before the event begins, aux connections will be available too.","Instrumental accompaniment is not allowed.","Use of Shruti box is permitted; use of a metronome isn't.","The judge's decision will be final."]
+              rules: ["Each participant will be given 4 minutes with set up.", "Use of a karaoke backing track is allowed. Participants using backing tracks must submit their tracks (in a USB device) at the desk before the event begins, aux connections will be available too.", "Instrumental accompaniment is not allowed.", "Use of Shruti box is permitted; use of a metronome isn't.", "The judge's decision will be final."]
             },
             {
               ruleHead: "Finals",
-              rules: ["The participant will be given 7 minutes to perform two songs; variety in the genre of songs performed will fetch more points.","One instrumental accompaniment may be used.","Rest of the rules are the same as in the prelims round."]
+              rules: ["The participant will be given 7 minutes to perform two songs; variety in the genre of songs performed will fetch more points.", "One instrumental accompaniment may be used.", "Rest of the rules are the same as in the prelims round."]
             }
           ],
           organizers: [
@@ -343,7 +338,7 @@ export const debugEvents = {
           eventNames: "Riff Off",
           description: "Riff Off is the solo instrumental event where you can showcase your talent as an individual. Be it with a guitar or drums, literally anything under the sky defined to be an instrument, the stage is yours! Come participate and explore your boundaries as a musician! ",
           date: "TBD",
-          fromTime: undefined, toTime: undefined,
+          time: undefined,
           venue: "TBD",
           type: "Individual",
           rules: [
@@ -366,7 +361,7 @@ export const debugEvents = {
           Music Lovers everywhere, this event is handcrafted just for you. Don't miss it!!
           `,
           date: "TBD",
-          fromTime: undefined, toTime: undefined,
+          time: undefined,
           venue: "TBD",
           type: "Team",
           team_size: "3-10",
@@ -374,11 +369,11 @@ export const debugEvents = {
             { rules: ["Participants MUST be college students with a valid college ID card and are required to purchase individual music passes.", "Members of the band need not be from the same college. Cross college bands are allowed.", "Music of any genre and language is permitted.", "Original compositions will be given extra points when compared to covers."] },
             {
               ruleHead: "Online Shortlisting",
-              rules: ["Bands should send in an online link of their performance."," Note that the drive link shared must be accessible by ‘Anyone with the Link’."]
+              rules: ["Bands should send in an online link of their performance.", " Note that the drive link shared must be accessible by ‘Anyone with the Link’."]
             },
             {
               ruleHead: "Finals",
-              rules: ["Each band(if shortlisted) will be given 18 mins on stage inclusive of setup time.","Drum kit and Keyboard stand will be provided.","Obscenity of any kind is strictly prohibited.","The decision of the judges will be final and binding."]
+              rules: ["Each band(if shortlisted) will be given 18 mins on stage inclusive of setup time.", "Drum kit and Keyboard stand will be provided.", "Obscenity of any kind is strictly prohibited.", "The decision of the judges will be final and binding."]
             }
           ],
           organizers: [
@@ -406,20 +401,41 @@ export const debugEvents = {
       }
     ], events: [{
       eventNames: "Online Photography Contest",
-      description: "Got a knack for composing great pictures ? Or do you look for frames whenever your eyes are open ? If your answer is yes for either of the questions, flex your talents here and win alluring prizes. ",
-      date: "TBD",
-      fromTime: undefined, toTime: undefined,
-      venue: "TBD",
+      description: "Got a knack for composing great pictures? Or do you look for frames whenever your eyes are open? If your answer is yes for either of the questions, flex your talents here and win alluring prizes.",
+      date: "On/Before March 5",
+      time: undefined,
+      venue: "Online",
       type: "Individual",
-      rules: [{ rules: ["Only one submission per participant", "Theme: Open Category ", "Participants must follow @ssn_photography_club & snuc_capturesque", "Basic Colour Correction is allowed, photo manipulation is to be prohibited", "No Watermarks", "Your submission along with your Name and Contact Details is to be emailed to ssnphotographyclub@ssn.edu.in with the subject OPC '23"] }],
+      rules: [{ rules: ["Only one submission per participant (Open to all college students)", "Theme: Portraits", "Participants must follow @ssn_photography_club, @snuc_capturesque and @thiscamerawoman.", "Basic Colour Correction is allowed; photo manipulation is to be prohibited. Plagiarism will lead to disqualification.", "Pictures to be sent as .jpeg/.jpg (along with RAW if picture has been edited)", "Pictures with watermarks will not be evaluated.", "Your submission along with your Name and Contact Details is to be emailed to ssnphotographyclub@ssn.edu.in with the subject OPC '23 (Format for file name: FullName_College)", "Deadline: On / Before March 5, 2023.", "Entries will be judged by Sneha Nair (@thiscamerawoman), a Photographer and Cinematographer. Decision of the judge is final and binding."] }],
       organizers: [
         {
           name: "Venkatanathan M",
-          phone: "9176762175"
+          phone: "+91 9176762175"
         },
         {
-          name: "Jaishree",
-          phone: "6379631417"
+          name: "Krishna K",
+          phone: "+91 8618584124"
+        }
+      ]
+    },
+    {
+      eventNames: "Let Experts Talk:",
+      date: "March 10, 2023",
+      time: "1 – 3:30 PM",
+      showDecor: true,
+      venue: "Mini Auditorium",
+      organizers: [
+        {
+          name: "Kumaresh",
+          phone: "+91 7358267748"
+        },
+        {
+          name: "Janarth",
+          phone: "+91 9384675973"
+        },
+        {
+          name: "Raveesh",
+          phone: "+91 9995985389"
         }
       ]
     }]
@@ -431,17 +447,16 @@ export const debugEvents = {
         imgsrc: "saaral.png"
       },
       {
-        name: "Mudivizhi",
+        name: "முடிவிலி",
         imgsrc: "mudivili.jpg"
       }
     ], events: [
       {
-        eventNames: "Sagalakala Vallavan",
+        eventNames: "சகலகலா வல்லவன்",
         description:
-          "It includes crosswords, vaiyai moodi pesavum, etc. The final points from all the above events of teams will be added and  winners will be awarded. ",
+          "இன்றைய சூழலில் பேச வேண்டிய விஷயங்களை மேடையிட்டு பேசும் சாரலின்  பட்டிமன்றத்திற்கும், நான்கு போட்டிகளை உள்ளடக்கிய சகலகலா வல்லவன் போட்டிக்கும் அனைவரையும் வரவேற்கிறது சாரல் தமிழ் மன்றம். தலைவர் பட வசனங்களை மணப்பாடமாய் பேசிய நமக்கு, அதை பேச ஒரு வாய்ப்பு தருகிறது வசன கர்த்தா போட்டி. இளங்கோவடிகள் முதல் அனிருத் வரை நம்மை கட்டி போட்ட இசையில் உள்ள சில சொற்களின் பொருளை சொல்ல பொருளை தரும் போட்டி இசை தமிழ். வாயை மூடி பேசவும் போட்டியில் திருக்குறளை குரலை பயன் படுத்தாமல் நடித்தே கண்டு பிடிக்க வைக்க வேண்டும். கடைசி போட்டி தொடரி போட்டி, தொடரியை போல் வார்த்தைகளை எடுத்து அதை கதையாய் தொடுக்க வெற்றி நமதே. தொலைந்த கண்டத்தை தேடும் முயற்சியில் வாசகங்களை வைத்து சாகசம் செய்ய இந்த இன்ஸ்டிங்க்ட்ஸில் சாரல் தமிழ் மன்றத்தோடு இணைவீர்.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Team",
         team_size: "TBD",
@@ -451,18 +466,17 @@ export const debugEvents = {
         description:
           "தமிழர் சிந்தனை கலை வெளிப்பாட்டு வடிவங்களில் சிறப்பான ஒரு வடிவமே பட்டிமன்றம். முரண்பாடான பலநோக்கங்கள் உடைய கருத்துகளை விவரிக்கவும், விவாதிக்கவும் மேலும் பேச்சுத்திறனை வெளிப்படுத்தவும் ஒரு சிறந்த மேடையை சாரல் தமிழ் மன்றம் மாணவர்களுக்கு அளிக்கிறது. ",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         team_size: "TBD",
         type: "Individual",
         rules: [{
-          ruleHead:"தகுதிச்சுற்று:",
-          rules:["கொடுக்கப்பட்ட தலைப்பில் போட்டியாளர்கள் 5 நிமிடங்கள் பேச வேண்டும்.","6 போட்டியாளர்கள் இறுதிச்சுற்றிற்கு தேர்ந்தெடுக்கப்படுவர்."]
+          ruleHead: "தகுதிச்சுற்று:",
+          rules: ["கொடுக்கப்பட்ட தலைப்பில் போட்டியாளர்கள் 5 நிமிடங்கள் பேச வேண்டும்.", "6 போட்டியாளர்கள் இறுதிச்சுற்றிற்கு தேர்ந்தெடுக்கப்படுவர்."]
         },
-      {
-        ruleHead: "இறுதிச்சுற்று:",
-        rules: ["பிரதான அரங்கத்தில் இறுதிச்சுற்று நடைபெறும்.","போட்டியாளர்கள் இரு அணிகளாக பிரிக்கப்பட்டு பட்டிமன்றம் நடைபெறும்.","ஒவ்வொரு போட்டியாளருக்கும் பேசுவதற்கு 7 நிமிடங்கள் வழங்கப்படும்.","சிறந்து பேசிய போட்டியார்களுக்கு பரிசுகள் வழங்கப்படும்."]
-      }]
+        {
+          ruleHead: "இறுதிச்சுற்று:",
+          rules: ["பிரதான அரங்கத்தில் இறுதிச்சுற்று நடைபெறும்.", "போட்டியாளர்கள் இரு அணிகளாக பிரிக்கப்பட்டு பட்டிமன்றம் நடைபெறும்.", "ஒவ்வொரு போட்டியாளருக்கும் பேசுவதற்கு 7 நிமிடங்கள் வழங்கப்படும்.", "சிறந்து பேசிய போட்டியார்களுக்கு பரிசுகள் வழங்கப்படும்."]
+        }]
       },
     ]
   },
@@ -482,8 +496,7 @@ export const debugEvents = {
         description:
           "General Quiz.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Lone Wolf/ Team",
         team_size: "1-3",
@@ -512,8 +525,7 @@ export const debugEvents = {
         description:
           "Quiz on Music , Entertainment, Literature and Arts.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Lone Wolf/ Team",
         team_size: "1-3",
@@ -542,8 +554,7 @@ export const debugEvents = {
         description:
           "Quiz about all types of Sports ",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Lone Wolf/ Team",
         team_size: "1-3",
@@ -585,8 +596,7 @@ export const debugEvents = {
         description:
           "Do you have worlds built out of clouds, imagination running wild? Here's your chance to pen down your dream stories! (or if you've already written and formulated the script, why wait?) We see that you have a story to tell, so we present the place for you. Register now for Quills out please, the scriptwriting competition hosted by Lights out please, the SSN Theatre club.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Individual",
         organizers: [
@@ -612,8 +622,7 @@ export const debugEvents = {
         description:
           "Have you ever caught yourself giving a pretend Oscar acceptance speech with your shampoo bottle? Ever notice how you mimic your heroes in front of the mirror or how you instantly become depressed when a sad song comes on the car’s stereo? If you’ve done all this, here’s your chance to come up and do it on the stage! Sign up for the Mono Acting Competition hosted by Lights Out Please, the most celebrated and the only theatre club of SSN.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Individual",
         organizers: [
@@ -650,8 +659,7 @@ export const debugEvents = {
         description:
           "Arudhra (SSN-CDT) and Ameya (SNU-CDT) is proud to announce our flagship event for Instincts 2023. This is a solo dance competition for all enthusiastic classical dancers across the country. Here is your platform to showcase your flair for classical dance. Join us here for an enriching journey. ",
         date: "March 10, 2023",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Individual",
         organizers: [
@@ -736,8 +744,7 @@ export const debugEvents = {
         description:
           "It’s time to say bonjour to your inner fashion creator et create costumes along with your amis. Instincts is back in the game with ‘Roaming Paris’!! This exclusive costume designing event will surely tickle your artistic minds for the day. Each team consisting of 2-3 members will be instructed as to what supplies are needed to design their costume on the spot and will be given 2.5 hours to complete the dress. Supplies required for the costume will be provided by the organizers and additionally each team is also allowed to bring their own art supplies.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Team",
         team_size: "2-3",
@@ -767,8 +774,7 @@ export const debugEvents = {
         description:
           "A competition for witty creative artists.  If a quick draw and guess is your  major then hands down this event is for you and your team. Only the best minds will draw and conquer while the others will be stuck in their own drawn hurdles. We're back with another event - 'Soles on Fire'! With 3-4 members in a team, this event highlights the excitement of a relay. The 1st member receives a topic and they should draw as understandably as possible on a chart provided by us. The second member enters 15 minutes later, and continues to draw, in turn, trying to guess the topic. Each member continues to do the same until the members have completed their time limit. The total duration is 1.5 hours, and supplies must be brought by the participants. An important note here is that the 1st member cannot communicate with remaining members. The group needs to guess the topic as they continue to draw.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Team",
         team_size: "3-4",
@@ -798,8 +804,7 @@ export const debugEvents = {
         description:
           "A picture can paint a thousand words but can you paint a picture with a few hindrances your way? inspired from the famous tv show Cook with comali here's an opportunity to showcase your talent on the canvas while facing a few hurdles and hindrances coming through. Will you and your partner overcome the challenges and still win? Join to find out.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Team",
         team_size: "2-3",
@@ -829,8 +834,7 @@ export const debugEvents = {
         description:
           "Sheets and walls are too mainstream, showcase your painting skill on the face of your friend! What a look! Is a fun & creative face painting/makeup event that will for sure be an electrifying experience with 2-3 participants per team. The topic will be given on the spot with the total duration of 1.5 hours. It is expected that participants bring their own supplies.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Team",
         team_size: "2",
@@ -873,8 +877,7 @@ export const debugEvents = {
         description:
           "A recreation of the massively entertaining IPL Auction - where teams are expected to bid for players and build a title-winning squad for their franchise.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Team",
         team_size: "3-6",
@@ -898,8 +901,7 @@ export const debugEvents = {
         description:
           "Udaan is a platform which puts one’s general interpretation skills to test. It features a mixture of exciting fun filled rounds, which infuses the perspective of entrepreneurship into generic real world based scenarios.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Team",
         team_size: "4-5",
@@ -937,8 +939,7 @@ export const debugEvents = {
         description:
           "Udaan is a platform which puts one’s general interpretation skills to test. It features a mixture of exciting fun filled rounds, which infuses the perspective of entrepreneurship into generic real world based scenarios.",
         date: "TBD",
-        fromTime: undefined,
-        toTime: undefined,
+        time: undefined,
         venue: "TBD",
         type: "Team",
         team_size: "4-5",

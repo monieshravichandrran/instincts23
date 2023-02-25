@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { Fragment, useEffect, useRef, useState } from "react";
+import { ReactNode } from "react";
 import Image from "next/image";
 import {
   BsFillCalendarCheckFill,
@@ -9,6 +10,8 @@ import {
 } from "react-icons/bs";
 import { RiTeamFill } from "react-icons/ri";
 import { IoLocationSharp } from "react-icons/io5";
+import { JsxElement } from "typescript";
+
 
 type people = {
   name: string;
@@ -22,13 +25,13 @@ type ruleType = {
 
 type eventDetailsType = {
   eventNames: string;
-  description: string;
+  description?: ReactNode;
   rules?: ruleType[];
+  showDecor?: boolean;
   date: string;
-  fromTime?: string;
-  toTime?: string;
+  time?: string;
   venue?: string;
-  type: string;
+  type?: string;
   team_size?: string;
   organizers?: people[];
   ruleBook?: string;
@@ -47,9 +50,10 @@ type clubEvents = {
 type Children = {
   clubName: string;
   eventDetails: clubEvents;
+  decor?: ReactNode;
 };
 
-export const Events = ({ clubName, eventDetails }: Children) => {
+export const Events = ({ clubName, eventDetails, decor }: Children) => {
   const [selecteId, setSelectedId] = useState(0);
   const previousValue = useRef(selecteId);
 
@@ -110,12 +114,19 @@ export const Events = ({ clubName, eventDetails }: Children) => {
           <h3 className="mb-4 text-3xl font-bold text-left text-white font-title">
             {eventDetails.events[selecteId].eventNames}
           </h3>
-          <p className="text-lg text-justify text-white font-body md:text-xl">
-            {eventDetails.events[selecteId].description}
-          </p>
-          <h2 className="mt-10 text-2xl text-white font-title">Rules</h2>
+          {eventDetails.events[selecteId].description ?
+            <p className="text-lg text-justify text-white font-body md:text-xl">
+              {eventDetails.events[selecteId].description}
+            </p>
+            : null}
+          {decor && eventDetails.events[selecteId].showDecor?
+                      <p className="text-lg text-justify text-white font-body md:text-xl">
+                      {decor}
+                    </p>
+          :null}
           {eventDetails.events[selecteId].rules?.length ? (
             <>
+              <h2 className="mt-10 text-2xl text-white font-title">Rules</h2>
               {eventDetails.events[selecteId].rules?.map((li_item) => (
                 <Fragment key={li_item.ruleHead}>
                   {li_item.ruleHead ? (
@@ -136,11 +147,7 @@ export const Events = ({ clubName, eventDetails }: Children) => {
                 </Fragment>
               ))}
             </>
-          ) : (
-            <p className="text-lg text-justify text-white font-body md:text-xl">
-              <b className="mr-1 font-title">TBD</b>
-            </p>
-          )}
+          ) : (null)}
           <div className="flex flex-col items-start justify-around mt-5">
             <div className="flex items-center justify-between">
               <div className="rounded-3xl bg-white flex justify-around items-center p-2 text-black w-fit sm:mr-3 md:mr-3">
@@ -150,11 +157,9 @@ export const Events = ({ clubName, eventDetails }: Children) => {
               <div className="rounded-3xl bg-white flex justify-around items-center p-2 text-black w-fit">
                 <BsFillClockFill size={20} className="mr-2" />
                 <p>
-                  {eventDetails.events[selecteId].fromTime &&
-                  eventDetails.events[selecteId].toTime ? (
+                  {eventDetails.events[selecteId].time ? (
                     <>
-                      {eventDetails.events[selecteId].fromTime} to{" "}
-                      {eventDetails.events[selecteId].toTime}
+                      {eventDetails.events[selecteId].time}
                     </>
                   ) : (
                     "TBD"
@@ -162,15 +167,21 @@ export const Events = ({ clubName, eventDetails }: Children) => {
                 </p>
               </div>
             </div>
-
-            <div className="rounded-3xl  flex justify-around items-center bg-white p-3 mt-3 text-black  w-fit">
-              <RiTeamFill size={20} className="mr-2" />
-              <p>
-                {eventDetails.events[selecteId].team_size
-                  ? eventDetails.events[selecteId].team_size
-                  : "TBD"}
-              </p>
-            </div>
+            {eventDetails.events[selecteId].type ?
+              <div className="rounded-3xl  flex justify-around items-center bg-white p-3 mt-3 text-black  w-fit">
+                <p>
+                  {eventDetails.events[selecteId].type}
+                </p>
+              </div>
+              : null}
+            {eventDetails.events[selecteId].team_size ?
+              <div className="rounded-3xl  flex justify-around items-center bg-white p-3 mt-3 text-black  w-fit">
+                <RiTeamFill size={20} className="mr-2" />
+                <p>
+                  {eventDetails.events[selecteId].team_size}
+                </p>
+              </div>
+              : null}
 
             <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black">
               <IoLocationSharp size={20} />
