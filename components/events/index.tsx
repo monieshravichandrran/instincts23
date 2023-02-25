@@ -110,7 +110,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
             </div>
           ))}
         </div>
-        <div className="clubs clubitem rounded-lg sm:mb-10 bg-gradient-to-r from-[#ae8141] to-gray-800 bg-blend-color-dodge p-10 lg:min-h-[70vh] md:min-h-fit lg:w-[74%] sm:w-[95%] md:w-[95%] mt-5 flex-wrap">
+        <div className="clubs clubitem rounded-lg sm:mb-10 bg-gradient-to-r from-[#ae8141] to-gray-800 bg-blend-color-dodge p-4 lg:min-h-[70vh] md:min-h-fit lg:w-[74%] sm:w-[95%] md:w-[95%] mt-5 flex-wrap">
           <h3 className="mb-4 text-3xl font-bold text-left text-white font-title">
             {eventDetails.events[selecteId].eventNames}
           </h3>
