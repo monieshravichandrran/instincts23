@@ -20,14 +20,14 @@ export const Footer = () => {
       <div className="flex items-center gap-4 mt-5">
         <a href="https://www.instagram.com/iammoniesh208/">
           <img
-            className="w-[6.5rem] h-[6.5rem] duration-300 cursor-pointer hover:scale-125"
+            className="w-[6rem] h-[6rem] duration-300 cursor-pointer hover:scale-125"
             src="/images/moniesh.png"
             alt="Moniesh"
           />
         </a>
         <a href="https://twitter.com/Amanrk28">
           <img
-            className="w-24 h-24 mt-2 duration-300 cursor-pointer hover:scale-125"
+            className="w-[7rem] h-[7rem] mt-2 duration-300 cursor-pointer hover:scale-125"
             src="/images/aman.png"
             alt="Aman Khemka"
           />

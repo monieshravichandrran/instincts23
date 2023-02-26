@@ -248,6 +248,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/open?id=1XPZb8Xb_pwWayT4Jx8kYhQagMWOf9fad",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSf3OFJzHRN08nTRPgkY_02G8MYPa3-Ps-fpoD7wZ8XS_jmsrA/viewform?embedded=true"
       },
       {
         eventNames: "Lights, Camera, Sale!",
@@ -287,6 +288,7 @@ export const debugEvents = {
             phone: "7598955470",
           },
         ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdOt5JqfqVJbuc9Ql7r9ZoiGBjz3FjK95LTnwxBrrJ3j-JbNg/viewform?embedded=true"
       },
     ]
   },
@@ -320,9 +322,9 @@ export const debugEvents = {
             ],
           },
         ],
-        date: "May 13, 2022",
-        time: "10AM-1PM",
-        venue: "IT Lab 1",
+        date: "TBD",
+        time: "TBD",
+        venue: "TBD",
         type: "Lone-Wolf / Team",
         team_size: "2 (Max)",
         organizers: [
@@ -464,7 +466,8 @@ export const debugEvents = {
           name: "Krishna K",
           phone: "+91 8618584124"
         }
-      ]
+      ],
+      form: "https://docs.google.com/forms/d/e/1FAIpQLSendbrMm65oIjkrgSRV-Klu3APtIqI7hckXLL0pFAoxcdOG6A/viewform?embedded=true"
     },
     {
       eventNames: "Let Experts Talk:",
@@ -485,7 +488,8 @@ export const debugEvents = {
           name: "Raveesh",
           phone: "+91 9995985389"
         }
-      ]
+      ],
+      form: "https://docs.google.com/forms/d/e/1FAIpQLSendbrMm65oIjkrgSRV-Klu3APtIqI7hckXLL0pFAoxcdOG6A/viewform?embedded=true"
     }]
   },
   saaral: {
@@ -824,6 +828,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/open?id=1t3dqdydxZU5gO3J1qC-XECm0DT4MuCGQ",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScYKefZArO49W6I_G8u0e1lIUOSfV7F-jYsVLn79LXQabhZ5g/viewform?embedded=true"
       },
       {
         eventNames: "Soles on Fires",
@@ -854,6 +859,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/open?id=1QRIqj9-R4ak3ZWKQhdIiqYwqJ1Z4-1cN",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScg-Lh902r8azdWAy2tWTUQpxor2i-1YZQ4ApCNmct1Qf7Jyg/viewform?embedded=true"
       },
       {
         eventNames: "Draw with comali",
@@ -884,6 +890,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/open?id=1gmUTY_HKOBb2evipfZLzRGqJEVp4zJ6E",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScjx8moGwfouu9qQilFRCdhYOXUeKmvQmtJW56r2qwLPvG6lw/viewform?embedded=true" 
       },
       {
         eventNames: "What a look!",
@@ -914,6 +921,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/open?id=1QjRiqcAc81wq1et3F0jbvhhjP_uogayQ",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScbhAFLBCSz00AAwiD4rgbZAPIN0mZ0zYkWiQ30Buq2tx25QQ/viewform?embedded=true" 
       },
     ]
   },
