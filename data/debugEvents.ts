@@ -505,6 +505,7 @@ export const debugEvents = {
         venue: "TBD",
         type: "Team",
         team_size: "TBD",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSc8MG70OJobMYHKBRIq-MZCbvr7AYjELrtZ0Me28LDkDEtufA/viewform?embedded=true"
       },
       {
         eventNames: "பட்டிமன்றம்",
@@ -521,7 +522,8 @@ export const debugEvents = {
         {
           ruleHead: "இறுதிச்சுற்று:",
           rules: ["பிரதான அரங்கத்தில் இறுதிச்சுற்று நடைபெறும்.", "போட்டியாளர்கள் இரு அணிகளாக பிரிக்கப்பட்டு பட்டிமன்றம் நடைபெறும்.", "ஒவ்வொரு போட்டியாளருக்கும் பேசுவதற்கு 7 நிமிடங்கள் வழங்கப்படும்.", "சிறந்து பேசிய போட்டியார்களுக்கு பரிசுகள் வழங்கப்படும்."]
-        }]
+        }],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfHT976qp53jV9DrKhYoqEbqARIXYothKl-bEeijGK7HBPY-g/viewform?embedded=true"
       },
     ]
   },
@@ -941,6 +943,7 @@ export const debugEvents = {
             phone: "7395973995",
           }
         ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfmwcNcrrilOAWOiJokRPmyldzjDuopt8lloFO5uEM03EDjHQ/viewform?embedded=true"
       },
       {
         eventNames: "Udaan",
@@ -969,7 +972,8 @@ export const debugEvents = {
             phone: "9884039394"
           }
         ],
-        ruleBook: "https://drive.google.com/open?id=11D4UQm0RfqtYKQQHbNp2J18rYd2iX-ZZ"
+        ruleBook: "https://drive.google.com/open?id=11D4UQm0RfqtYKQQHbNp2J18rYd2iX-ZZ",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdXKe6NNFI5BWsmJSJXUEKQTWoZHxjQhdmcw4x3eeJuCE2p1A/viewform?embedded=true"
       },
     ]
   },
