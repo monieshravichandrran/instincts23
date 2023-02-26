@@ -780,7 +780,7 @@ export const debugEvents = {
         description:
           "Arudhra (SSN-CDT) and Ameya (SNU-CDT) is proud to announce our flagship event for Instincts 2023. This is a solo dance competition for all enthusiastic classical dancers across the country. Here is your platform to showcase your flair for classical dance. Join us here for an enriching journey. ",
         date: "March 10, 2023",
-        time: "9AM - 1AM",
+        time: "9AM - 11AM",
         venue: "Central Seminar Hall",
         type: "Individual",
         organizers: [
