@@ -237,7 +237,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
               )}
               {eventDetails.events[selecteId].form ?
                 <button
-                  className="button mt-10 !text-white"
+                  className="neon-button mt-10 !text-white"
                   onClick={openModal}
                 >
                   Register

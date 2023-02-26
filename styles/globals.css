@@ -425,20 +425,20 @@ body {
 
 
 .neon-button {
-  font-size: 3rem;
-  color: var(--clr-neon);
+  font-size: 1.5rem;
+  color: #ffefcd;
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
-  border: var(--clr-neon) .125em solid;
+  border: #ffefcd .125em solid;
   padding: .25em 1em;
   border-radius: 0.25em;
   text-shadow: 
     0 0 0.125em hsl(0 0% 100% / 0.3),
     0 0 0.45em currentColor;
   box-shadow:
-    inset 0 0 0.5em 0 var(--clr-neon),
-    0 0 0.5em 0 var(--clr-neon);
+    inset 0 0 0.5em 0 #ffefcd,
+    0 0 0.5em 0 #ffefcd;
   position: relative;
 /*   transition: background-color 100ms linear; */
 }
@@ -447,7 +447,7 @@ body {
   pointer-events: none;
   content: '';
   position: absolute;
-  background: var(--clr-neon);
+  background: #ffefcd;
   top: 120%;
   left: 0;
   width: 100%;
@@ -460,7 +460,7 @@ body {
 
 .neon-button:hover, .neon-button:focus {
 /*   background: var(--clr-neon); */
-  color: var(--clr-bg);
+  color: #ffefcd;
   text-shadow: none;
 }
 
@@ -471,8 +471,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  box-shadow: 0 0 2em 0.5em var(--clr-neon);
-  background-color: var(--clr-neon);
+  box-shadow: 0 0 2em 0.5em #ffefcd;
+  background-color: #ffefcd;
   z-index: -1;
   opacity: 0;
   transition: opacity 100ms linear;

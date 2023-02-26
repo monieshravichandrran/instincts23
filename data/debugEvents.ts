@@ -238,8 +238,8 @@ export const debugEvents = {
             phone: "9940630160",
           },
           {
-            name: "Raghupathy J",
-            phone: "9962480903",
+            name: "Tejaswini",
+            phone: "6309011008",
           },
           {
             name: "Muhilan",
@@ -280,8 +280,8 @@ export const debugEvents = {
             phone: "9940630160",
           },
           {
-            name: "Raghupathy J",
-            phone: "9962480903",
+            name: "Tejaswini",
+            phone: "6309011008",
           },
           {
             name: "Mughilan",
@@ -718,8 +718,8 @@ export const debugEvents = {
         description:
           "Arudhra (SSN-CDT) and Ameya (SNU-CDT) is proud to announce our flagship event for Instincts 2023. This is a solo dance competition for all enthusiastic classical dancers across the country. Here is your platform to showcase your flair for classical dance. Join us here for an enriching journey. ",
         date: "March 10, 2023",
-        time: undefined,
-        venue: "TBD",
+        time: "9AM - 1AM",
+        venue: "Central Seminar Hall",
         type: "Individual",
         organizers: [
           {
@@ -731,7 +731,7 @@ export const debugEvents = {
             phone: "8144244911",
           },
           {
-            name: "Suraksha",
+            name: "Suraksha SP",
             phone: "8939642569",
           },
           {
