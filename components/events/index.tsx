@@ -127,7 +127,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                 </div>
               ))}
             </div>
-            <div className="clubs clubitem rounded-lg sm:mb-10 bg-gradient-to-r from-[#ae8141] to-gray-800 bg-blend-color-dodge p-4 lg:min-h-[70vh] md:min-h-fit lg:w-[74%] sm:w-[95%] md:w-[95%] mt-5 flex-wrap">
+            <div className="pb-24 clubs clubitem rounded-lg sm:mb-10 bg-gradient-to-r from-[#ae8141] to-gray-800 bg-blend-color-dodge p-4 lg:min-h-[70vh] md:min-h-fit lg:w-[74%] sm:w-[95%] md:w-[95%] mt-5 flex-wrap">
               <h3 className="mb-4 text-3xl font-bold text-left text-white font-title">
                 {eventDetails.events[selecteId].eventNames}
               </h3>
@@ -229,13 +229,14 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
               </div>
               {eventDetails.events[selecteId].ruleBook && (
                 <a
-                  className="mt-4 w-full text-right m-4  px-6 py-2 text-green-100 rounded bg-gradient-to-r from-red-800 via-yellow-600 to-yellow-500"
+                  className="mt-12 relative top-[30px] w-full text-right m-4  px-6 py-2 text-green-100 rounded bg-gradient-to-r from-red-800 via-yellow-600 to-yellow-500"
                   href={eventDetails.events[selecteId].ruleBook}
                 >
                   Rule Book
                 </a>
               )}
               <br />
+              <div className="relative top-[30px] mt-10 flex justify-center">
               {eventDetails.events[selecteId].form ?
                 <button
                   className="neon-button mt-10 !text-white"
@@ -244,6 +245,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                   Register
                 </button>
                 : null}
+              </div>
             </div>
           </div>
         </>
