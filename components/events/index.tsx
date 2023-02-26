@@ -57,6 +57,10 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
   const [selecteId, setSelectedId] = useState(0);
   const [modalIsOpen, setIsOpen] = useState(false);
   const previousValue = useRef(selecteId);
+  var isTamil = false;
+  if (clubName == "Saaral Thamizh Mandram"){
+    isTamil = true;
+  }
 
   useEffect(() => {
     document.querySelector(`.btn-0`)?.classList.add("btn-color");
@@ -132,9 +136,10 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                 {eventDetails.events[selecteId].eventNames}
               </h3>
               {eventDetails.events[selecteId].description ?
-                <p className="text-lg text-justify text-white font-body md:text-xl">
-                  {eventDetails.events[selecteId].description}
-                </p>
+                isTamil ? <p className="text-lg lg:text-justify md:text-justify text-white font-body md:text-xl">
+            {eventDetails.events[selecteId].description}
+          </p> :<p className="text-lg text-justify  white font-body md:text-xl">
+            {eventDetails.events[selecteId].description} </p>
                 : null}
               {decor && eventDetails.events[selecteId].showDecor ?
                 <p className="text-lg text-justify text-white font-body md:text-xl">
@@ -152,14 +157,22 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                         </p>
                       ) : null}
                       <ul className="list-disc list-inside">
-                        {li_item.rules?.map((item) => (
+                        {isTamil ? li_item.rules?.map((item) => (
+                          <li
+                            key={item}
+                            className="text-lg text-white font-body md:text-xl"
+                          >
+                            {item}
+                          </li>
+                        )):li_item.rules?.map((item) => (
                           <li
                             key={item}
                             className="text-lg text-justify text-white font-body md:text-xl"
                           >
                             {item}
                           </li>
-                        ))}
+                        ))
+                        }
                       </ul>
                     </Fragment>
                   ))}
