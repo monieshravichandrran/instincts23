@@ -900,7 +900,7 @@ export const debugEvents = {
         time: undefined,
         venue: "TBD",
         type: "Team",
-        team_size: "3-4",
+        team_size: "4",
         organizers: [
           {
             name: "Srisailakhshmi R",
