@@ -235,6 +235,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                   Rule Book
                 </a>
               )}
+              <br />
               {eventDetails.events[selecteId].form ?
                 <button
                   className="neon-button mt-10 !text-white"

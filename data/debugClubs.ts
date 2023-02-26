@@ -1,13 +1,13 @@
 export const Clubs = [
   {
-    imageSource: "literature.avif",
+    imageSource: "literature.png",
     alternate: "elc",
     clubName: "Literary",
     description: "Step into the world of words with the English Literature Clubs of SSN and SNU. The ELC is a space where language, literature, and creativity merge to form an exquisite blend of ideas, perspectives, and expression. From exploring the depths of classic literature to unleashing your inner performer on stage, our clubs offer a range of exciting opportunities to expand your literary horizons. So, come be a part of our world and discover the magic of language!",
     link: "/clubs/literary",
   },
   {
-    imageSource: "gaming.webp",
+    imageSource: "Game.png",
     alternate: "gaming",
     clubName: "Gaming",
     description:
@@ -15,15 +15,15 @@ export const Clubs = [
     link: "/clubs/gaming",
   },
   {
-    imageSource: "theatre.cms",
+    imageSource: "Theatre.png",
     alternate: "lop",
-    clubName: "Thespian (Theatre)",
+    clubName: "Thespian",
     description:
       'The club that saves the drama for the stage and the club that keeps you on the edge of your seat as they cue their usual "Lights out, please!", the club where you break a leg for good luck and the club for the actor in you - LOP is a one stop shop for your favorite theatre gimmicks!',
     link: "/clubs/theatre",
   },
   {
-    imageSource: "quiz.jpeg",
+    imageSource: "Quiz.png",
     alternate: "qfac",
     clubName: "Quiz",
     description:
@@ -31,7 +31,7 @@ export const Clubs = [
     link: "/clubs/quiz",
   },
   {
-    imageSource: "tamil.jpeg",
+    imageSource: "Tamil.png",
     alternate: "tamil",
     clubName: "தமிழ்",
     description:
@@ -39,7 +39,7 @@ export const Clubs = [
     link: "/clubs/tamil",
   },
   {
-    imageSource: "design.webp",
+    imageSource: "Design.png",
     alternate: "design",
     clubName: "Design",
     description:
@@ -47,7 +47,7 @@ export const Clubs = [
     link: "/clubs/design",
   },
   {
-    imageSource: "film.jpeg",
+    imageSource: "Film.png",
     alternate: "film",
     clubName: "Film",
     description:
@@ -55,7 +55,7 @@ export const Clubs = [
     link: "/clubs/film",
   },
   {
-    imageSource: "music.jpeg",
+    imageSource: "music.png",
     alternate: "music",
     clubName: "Music",
     description:
@@ -63,7 +63,7 @@ export const Clubs = [
     link: "/clubs/music",
   },
   {
-    imageSource: "photographer.jpeg",
+    imageSource: "Photograph.png",
     alternate: "Photography",
     clubName: "Photography",
     description:
@@ -71,7 +71,7 @@ export const Clubs = [
     link: "/clubs/photography",
   },
   {
-    imageSource: "classical.jpg",
+    imageSource: "classical.png",
     alternate: "Classical Dance",
     clubName: "Classical Dance",
     description:
@@ -80,7 +80,7 @@ export const Clubs = [
     link: "/clubs/classical",
   },
   {
-    imageSource: "western.jpeg",
+    imageSource: "western.png",
     alternate: "western",
     clubName: "Western Dance",
     description:
@@ -88,7 +88,7 @@ export const Clubs = [
     link: "/clubs/western",
   },
   {
-    imageSource: "varietyshow.jpeg",
+    imageSource: "variety.png",
     alternate: "talents",
     clubName: "Variety Show",
     description:
@@ -96,14 +96,14 @@ export const Clubs = [
     link: "/clubs/talents",
   },
   {
-    imageSource: "business.jpeg",
+    imageSource: "Businessout.png",
     alternate: "business",
     clubName: "Business & Entrepreneurship",
     description: "Business Club has arrived on the Lost Continent for our first ever stint at Instincts! Prepare to set your sails in the direction of an event that will test your adaptability, business acumen and bidding(?!) skills. Maneuver your ships through the obstacles we throw at you and climb your way to the top of the lot! ",
     link: "/clubs/business",
   },
   {
-    imageSource: "arts.webp",
+    imageSource: "arts.png",
     alternate: "arts",
     clubName: "Art",
     description: "HANDILA- the Art Club has recently joined hands with the INSTINCTS'23 to offer an unparalleled and thrilling experience to students, The search for a lost continent has long been an obsession of art and literature. With a combination of creative expression and real-world exploration, you can uncover the secrets of a lost continent. let your imagination take flight as you journey through an unknown land.From crafty costume designing to face makeup/painting and much more! With art as your guide, find the lost continent through adventure included!",

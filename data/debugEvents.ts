@@ -45,7 +45,7 @@ export const debugEvents = {
             phone: "8072237166",
           },
         ],
-        form:"https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
       },
       {
         eventNames: "Navigate (Creative Writing)",
@@ -74,7 +74,7 @@ export const debugEvents = {
             phone: "6383142169",
           },
         ],
-        form:"https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
       },
       {
         eventNames: "Potpourri",
@@ -105,7 +105,7 @@ export const debugEvents = {
             phone: "73056 34359",
           },
         ],
-        form:"https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
       },
       {
         eventNames: "Shipwreck",
@@ -140,8 +140,70 @@ export const debugEvents = {
             phone: "9500147579",
           }
         ],
-        form:"https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
-      }
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
+      },
+      {
+        eventNames: "Just A Minute (JAM)",
+        description:
+          "Be wary on your journey to the lost continent. Bandits and thieves lurk in the shadows and capture unsuspecting heroes at midnight. They say that several hostages are held in a single room and only one can get out.  To escape and flee you must speak a minute error free. So tell me are you a worthy candidate to find the legendary lost continent?",
+        rules: [
+          {
+            rules: [
+              "Each round of this game is for a duration of 60 seconds each.",
+              "Points are awarded for the amount of time spoken for, as well as correct objections.",
+              "In case of a wrong objection, points will be deducted.",
+            ],
+          },
+        ],
+        date: "March 11, 2023",
+        time: "2PM - 5PM",
+        venue: "Central seminar hall",
+        type: "Individual",
+        organizers: [
+          {
+            name: "D Shruthi",
+            phone: "9840651057",
+          },
+          {
+            name: "R. Krithika Dinushini",
+            phone: "9363048686",
+          },
+          {
+            name: "Maanya C Bharath",
+            phone: "9176716052"
+          }
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
+      },
+      {
+        eventNames: "SUCC (Stand Up Comedy Contest)",
+        description:
+          "Prepare to be transported on a hilarious journey to a forgotten land, as we bring you a comedy event like no other. Join us for an unforgettable evening of laughter and entertainment, where you'll discover a new world of humor and adventure. Get ready to experience the unexpected and leave your worries behind, as we take you on a journey to a world that's been lost in time.",
+        rules: [
+          {
+            rules: [
+              "Keep your sets under 5 minutes.",
+              "Sets in English are preferred, Tamil and Hindi are okay as well. ",
+              "Obscenity is to be avoided!",
+            ],
+          },
+        ],
+        date: "March 11, 2023",
+        time: "10:30AM - 1:30PM",
+        venue: "Seminar hall",
+        type: "Individual",
+        organizers: [
+          {
+            name: "Supraja",
+            phone: "9840774624",
+          },
+          {
+            name: "Shan",
+            phone: "6381284982",
+          }
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
+      },
     ]
   },
   gaming: {
@@ -380,7 +442,7 @@ export const debugEvents = {
               phone: "9176762175"
             }
           ],
-          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true" 
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true"
         },
         {
           eventNames: "Riff Off",
@@ -402,7 +464,7 @@ export const debugEvents = {
               phone: "9899347675"
             }
           ],
-          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true" 
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true"
         },
         {
           eventNames: "Band Hunt",
@@ -435,7 +497,7 @@ export const debugEvents = {
               phone: "9941669034"
             }
           ],
-          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true" 
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true"
         },
       ]
   },
@@ -467,7 +529,7 @@ export const debugEvents = {
           phone: "+91 8618584124"
         }
       ],
-      form: "https://docs.google.com/forms/d/e/1FAIpQLSendbrMm65oIjkrgSRV-Klu3APtIqI7hckXLL0pFAoxcdOG6A/viewform?embedded=true"
+      form: "https://forms.gle/vVvYh6VEG4Yc3PHAA"
     },
     {
       eventNames: "Let Experts Talk:",
@@ -489,7 +551,7 @@ export const debugEvents = {
           phone: "+91 9995985389"
         }
       ],
-      form: "https://docs.google.com/forms/d/e/1FAIpQLSendbrMm65oIjkrgSRV-Klu3APtIqI7hckXLL0pFAoxcdOG6A/viewform?embedded=true"
+      form: "https://forms.gle/vVvYh6VEG4Yc3PHAA"
     }]
   },
   saaral: {
@@ -673,7 +735,7 @@ export const debugEvents = {
             ],
           }
         ],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true"
       },
       {
         eventNames: "Mono Acting",
@@ -698,7 +760,7 @@ export const debugEvents = {
             ],
           }
         ],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true"
       },
     ]
   },
@@ -890,7 +952,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/open?id=1gmUTY_HKOBb2evipfZLzRGqJEVp4zJ6E",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLScjx8moGwfouu9qQilFRCdhYOXUeKmvQmtJW56r2qwLPvG6lw/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScjx8moGwfouu9qQilFRCdhYOXUeKmvQmtJW56r2qwLPvG6lw/viewform?embedded=true"
       },
       {
         eventNames: "What a look!",
@@ -921,7 +983,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/open?id=1QjRiqcAc81wq1et3F0jbvhhjP_uogayQ",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLScbhAFLBCSz00AAwiD4rgbZAPIN0mZ0zYkWiQ30Buq2tx25QQ/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScbhAFLBCSz00AAwiD4rgbZAPIN0mZ0zYkWiQ30Buq2tx25QQ/viewform?embedded=true"
       },
     ]
   },
