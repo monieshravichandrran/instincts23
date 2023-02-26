@@ -45,6 +45,7 @@ export const debugEvents = {
             phone: "8072237166",
           },
         ],
+        form:"https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
       },
       {
         eventNames: "Navigate (Creative Writing)",
@@ -73,6 +74,7 @@ export const debugEvents = {
             phone: "6383142169",
           },
         ],
+        form:"https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
       },
       {
         eventNames: "Potpourri",
@@ -103,6 +105,7 @@ export const debugEvents = {
             phone: "73056 34359",
           },
         ],
+        form:"https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
       },
       {
         eventNames: "Shipwreck",
@@ -137,20 +140,62 @@ export const debugEvents = {
             phone: "9500147579",
           }
         ],
+        form:"https://docs.google.com/forms/d/e/1FAIpQLSezMf_kEPptkAt5XfB5p556E6TFizARAGQLTIacceFX38DHMw/viewform?embedded=true"
       }
     ]
   },
   gaming: {
     clubs: [
       {
-        name: "SSN English Literary Club",
-        imgsrc: "elc.jpeg"
+        name: "SSN Gaming Club",
+        imgsrc: "gaming.png"
+      }
+    ], events: [
+      {
+        eventNames: "Valor Cup",
+        description:
+          "This is a Valorant game event. Plan your strike and plant the spike! Clutch your way to the top in classic 5v5 team battles.",
+        date: "TBD",
+        time: "TBD",
+        venue: "TBD",
+        type: "Team",
+        team_size: "5",
+        organizers: [
+          {
+            name: "Vinay Angara",
+            phone: "9384619532",
+          },
+          {
+            name: "Pradeeshwar",
+            phone: "9952353704",
+          }
+        ],
+        ruleBook:
+          "https://drive.google.com/open?id=1jw2fWcqE8x6kGJja78Gzb2NcMhVXBfup",
       },
       {
-        name: "SNU English Literary Club",
-        imgsrc: "elc.jpeg"
+        eventNames: "CODM-MAYHEM",
+        description:
+          "This is an exciting and competitive mobile gaming multiplayer tournament, where you will get to showcase your skills and strategies in a series of rounds. The objective is to defeat opposing teams in a variety of game modes using various weapons and tactics.",
+        date: "TBD",
+        time: "TBD",
+        venue: "TBD",
+        type: "Team",
+        team_size: "5-6",
+        organizers: [
+          {
+            name: "Anish Panicker",
+            phone: "9618314560",
+          },
+          {
+            name: "Adarsh Kumar Sahu",
+            phone: "6381907955",
+          }
+        ],
+        ruleBook:
+          "https://drive.google.com/open?id=1HrIkmR93Gl9Dw6rSEmMGrc6kKvkW5CAe",
       }
-    ], events: []
+    ]
   },
   sfc: {
     clubs: [

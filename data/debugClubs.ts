@@ -43,7 +43,7 @@ export const Clubs = [
     alternate: "design",
     clubName: "Design",
     description:
-      "Embark on your very next design journey with the Gradient, the SSN Design Club and Handila, the SNUC Design Club! Our clubs are a place for all those who love to explore new design frontiers and turn all their ideas into reality. From logos to posters, pencil sketches to oil paintings, discover the wild depths of different art mediums, all fueled by our common undying spirit for great design. So gather your wooden oars or just pencils and set sail on a new adventure in design!",
+      "Embark on your very next design journey with the Gradient, the SSN Design Club and Aura, the SNUC Design Club! Our clubs are a place for all those who love to explore new design frontiers and turn all their ideas into reality. From logos to posters, pencil sketches to oil paintings, discover the wild depths of different art mediums, all fueled by our common undying spirit for great design. So gather your wooden oars or just pencils and set sail on a new adventure in design!",
     link: "/clubs/design",
   },
   {
