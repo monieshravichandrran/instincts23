@@ -67,6 +67,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
   }, [selecteId]);
 
   function openModal() {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
     setIsOpen(true);
   }
 
