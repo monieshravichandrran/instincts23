@@ -377,7 +377,8 @@ export const debugEvents = {
               name: "Venkat",
               phone: "9176762175"
             }
-          ]
+          ],
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true" 
         },
         {
           eventNames: "Riff Off",
@@ -398,7 +399,8 @@ export const debugEvents = {
               name: "Arnav",
               phone: "9899347675"
             }
-          ]
+          ],
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true" 
         },
         {
           eventNames: "Band Hunt",
@@ -430,7 +432,8 @@ export const debugEvents = {
               name: "Hrithin",
               phone: "9941669034"
             }
-          ]
+          ],
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true" 
         },
       ]
   },
@@ -565,7 +568,8 @@ export const debugEvents = {
               "Lone Wolf Participation allowed"
             ],
           }
-        ]
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScdwnqcKE_kwn3r8p5qj9xVTMtvc4bOsn8w6xtsy92vDl_s3A/viewform?embedded=true"
       },
       {
         eventNames: "MELA Quiz",
@@ -594,7 +598,8 @@ export const debugEvents = {
               "Prelims plus Final format, both happening offline."
             ],
           }
-        ]
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScdwnqcKE_kwn3r8p5qj9xVTMtvc4bOsn8w6xtsy92vDl_s3A/viewform?embedded=true"
       },
       {
         eventNames: "Sports Quiz",
@@ -623,7 +628,8 @@ export const debugEvents = {
               "Will be conducted in a Prelims plus Finals format"
             ],
           }
-        ]
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLScdwnqcKE_kwn3r8p5qj9xVTMtvc4bOsn8w6xtsy92vDl_s3A/viewform?embedded=true"
       },
     ]
   },
@@ -662,7 +668,8 @@ export const debugEvents = {
               "Font: TNR, size: 12, line spacing: 1, limit: 40 pages."
             ],
           }
-        ]
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true" 
       },
       {
         eventNames: "Mono Acting",
@@ -686,7 +693,8 @@ export const debugEvents = {
               "Ensure that you use the space around you to the maximum. "
             ],
           }
-        ]
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true" 
       },
     ]
   },
