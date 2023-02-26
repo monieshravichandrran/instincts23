@@ -36,8 +36,22 @@ body {
 .shimmer {
   text-align: center;
   color: rgb(65, 28, 14, 0.1);
-  background: -webkit-gradient(linear, left top, right top, from(#411c0e), to(#411c0e), color-stop(0.5, #fff));
-  background: gradient(linear, left top, right top, from(#411c0e), to(#411c0e), color-stop(0.1, #fff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#411c0e),
+    to(#411c0e),
+    color-stop(0.5, #fff)
+  );
+  background: gradient(
+    linear,
+    left top,
+    right top,
+    from(#411c0e),
+    to(#411c0e),
+    color-stop(0.1, #fff)
+  );
   background-size: 125px 100%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -81,8 +95,8 @@ body {
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
-  color: #7E5936;
-  border: 2px solid #7E5936;
+  color: #7e5936;
+  border: 2px solid #7e5936;
   cursor: pointer;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
@@ -288,7 +302,6 @@ body {
   font-weight: normal;
 }
 
-
 .slider {
   position: relative;
   display: flex;
@@ -312,22 +325,22 @@ body {
   z-index: 15;
   transition: left 500ms ease-in-out;
 }
-.slider .status .point[data-current='0'] {
+.slider .status .point[data-current="0"] {
   left: 4px;
 }
-.slider .status .point[data-current='1'] {
+.slider .status .point[data-current="1"] {
   left: 24px;
 }
-.slider .status .point[data-current='2'] {
+.slider .status .point[data-current="2"] {
   left: 44px;
 }
-.slider .status .point[data-current='3'] {
+.slider .status .point[data-current="3"] {
   left: 64px;
 }
-.slider .status .point[data-current='4'] {
+.slider .status .point[data-current="4"] {
   left: 84px;
 }
-.slider .status .point[data-current='5'] {
+.slider .status .point[data-current="5"] {
   left: 104px;
 }
 .slider .status .stat {
@@ -361,7 +374,7 @@ body {
   opacity: 0;
 }
 .slider .text div.current {
-  opacity: .7;
+  opacity: 0.7;
 }
 .slider img {
   object-fit: cover;
@@ -386,4 +399,26 @@ body {
 
 .btn-color {
   background: linear-gradient(to right, #ae8141, #1f2937);
+}
+
+.anim_li {
+  animation: slide-left 1s;
+  opacity: 1;
+}
+
+.anim {
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

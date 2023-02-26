@@ -50,7 +50,16 @@ export const CollegeLogo = () => {
       </div>
       <div
         className="absolute cursor-pointer md:hidden lg:hidden top-3 right-5 z-50"
-        onClick={() => setNav(!nav)}
+        onClick={() => {
+          setNav(!nav);
+          document.querySelector(".animm")?.classList.add("anim");
+          document.querySelectorAll(".animm_li").forEach((li, idx) => {
+            console.log(idx);
+            setTimeout(() => {
+              li.classList.add("anim_li");
+            }, 900 + idx * 200);
+          });
+        }}
       >
         <AiOutlineMenu size={30} color="white" />
       </div>
@@ -72,18 +81,24 @@ export const CollegeLogo = () => {
               <img src="/images/SSN-white.png" alt="SSN" className="w-[70px]" />
             </div>
             <div
-              onClick={() => setNav(!nav)}
+              onClick={() => {
+                setNav(!nav);
+                document.querySelector(".animm")?.classList.remove("anim");
+                document.querySelectorAll(".animm_li").forEach((li) => {
+                  li.classList.remove("anim_li");
+                });
+              }}
               className="p-3 bg-white rounded-full shadow-lg cursor-pointer shadow-gray-800 "
             >
               <AiOutlineClose color="black" />
             </div>
           </div>
           <div className="my-4 border-b border-gray-300"></div>
-          <div className="flex-col py-4">
-            <ul className="uppercase">
+          <div className="flex-col py-4  animm">
+            <ul className="uppercase ">
               <Link href="/events">
                 <li
-                  className="py-4 font-medium text-white"
+                  className="py-4 font-medium text-white animm_li opacity-0"
                   onClick={() => setNav(false)}
                 >
                   Events
@@ -91,7 +106,7 @@ export const CollegeLogo = () => {
               </Link>
               <Link href="/about">
                 <li
-                  className="py-4 font-medium text-white"
+                  className="py-4 font-medium text-white  animm_li opacity-0"
                   onClick={() => setNav(false)}
                 >
                   About
@@ -99,7 +114,7 @@ export const CollegeLogo = () => {
               </Link>
               <Link href="/gallery">
                 <li
-                  className="py-4 font-medium text-white"
+                  className="py-4 font-medium text-white  animm_li opacity-0"
                   onClick={() => setNav(false)}
                 >
                   Gallery
