@@ -29,6 +29,9 @@ export default function Home() {
             <p className="text-white text-[1.5rem] lg:text-[2.5rem] text-center font-title">
               Save the dates
             </p>
+            <p className="mt-5 md:mb-10 text-white text-[1rem] lg:text-[1rem] text-center">
+              Hunt the Lost Continent and Explore the events conducted by all the SSN & SNUC clubs.
+            </p>
             <div className="map mt-12">
               <img src="/images/map.png" alt="" className="!w-[100vw] !h-[100vw] md:!w-[50vw] md:!h-[40vw] lg:!w-[30vw] lg:!h-[30vw]" />
               <Link href="/clubs/literary">
