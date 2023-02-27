@@ -23,6 +23,7 @@ export default function Home() {
             Registration Opens Soon
           </h1>
           <div className="md:p-4 shadow-lg rounded-br-3xl">
+          <div id="timer" className="mb-5 gap-4 px-2 grid min-w-full lg:w-3/4 xl:w-1/2 mx-auto grid-cols-4 text-white font-title text-lg lg:text-3xl place-items-center"></div>
             <p className="text-white text-[1.5rem] lg:text-[2.5rem] text-center font-title">
               March 9, 10 <span className="text-2xl">&</span> 11
             </p>
@@ -33,7 +34,7 @@ export default function Home() {
               Hunt the Lost Continent and Explore the events conducted by all the SSN & SNUC clubs.
             </p>
             <div className="map mt-12">
-              <img src="/images/map.png" alt="" className="!w-[100vw] !h-[100vw] md:!w-[50vw] md:!h-[40vw] lg:!w-[30vw] lg:!h-[30vw]" />
+              <div className="flex justify-center w-full"><img src="/images/map.png" alt="" className="!w-[100vw] !h-[100vw] md:!w-[50vw] md:!h-[40vw] lg:!w-[30vw] lg:!h-[30vw]" /></div>
               <Link href="/clubs/literary">
                 <div id="pin-1" className="box">
                   <div className="pin-text">
@@ -154,6 +155,7 @@ export default function Home() {
       </div>
       <Footer />
       <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+      <script src="countDown.js"></script>
     </>
   );
 }
