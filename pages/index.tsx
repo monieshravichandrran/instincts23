@@ -59,7 +59,7 @@ export default function Home() {
                   </div>
                 </div>
               </Link>
-              <Link href="/clubs/design" className="bxl">
+              <Link href="/clubs/gaming" className="bxl">
                 <div id="pin-5" className="box4 bxl">
                   <div className="pin-text">
                     <h3>Gaming</h3>
@@ -101,7 +101,7 @@ export default function Home() {
                   </div>
                 </div>
               </Link>
-              <Link href="/clubs/arts" className="bxl">
+              <Link href="/clubs/art" className="bxl">
                 <div id="pin-11" className="box10 bxl">
                   <div className="pin-text">
                     <h3>Arts</h3>
