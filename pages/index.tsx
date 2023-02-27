@@ -17,7 +17,7 @@ export default function Home() {
             alt="Instincts 2023 - Lost Continent"
             height={0}
             width={700}
-            className="mb-[4rem] lg:p-8 clubitem"
+            className="mt-10 mb-[4rem] lg:p-8 clubitem"
           />
           <h1 className="text-[3rem] lg:text-[6rem] leading-[4rem] lg:leading-[8rem] font-title font-bold text-center mb-8 shimmer">
             Registration Opens Soon
@@ -29,7 +29,7 @@ export default function Home() {
             <p className="text-white text-[1.5rem] lg:text-[2.5rem] text-center font-title">
               Save the dates
             </p>
-            <p className="mt-5 md:mb-10 text-white text-[1rem] lg:text-[1rem] text-center">
+            <p className="mt-5 md:mb-10 text-white text-[1.2rem] lg:text-[1.2rem] text-center">
               Hunt the Lost Continent and Explore the events conducted by all the SSN & SNUC clubs.
             </p>
             <div className="map mt-12">
@@ -132,6 +132,24 @@ export default function Home() {
               </Button>
             </div>
           </div>
+          <h2 className="mt-20 mb-8 text-xl font-bold text-center lg:text-6xl font-title">
+            About Instincts
+          </h2>
+          <p className="p-10 text-lg shadow-lg rounded-br-3xl">
+            Marching towards its 18th year, INSTINCTS has set a benchmark in the
+            conduct of college fests where intellectual, social, cultural and
+            artistic talents are brought to view. This alluring platform offers to
+            showcase the latent talents of the students from colleges across the
+            nation. Instincts has seen an average footfall of 30,000+ every year.
+            <br />
+            <br />
+            SSN SNUC Instincts is one of the most awaited cultural events in the
+            country. This year, Instincts will be held offline with an exciting
+            prize pool of Rup
+          </p>
+          <Button href={"/gallery"} large>
+            Explore the Instincts Gallery
+          </Button>
         </div>
       </div>
       <Footer />
