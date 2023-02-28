@@ -20,7 +20,7 @@ export const Club = ({
 }: Children) => {
   return (
     <>
-      <div className="shadow-2xl w-full eventid">
+      <div className="shadow-2xl w-full">
         <Image
           src={"/images/clubs/" + imageSource}
           alt={alternate}
