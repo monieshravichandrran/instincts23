@@ -9,43 +9,66 @@ export const CollegeLogo = () => {
   const [nav, setNav] = useState(false);
   return (
     <>
+      <div id="containe">
+        <div id="navBar"></div>
+      </div>
       <div className="z-40">
         <img
           src="/images/SNUC-white.png"
           alt="SNUC"
-          className="w-[100px] lg:w-[180px] absolute top-5 left-2"
+          className="w-[100px] top-5 lg:w-[180px] absolute md:top-20 left-2"
         />
+        <img
+            src="/images/SSN-white.png"
+            alt="SSN"
+            className="mr-14 inline-block w-[70px] lg:w-[120px] absolute top-[1rem] md:top-[4.25rem] right-2 md:mr-0"
+          />
         <Link href="/">
           <img
             src="/images/instinctsLogo1.png"
             alt="SNUC"
-            className="w-16 h-16 mt-[-10px] md:w-20 md:h-20 md:mt-[-20px] z-50"
+            className="w-16 h-16 mt-[-10px] md:w-20 md:h-20 md:mt-[-20px] z-50 relative md:top-[4.5rem]"
           />
         </Link>
-        <div className="absolute text-white top-3 right-3 sm:text-xl md:text-2xl">
-          <Link
-            href="/events"
-            className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110 sm:hidden"
-          >
-            Events
-          </Link>
-          <Link
-            href="/about"
-            className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110 sm:hidden"
-          >
-            About
-          </Link>
-          <Link
-            href="/gallery"
-            className="inline-block mx-4 md:mx-10 hover:font-black hover:shadow-2xl hover:scale-110 sm:hidden"
-          >
-            Gallery
-          </Link>
-          <img
-            src="/images/SSN-white.png"
-            alt="SSN"
-            className="inline-block w-[70px] lg:w-[120px] sm:mr-14"
-          />
+        <div className="absolute text-white top-3 right-10 sm:text-xl md:text-2xl">
+          <div className="relative right-30 top-2">
+            <Link
+              href="/events"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+            >
+              Events
+            </Link>
+            <Link
+              href="/about"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+            >
+              About
+            </Link>
+            <Link
+              href="/schedule"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+            >
+              Schedule
+            </Link>
+            <Link
+              href="/contact"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+            >
+              Contact
+            </Link>
+            <Link
+              href="/sponsors"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+            >
+              Sponsors
+            </Link>
+            <Link
+              href="/gallery"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+            >
+              Gallery
+            </Link>
+          </div>
         </div>
       </div>
       <div

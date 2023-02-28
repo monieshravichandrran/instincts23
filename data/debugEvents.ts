@@ -439,7 +439,7 @@ export const debugEvents = {
             phone: "70129 74738",
           },
         ],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSfDGtIR0YBNzWylrDw2Dj_gjagksMjN33BeEvixJrQ_68Xfvw/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfDGtIR0YBNzWylrDw2Dj_gjagksMjN33BeEvixJrQ_68Xfvw/viewform?embedded=true"
       },
     ]
   },
@@ -521,7 +521,7 @@ export const debugEvents = {
             { rules: ["Participants MUST be college students with a valid college ID card and are required to purchase individual music passes.", "Members of the band need not be from the same college. Cross college bands are allowed.", "Music of any genre and language is permitted.", "Original compositions will be given extra points when compared to covers."] },
             {
               ruleHead: "Online Shortlisting",
-              rules: ["Bands should send in an online link of their performance.", " Note that the drive link shared must be accessible by ‘Anyone with the Link’.","Bands should send in an online link of their performance. Time Limit is 5 minutes. The deadline for sending in the online submission is 3rd March"]
+              rules: ["Bands should send in an online link of their performance.", " Note that the drive link shared must be accessible by ‘Anyone with the Link’.", "Bands should send in an online link of their performance. Time Limit is 5 minutes. The deadline for sending in the online submission is 3rd March"]
             },
             {
               ruleHead: "Finals",
@@ -900,14 +900,106 @@ export const debugEvents = {
   n2k: {
     clubs: [
       {
-        name: "SSN English Literary Club",
-        imgsrc: "elc.jpeg"
+        name: "SSN-N2K",
+        imgsrc: "n2k.jpeg"
       },
       {
-        name: "SNU English Literary Club",
-        imgsrc: "elc.jpeg"
+        name: "SNUC-RHYTHM",
+        imgsrc: "n2k.jpeg"
       }
-    ], events: []
+    ], events: [
+      {
+        eventNames: "WESTERN SOLO",
+        description:
+          "The Western Solo competition is set to be a dazzling display of skill, as participants showcase their talents with either a choreographed solo performance or a freestyle routine, with both options being limited to western dance styles. As you watch the competition, you'll see dancers moving to the beat with precision and energy. Each performer brings their own unique style and personality to the dance, creating a memorable and engaging performance.",
+        date: "9th March 2023",
+        time: "11:30AM - 2:30PM",
+        venue: "SNU Lobby",
+        type: "Individual",
+        rules: [{
+          rules: ["Time limit: 3 minutes.", "The registration fee is 100 per head.", "Usage of props is allowed.", "Obscenity and vulgarity will not be entertained.", "Folk themed performances are not allowed.", "Inflammable objects, water and heavy objects are not allowed on stage.", "Decisions of the judges and coordinators will be final and binding.", "The organizing committee reserves the right to modify the event at any point."]
+        }],
+        organizers: [
+          {
+            name: "Tushar Nair",
+            phone: "75500 91499",
+          },
+          {
+            name: "Neeshanth S.",
+            phone: "93538 05104",
+          },
+          {
+            name: "Anjana R",
+            phone: "7824015392 ",
+          }
+        ],
+      },
+      {
+        eventNames: "2v2 DANCE BATTLE",
+        description:
+          "Get your dance partner to duke it out with the best hip hop freestyle dancers in the city. Watch the crowd roar as you showcase your best moves in the cypher. The 2v2 Dance Battle promises to be a thrilling event, with dance partners going head-to-head against the best hip-hop freestyle dancers in the city. It will be an exciting opportunity for participants to show off their moves and compete for the top spot. The dance battle begins with a charged atmosphere, as the two teams of two dancers each stand opposite each other, facing off on the dance floor. The energy is palpable, as the dancers move to the beat of the music, waiting for their moment to shine. As the music starts, the dancers launch into action, moving with precision and grace. As the battle heats up, the dancers become more and more competitive, pushing themselves to the limit to outperform their opponents.",
+        date: "9th March 2023",
+        time: "2:00pm-4:00pm",
+        venue: "Open Air Theatre",
+        type: "Team",
+        team_size: "2",
+        rules: [{
+          rules: ["Time limit: 60-120 seconds per team.", "Pairs will be pitted against each other at random.", "Team dynamics, cohesion of groove, creativity and audience response will be judged.", "The registration fee is 100 per head.", "Usage of props is allowed.", "Obscenity and vulgarity will not be entertained.", "Folk themed performances are not allowed.", "Inflammable objects, water and heavy objects are not allowed on stage.", "Decisions of the judges and coordinators will be final and binding.", "The organizing committee reserves the right to modify the event at any point."]
+        }],
+        organizers: [
+          {
+            name: "Tushar Nair",
+            phone: "75500 91499",
+          },
+          {
+            name: "Neeshanth S.",
+            phone: "93538 05104",
+          },
+          {
+            name: "Anjana R",
+            phone: "7824015392 ",
+          }
+        ],
+      },
+      {
+        eventNames: "CHOREONITE",
+        description:
+          `Experience the power of dance at Choreonite 2023, where the strongest college teams of the city compete to prove their worth.
+          The Choreonite is a thrilling and exhilarating event that showcases the incredible talent and passion of the dancers who participate. It is a thrilling display of coordination, creativity, and skill. The atmosphere is charged with excitement as teams from different colleges and Universities gather to showcase their talent in a lively and energetic competition. As the teams take to the stage, they move in unison, their steps and movements perfectly choreographed to the rhythm of the music.
+          The competition is fierce, with each team trying to outdo the others with their creativity, precision, and showmanship.`,
+        date: "9th March 2023",
+        time: "5:30pm-8:30pm",
+        venue: "Open Air Theatre",
+        type: "Team",
+        team_size: "2",
+        rules: [{
+          ruleHead: "Round 1:",
+          rules: [" Online video submission round.", "Teams are requested to send a link of a recently recorded video with all the participating members to ssnn2k@gmail.com by March 1st", "The mail must contain the college name, team name and contact details of two representatives", `Results will be announced by March 3rd.`]
+        },
+        {
+          ruleHead: "Round 2",
+          rules: ["Participants have to be currently studying in a recognized college and must produce a valid College ID card at the event venue.", "The tracks must be provided to the event coordinator at the time of registration in a pendrive."]
+        },
+        {
+          ruleHead: "General",
+          rules: ["Time limit: 10 minutes", "Number of participants: 8-25", "Routines must strictly adhere to western styles.", "Usage of props is allowed.", "Obscenity and vulgarity will not be entertained", "Inflammable objects, water and heavy objects are not allowed on stage.", "The registration fee is 200 per head.", "Decisions of the judges and coordinators will be final and binding.", "he Organizing Committee reserves the right to modify the event at any point."]
+        }],
+        organizers: [
+          {
+            name: "Tushar Nair",
+            phone: "75500 91499",
+          },
+          {
+            name: "Neeshanth S.",
+            phone: "93538 05104",
+          },
+          {
+            name: "Anjana R",
+            phone: "7824015392 ",
+          }
+        ],
+      },
+    ]
   },
   talents: {
     clubs: [

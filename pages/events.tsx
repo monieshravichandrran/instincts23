@@ -10,7 +10,7 @@ export default function Events() {
       <PageHead />
       <div className="flex flex-col items-center justify-center min-h-screen p-2 md:p-4 m-auto text-white font-main">
         <CollegeLogo />
-        <h2 className="mt-12 mb-2 font-bold text-center lg:text-4xl sm:text-3xl font-title">
+        <h2 className="mt-20 mb-2 font-bold text-center lg:text-4xl sm:text-3xl font-title">
           Events
         </h2>
         <h2 className="mb-8 font-bold text-center lg:text-4xl sm:text-2xl">
