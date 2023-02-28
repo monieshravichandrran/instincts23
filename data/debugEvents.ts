@@ -762,6 +762,32 @@ export const debugEvents = {
         ],
         form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true"
       },
+      {
+        eventNames: "Enigma",
+        description:
+          `It is only through mystery and madness that the soul is revealed--Thomas Moore
+          Do you think you have a detective's brain, but an actor's heart? Well, we have the right opportunity for the Sherlock in you to play Shakespeare. 
+          Mystery,madness and loads of DRAMA.
+          Lights out please and All the worlds at its stage is elated to announce the second edition of  ENIGMA.`,
+        date: "TBD",
+        time: undefined,
+        venue: "TBD",
+        type: "Individual",
+        organizers: [
+          {
+            name: "Pavithra Manikandan",
+            phone: "9677023007",
+          }
+        ],
+        rules: [
+          {
+            ruleHead: "Shhh! It's supposed to be a secret 🤫",
+            rules: [
+            ],
+          }
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true"
+      },
     ]
   },
   arudhra: {

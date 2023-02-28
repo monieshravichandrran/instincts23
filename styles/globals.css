@@ -518,10 +518,10 @@ body {
     border-radius: 5%;
   }
 
-  .box {
+  .box0 {
     width: 12%;
     height: 12%;
-    background-image: url("../public/images/map/literature.png");
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -534,7 +534,7 @@ body {
     left: 10%;
   }
 
-  .box>.pin-text {
+  .box0>.pin-text {
     display: block;
   }
 
@@ -545,9 +545,9 @@ body {
 
 
   .box1 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/classical.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -565,9 +565,9 @@ body {
 
 
   .box2 {
-    width: 20%;
-    height: 20%;
-    background-image: url("../public/images/clubs/Tamil.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -586,9 +586,9 @@ body {
 
 
   .box3 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/design.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -606,9 +606,9 @@ body {
 
 
   .box4 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/game.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -626,9 +626,9 @@ body {
 
 
   .box5 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/theatre.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -646,9 +646,9 @@ body {
 
 
   .box6 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/quiz.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -666,9 +666,9 @@ body {
 
 
   .box7 {
-    width: 20%;
-    height: 20%;
-    background-image: url("../public/images/map/film.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -686,9 +686,9 @@ body {
 
 
   .box8 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/music.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -706,9 +706,9 @@ body {
 
 
   .box9 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/photograph.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -726,9 +726,9 @@ body {
 
 
   .box10 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/arts.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -746,9 +746,9 @@ body {
 
 
   .box11 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/western.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -766,9 +766,9 @@ body {
 
 
   .box12 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/business.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -809,10 +809,10 @@ body {
     border-radius: 5%;
   }
 
-  .box {
+  .box0 {
     width: 12%;
     height: 12%;
-    background-image: url("../public/images/map/literature.png");
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -825,7 +825,7 @@ body {
     left: 10%;
   }
 
-  .box:hover>.pin-text {
+  .box0:hover>.pin-text {
     display: block;
   }
 
@@ -836,9 +836,9 @@ body {
 
 
   .box1 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/classical.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -856,9 +856,9 @@ body {
 
 
   .box2 {
-    width: 20%;
-    height: 20%;
-    background-image: url("../public/images/clubs/Tamil.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -877,9 +877,9 @@ body {
 
 
   .box3 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/design.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -897,9 +897,9 @@ body {
 
 
   .box4 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/game.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -917,9 +917,9 @@ body {
 
 
   .box5 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/theatre.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -937,9 +937,9 @@ body {
 
 
   .box6 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/quiz.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -957,9 +957,9 @@ body {
 
 
   .box7 {
-    width: 20%;
-    height: 20%;
-    background-image: url("../public/images/map/film.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -977,9 +977,9 @@ body {
 
 
   .box8 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/music.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -997,9 +997,9 @@ body {
 
 
   .box9 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/photograph.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1017,9 +1017,9 @@ body {
 
 
   .box10 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/arts.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1037,9 +1037,9 @@ body {
 
 
   .box11 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/western.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1057,9 +1057,9 @@ body {
 
 
   .box12 {
-    width: 15%;
-    height: 15%;
-    background-image: url("../public/images/map/business.png");
+    width: 12%;
+    height: 12%;
+    background-image: url("../public/images/marker.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1089,4 +1089,26 @@ body {
 .bxl {
   background:
     "linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))"
+}
+
+.centered {
+  position: relative;
+  transform: translateY(-200%);
+  left: 20%;
+}
+
+.nonzoomeff {
+  transition: width 1s, height 1s;
+}
+
+.zoomeff {
+  width: 16%;
+  height: 16%;
+}
+
+.eventid {
+  background-color: #ffefcd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black !important;
 }

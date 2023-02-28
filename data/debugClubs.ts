@@ -98,7 +98,7 @@ export const Clubs = [
   {
     imageSource: "Businessout.png",
     alternate: "business",
-    clubName: "Business & Entrepreneurship",
+    clubName: "Business",
     description: "Business Club has arrived on the Lost Continent for our first ever stint at Instincts! Prepare to set your sails in the direction of an event that will test your adaptability, business acumen and bidding(?!) skills. Maneuver your ships through the obstacles we throw at you and climb your way to the top of the lot! ",
     link: "/clubs/business",
   },

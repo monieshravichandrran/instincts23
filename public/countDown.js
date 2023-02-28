@@ -1,7 +1,14 @@
+let prev = Math.floor(Math.random()*13)+1;
 function updateTimer() {
-    future  = Date.parse("March 11, 2023 8:00:00");
+    future  = Date.parse("March 9, 2023 8:00:00");
     now     = new Date();
     diff    = future - now;
+    const box = Math.floor(Math.random()*13)+1;
+    //console.log(ocument.getElementById("pin-"+prev));
+    document.getElementById("pin-"+prev).classList.remove("zoomeff");
+    prev = box;
+    // console.log(ocument.getElementById("pin-"+prev));
+    document.getElementById("pin-"+box).classList.add("zoomeff");
   
     days  = Math.floor( diff / (1000*60*60*24) );
     hours = Math.floor( diff / (1000*60*60) );
