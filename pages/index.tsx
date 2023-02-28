@@ -2,6 +2,7 @@ import { CollegeLogo, Footer, PageHead, Button } from "components";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "utils/hooks/use-translation";
+import Script from "next/script";
 
 export default function Home() {
   const title = useTranslation("page.title");
@@ -23,7 +24,10 @@ export default function Home() {
             Registration Opens Soon
           </h1>
           <div className="md:p-4 shadow-lg rounded-br-3xl">
-          <div id="timer" className="mb-5 gap-4 px-2 grid min-w-full lg:w-3/4 xl:w-1/2 mx-auto grid-cols-4 text-white font-title text-lg lg:text-3xl place-items-center"></div>
+            <div
+              id="timer"
+              className="mb-5 gap-4 px-2 grid min-w-full lg:w-3/4 xl:w-1/2 mx-auto grid-cols-4 text-white font-title text-lg lg:text-3xl place-items-center"
+            ></div>
             <p className="text-white text-[1.5rem] lg:text-[2.5rem] text-center font-title">
               March 9, 10 <span className="text-2xl">&</span> 11
             </p>
@@ -31,10 +35,17 @@ export default function Home() {
               Save the dates
             </p>
             <p className="mt-5 md:mb-10 text-white text-[1.5rem] lg:text-[1.5rem] text-center text-lg">
-              Hunt the Lost Continent and Explore the events conducted by all the SSN & SNUC clubs.
+              Hunt the Lost Continent and Explore the events conducted by all
+              the SSN & SNUC clubs.
             </p>
             <div className="map mt-12">
-              <div className="flex justify-center w-full"><img src="/images/map.png" alt="" className="!w-[100vw] !h-[100vw] md:!w-[50vw] md:!h-[40vw]" /></div>
+              <div className="flex justify-center w-full">
+                <img
+                  src="/images/map.png"
+                  alt=""
+                  className="!w-[100vw] !h-[100vw] md:!w-[50vw] md:!h-[40vw]"
+                />
+              </div>
               <Link href="/clubs/literary">
                 <div id="pin-1" className="box0 nonzoomeff">
                   <div className="pin-text">
@@ -139,9 +150,10 @@ export default function Home() {
           <p className="p-10 text-lg shadow-lg rounded-br-3xl max-w-3xl">
             Marching towards its 18th year, INSTINCTS has set a benchmark in the
             conduct of college fests where intellectual, social, cultural and
-            artistic talents are brought to view. This alluring platform offers to
-            showcase the latent talents of the students from colleges across the
-            nation. Instincts has seen an average footfall of 30,000+ every year.
+            artistic talents are brought to view. This alluring platform offers
+            to showcase the latent talents of the students from colleges across
+            the nation. Instincts has seen an average footfall of 30,000+ every
+            year.
             <br />
             <br />
             SSN SNUC Instincts is one of the most awaited cultural events in the
@@ -154,8 +166,8 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-      <script src="https://hammerjs.github.io/dist/hammer.js"></script>
-      <script src="countDown.js"></script>
+      <Script src="https://hammerjs.github.io/dist/hammer.js" />
+      <Script src="countDown.js" />
     </>
   );
 }

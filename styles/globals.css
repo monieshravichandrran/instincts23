@@ -36,18 +36,22 @@ body {
 .shimmer {
   text-align: center;
   color: rgb(65, 28, 14, 0.1);
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#411c0e),
-      to(#411c0e),
-      color-stop(0.5, #fff));
-  background: gradient(linear,
-      left top,
-      right top,
-      from(#411c0e),
-      to(#411c0e),
-      color-stop(0.1, #fff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#411c0e),
+    to(#411c0e),
+    color-stop(0.5, #fff)
+  );
+  background: gradient(
+    linear,
+    left top,
+    right top,
+    from(#411c0e),
+    to(#411c0e),
+    color-stop(0.1, #fff)
+  );
   background-size: 125px 100%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -435,29 +439,24 @@ body {
   }
 }
 
-
 .neon-button {
   font-size: 1.5rem;
   color: #ffefcd;
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
-  border: #ffefcd .125em solid;
-  padding: .25em 1em;
+  border: #ffefcd 0.125em solid;
+  padding: 0.25em 1em;
   border-radius: 0.25em;
-  text-shadow:
-    0 0 0.125em hsl(0 0% 100% / 0.3),
-    0 0 0.45em currentColor;
-  box-shadow:
-    inset 0 0 0.5em 0 #ffefcd,
-    0 0 0.5em 0 #ffefcd;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 #ffefcd, 0 0 0.5em 0 #ffefcd;
   position: relative;
   /*   transition: background-color 100ms linear; */
 }
 
 .neon-button::before {
   pointer-events: none;
-  content: '';
+  content: "";
   position: absolute;
   background: #ffefcd;
   top: 120%;
@@ -478,7 +477,7 @@ body {
 }
 
 .neon-button::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -509,7 +508,6 @@ body {
   .map {
     position: relative;
     display: inline-block;
-
   }
 
   .map img {
@@ -528,13 +526,12 @@ body {
     position: absolute;
   }
 
-
   #pin-1 {
     top: 29%;
     left: 10%;
   }
 
-  .box0>.pin-text {
+  .box0 > .pin-text {
     display: block;
   }
 
@@ -542,7 +539,6 @@ body {
     top: 49%;
     left: 37%;
   }
-
 
   .box1 {
     width: 12%;
@@ -554,7 +550,7 @@ body {
     position: absolute;
   }
 
-  .box1>.pin-text {
+  .box1 > .pin-text {
     display: block;
   }
 
@@ -562,7 +558,6 @@ body {
     top: 30%;
     left: 61%;
   }
-
 
   .box2 {
     width: 12%;
@@ -574,7 +569,7 @@ body {
     position: absolute;
   }
 
-  .box2>.pin-text {
+  .box2 > .pin-text {
     display: block;
     color: white !important;
   }
@@ -583,7 +578,6 @@ body {
     top: 5%;
     left: 40%;
   }
-
 
   .box3 {
     width: 12%;
@@ -595,7 +589,7 @@ body {
     position: absolute;
   }
 
-  .box3>.pin-text {
+  .box3 > .pin-text {
     display: block;
   }
 
@@ -603,7 +597,6 @@ body {
     top: 20%;
     left: 55%;
   }
-
 
   .box4 {
     width: 12%;
@@ -615,7 +608,7 @@ body {
     position: absolute;
   }
 
-  .box4>.pin-text {
+  .box4 > .pin-text {
     display: block;
   }
 
@@ -623,7 +616,6 @@ body {
     top: 47%;
     left: 73%;
   }
-
 
   .box5 {
     width: 12%;
@@ -635,7 +627,7 @@ body {
     position: absolute;
   }
 
-  .box5>.pin-text {
+  .box5 > .pin-text {
     display: block;
   }
 
@@ -643,7 +635,6 @@ body {
     top: 68%;
     left: 10%;
   }
-
 
   .box6 {
     width: 12%;
@@ -655,7 +646,7 @@ body {
     position: absolute;
   }
 
-  .box6>.pin-text {
+  .box6 > .pin-text {
     display: block;
   }
 
@@ -663,7 +654,6 @@ body {
     top: 75%;
     left: 78%;
   }
-
 
   .box7 {
     width: 12%;
@@ -675,7 +665,7 @@ body {
     position: absolute;
   }
 
-  .box7>.pin-text {
+  .box7 > .pin-text {
     display: block;
   }
 
@@ -683,7 +673,6 @@ body {
     top: 30%;
     left: 35%;
   }
-
 
   .box8 {
     width: 12%;
@@ -695,7 +684,7 @@ body {
     position: absolute;
   }
 
-  .box8>.pin-text {
+  .box8 > .pin-text {
     display: block;
   }
 
@@ -703,7 +692,6 @@ body {
     top: 75%;
     left: 40%;
   }
-
 
   .box9 {
     width: 12%;
@@ -715,7 +703,7 @@ body {
     position: absolute;
   }
 
-  .box9>.pin-text {
+  .box9 > .pin-text {
     display: block;
   }
 
@@ -723,7 +711,6 @@ body {
     top: 5%;
     left: 5%;
   }
-
 
   .box10 {
     width: 12%;
@@ -735,7 +722,7 @@ body {
     position: absolute;
   }
 
-  .box10>.pin-text {
+  .box10 > .pin-text {
     display: block;
   }
 
@@ -743,7 +730,6 @@ body {
     top: 5%;
     left: 65%;
   }
-
 
   .box11 {
     width: 12%;
@@ -755,7 +741,7 @@ body {
     position: absolute;
   }
 
-  .box11>.pin-text {
+  .box11 > .pin-text {
     display: block;
   }
 
@@ -763,7 +749,6 @@ body {
     top: 45%;
     left: 12%;
   }
-
 
   .box12 {
     width: 12%;
@@ -775,7 +760,7 @@ body {
     position: absolute;
   }
 
-  .box12>.pin-text {
+  .box12 > .pin-text {
     display: block;
   }
 
@@ -793,14 +778,12 @@ body {
     text-shadow: 1px 1px 1px #000;
   }
 }
-
 
 @media (min-width: 901px) {
   .map {
     margin: 10px;
     position: relative;
     display: inline-block;
-
   }
 
   .map img {
@@ -819,13 +802,12 @@ body {
     position: absolute;
   }
 
-
   #pin-1 {
     top: 29%;
     left: 10%;
   }
 
-  .box0:hover>.pin-text {
+  .box0:hover > .pin-text {
     display: block;
   }
 
@@ -833,7 +815,6 @@ body {
     top: 49%;
     left: 37%;
   }
-
 
   .box1 {
     width: 12%;
@@ -845,7 +826,7 @@ body {
     position: absolute;
   }
 
-  .box1:hover>.pin-text {
+  .box1:hover > .pin-text {
     display: block;
   }
 
@@ -853,7 +834,6 @@ body {
     top: 30%;
     left: 61%;
   }
-
 
   .box2 {
     width: 12%;
@@ -865,7 +845,7 @@ body {
     position: absolute;
   }
 
-  .box2:hover>.pin-text {
+  .box2:hover > .pin-text {
     display: block;
     color: white !important;
   }
@@ -874,7 +854,6 @@ body {
     top: 5%;
     left: 40%;
   }
-
 
   .box3 {
     width: 12%;
@@ -886,7 +865,7 @@ body {
     position: absolute;
   }
 
-  .box3:hover>.pin-text {
+  .box3:hover > .pin-text {
     display: block;
   }
 
@@ -894,7 +873,6 @@ body {
     top: 20%;
     left: 55%;
   }
-
 
   .box4 {
     width: 12%;
@@ -906,7 +884,7 @@ body {
     position: absolute;
   }
 
-  .box4:hover>.pin-text {
+  .box4:hover > .pin-text {
     display: block;
   }
 
@@ -914,7 +892,6 @@ body {
     top: 47%;
     left: 73%;
   }
-
 
   .box5 {
     width: 12%;
@@ -926,7 +903,7 @@ body {
     position: absolute;
   }
 
-  .box5:hover>.pin-text {
+  .box5:hover > .pin-text {
     display: block;
   }
 
@@ -934,7 +911,6 @@ body {
     top: 68%;
     left: 10%;
   }
-
 
   .box6 {
     width: 12%;
@@ -946,7 +922,7 @@ body {
     position: absolute;
   }
 
-  .box6:hover>.pin-text {
+  .box6:hover > .pin-text {
     display: block;
   }
 
@@ -954,7 +930,6 @@ body {
     top: 75%;
     left: 78%;
   }
-
 
   .box7 {
     width: 12%;
@@ -966,7 +941,7 @@ body {
     position: absolute;
   }
 
-  .box7:hover>.pin-text {
+  .box7:hover > .pin-text {
     display: block;
   }
 
@@ -974,7 +949,6 @@ body {
     top: 30%;
     left: 35%;
   }
-
 
   .box8 {
     width: 12%;
@@ -986,7 +960,7 @@ body {
     position: absolute;
   }
 
-  .box8:hover>.pin-text {
+  .box8:hover > .pin-text {
     display: block;
   }
 
@@ -994,7 +968,6 @@ body {
     top: 75%;
     left: 40%;
   }
-
 
   .box9 {
     width: 12%;
@@ -1006,7 +979,7 @@ body {
     position: absolute;
   }
 
-  .box9:hover>.pin-text {
+  .box9:hover > .pin-text {
     display: block;
   }
 
@@ -1014,7 +987,6 @@ body {
     top: 5%;
     left: 5%;
   }
-
 
   .box10 {
     width: 12%;
@@ -1026,7 +998,7 @@ body {
     position: absolute;
   }
 
-  .box10:hover>.pin-text {
+  .box10:hover > .pin-text {
     display: block;
   }
 
@@ -1034,7 +1006,6 @@ body {
     top: 5%;
     left: 65%;
   }
-
 
   .box11 {
     width: 12%;
@@ -1046,7 +1017,7 @@ body {
     position: absolute;
   }
 
-  .box11:hover>.pin-text {
+  .box11:hover > .pin-text {
     display: block;
   }
 
@@ -1054,7 +1025,6 @@ body {
     top: 45%;
     left: 12%;
   }
-
 
   .box12 {
     width: 12%;
@@ -1066,7 +1036,7 @@ body {
     position: absolute;
   }
 
-  .box12:hover>.pin-text {
+  .box12:hover > .pin-text {
     display: block;
   }
 
@@ -1085,10 +1055,8 @@ body {
   }
 }
 
-
 .bxl {
-  background:
-    "linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))"
+  background: "linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))";
 }
 
 .centered {

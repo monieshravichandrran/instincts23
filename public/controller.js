@@ -2,7 +2,10 @@ let time = document.getElementById("container");
 let activeClass = "item--active";
 let timelineElements = document.getElementsByClassName("item");
 let itemLength = timelineElements.length;
-timelineElements[0].classList.add(activeClass);
+if (timelineElements[0]) {
+  timelineElements[0].classList.add(activeClass);
+}
+
 console.log(time);
 window.onscroll = () => {
   let min,
@@ -18,7 +21,7 @@ window.onscroll = () => {
       for (let i of timelineElements) {
         i.classList.remove(activeClass);
       }
-      console.log(timelineElements);
+      // console.log(timelineElements);
       time.style.backgroundImage =
         "url(" + timelineElements[itemLength - 1].src + ")";
       timelineElements[itemLength - 1].classList.add(activeClass);
