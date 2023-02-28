@@ -112,6 +112,30 @@ export const CollegeLogo = () => {
                   About
                 </li>
               </Link>
+              <Link href="/schedule">
+                <li
+                  className="py-4 font-medium text-white  animm_li opacity-0"
+                  onClick={() => setNav(false)}
+                >
+                  Schedule
+                </li>
+              </Link>
+              <Link href="/contact">
+                <li
+                  className="py-4 font-medium text-white  animm_li opacity-0"
+                  onClick={() => setNav(false)}
+                >
+                  Contact
+                </li>
+              </Link>
+              <Link href="/sponsors">
+                <li
+                  className="py-4 font-medium text-white  animm_li opacity-0"
+                  onClick={() => setNav(false)}
+                >
+                  Sponsors
+                </li>
+              </Link>
               <Link href="/gallery">
                 <li
                   className="py-4 font-medium text-white  animm_li opacity-0"
