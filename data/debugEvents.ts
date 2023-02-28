@@ -367,26 +367,23 @@ export const debugEvents = {
     ], events: [
       {
         eventNames: "Designathon",
-        description: `Ready to put your vibe into your design? Go, grab your friends, and form a team! Choose a track and a topic to come up with a design using any design tool. The lone wolves too need not worry, as we do accept individual registrations as well. The list of topics pertaining to the track chosen will be given on the spot. The best works will be awarded cash prizes based on how well the idea is expressed and designed; perhaps design internships will be available as well, tsk tsk
-
-        The Designathon occurs over the course of two days, with track 1 happening on the first day and track 2 on the second day.`,
         rules: [
           {
             rules: [
-              "Open to all college students & inter-college teams are allowed.",
-              "You are allowed to take part in only one of the aforementioned tracks.",
+              "Open to all designers and design enthusiasts.",
+              "Open to all college students, and inter-college teams are allowed.",
               "Topics will be given on the spot for each of the tracks mentioned.",
               "You will have around 2.5 hrs to design.",
               "You are free to use any design tool.",
               "Plagiarism will result in disqualification.",
-              "For the UI/UX track, entire product design is not required.",
+              "Each track will have a separate winner and runner.",
               "Please bring your own laptops and stationeries for designing. (you will be provided with extension cables and charging spots)",
             ],
           },
         ],
-        date: "TBD",
-        time: "TBD",
-        venue: "TBD",
+        date: "March 10th, 2023",
+        time: "10:30PM - 1:30AM",
+        venue: "SNU Classrooms",
         type: "Lone-Wolf / Team",
         team_size: "2 (Max)",
         organizers: [
@@ -399,6 +396,50 @@ export const debugEvents = {
             phone: "95660 73896",
           },
         ],
+        showDecor: true,
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeaVB_I9GteQ8rzaMOLMrgrHOUrGIl2JYXsS4t5r9XgxuRucA/viewform?embedded=true"
+      },
+      {
+        eventNames: "UXpedition",
+        description: `Ahoy! Set sail on a design adventure with our thrilling UI/UX event. Participants will embark on a journey to create user-centered interfaces and experiences inspired by the high seas. With unique prompts, designers will have three hours to showcase their skills and chart a course to design glory. Participants will be judged based on their approach, innovation, and execution of their designs. Battle against your fellow designers and discover hidden treasures as you bring your designs to life. So hoist the sail, grab your design tools, and join us for this exciting voyage!`,
+        rules: [
+          {
+            rules: [
+              "Please bring your own laptops for designing. You will be provided with extension cables and charging ports.",
+              "Open to all designers and design enthusiasts.",
+              "Open to all college students, and inter-college teams are allowed.",
+              "Themes will be given on the spot.",
+              "You will have around 3 hours to design..",
+              "You are free to use any design tool.",
+              "Plagiarism will result in disqualification.",
+              "Themes will be given on the spot by the judges and teams can choose one for which time will be given.",
+              "Participants need to focus on providing ideation, research and user interactions.",
+              "Evaluation criteria is emphasized on novelty and then the presentation ie. aesthetics.",
+              "Major focus to be placed on the idea, creativity and empathy, rather than delivering a proper final design.",
+              "The participants will have to showcase their design and its use case along with a user-centric justification, - First using multiple low fidelity designs, Then with maximum 2 high fidelity designs."
+            ],
+          },
+        ],
+        date: "March 11th, 2023",
+        time: "10:30PM - 1:30AM",
+        venue: "SNU Classrooms",
+        type: "Team",
+        team_size: "2-3",
+        organizers: [
+          {
+            name: "Sravya",
+            phone: "82486 96034",
+          },
+          {
+            name: "Paul",
+            phone: "97909 18510",
+          },
+          {
+            name: "Vishwajith",
+            phone: "70129 74738",
+          },
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfDGtIR0YBNzWylrDw2Dj_gjagksMjN33BeEvixJrQ_68Xfvw/viewform?embedded=true" 
       },
     ]
   },
@@ -438,8 +479,8 @@ export const debugEvents = {
               phone: "9486558751"
             },
             {
-              name: "Venkat",
-              phone: "9176762175"
+              name: "Sowmya",
+              phone: "6385414492"
             }
           ],
           form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true"
@@ -480,7 +521,7 @@ export const debugEvents = {
             { rules: ["Participants MUST be college students with a valid college ID card and are required to purchase individual music passes.", "Members of the band need not be from the same college. Cross college bands are allowed.", "Music of any genre and language is permitted.", "Original compositions will be given extra points when compared to covers."] },
             {
               ruleHead: "Online Shortlisting",
-              rules: ["Bands should send in an online link of their performance.", " Note that the drive link shared must be accessible by ‘Anyone with the Link’."]
+              rules: ["Bands should send in an online link of their performance.", " Note that the drive link shared must be accessible by ‘Anyone with the Link’.","Bands should send in an online link of their performance. Time Limit is 5 minutes. The deadline for sending in the online submission is 3rd March"]
             },
             {
               ruleHead: "Finals",
