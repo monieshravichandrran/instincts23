@@ -37,7 +37,6 @@ export default function Events() {
       </div>
       <Footer />
       <Script src="controller.js" />
-      <Script src="https://hammerjs.github.io/dist/hammer.js" />
     </>
   );
 }

@@ -15,7 +15,6 @@ export const PageHead = ({
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/instinctsLogo.jpeg" />
-      <script src="https://hammerjs.github.io/dist/hammer.js"></script>
     </Head>
   );
 };
