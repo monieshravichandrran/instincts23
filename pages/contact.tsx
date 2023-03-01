@@ -17,7 +17,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Tejesh (ECE) - 95660 32425
+                  Tejesh - 95660 32425
                 </p>
               </>
             </div>
@@ -25,7 +25,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Vahini (BME) - 9025756533
+                  Vahini - 9025756533
                 </p>
               </>
             </div>
@@ -36,7 +36,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Pranav  Aadhithya K.B (ECE) - 7338773979
+                  Pranav  Aadhithya K.B - 7338773979
                 </p>
               </>
             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Sai Senthur (Mech) - 8220488090
+                  Sai Senthur - 8220488090
                 </p>
               </>
             </div>
@@ -52,7 +52,34 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Deepesh (CSE IOT) - 6381347700
+                  Deepesh - 6381347700
+                </p>
+              </>
+            </div>
+          </div>
+          <h1 className="contacthead text-3xl w-full font-title mt-5 shimmers ml-4">Events & Clubs Coordinators</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
+            <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black text-xl inline bxl text-white">
+              <>
+                <BsFillPersonFill size={20} />
+                <p >
+                  Ainsely J - 9791108075
+                </p>
+              </>
+            </div>
+            <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black text-xl inline bxl text-white">
+              <>
+                <BsFillPersonFill size={20} />
+                <p >
+                  Ahamed Raja - 99445 88988
+                </p>
+              </>
+            </div>
+            <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black text-xl inline bxl text-white">
+              <>
+                <BsFillPersonFill size={20} />
+                <p >
+                  Anil - 93607 90874
                 </p>
               </>
             </div>
