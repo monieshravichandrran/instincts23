@@ -211,6 +211,10 @@ export const debugEvents = {
       {
         name: "SSN Gaming Club",
         imgsrc: "gaming.png"
+      },
+      {
+        name: "SNUC Gaming Club",
+        imgsrc: "snucgame.png"
       }
     ], events: [
       {

@@ -16,54 +16,54 @@ export const CollegeLogo = () => {
         <img
           src="/images/SNUC-white.png"
           alt="SNUC"
-          className="w-[100px] top-5 lg:w-[180px] absolute md:top-20 left-2"
+          className="w-[100px] top-5 lg:w-[180px] absolute lg:top-20 left-2"
         />
         <img
             src="/images/SSN-white.png"
             alt="SSN"
-            className="mr-14 inline-block w-[70px] lg:w-[120px] absolute top-[1rem] md:top-[4.35rem] right-2 md:mr-0"
+            className="mr-14 inline-block w-[70px] lg:w-[120px] absolute top-[1rem] lg:top-[4.35rem] right-2 lg:mr-0"
           />
         <div className="absolute text-white top-3 right-10 sm:text-xl md:text-2xl">
           <div className="relative right-30 top-2">
           <Link
               href="/"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
+              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
+              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               About
             </Link>
             <Link
               href="/schedule"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
+              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Schedule
             </Link>
             <Link
               href="/events"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
+              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Events
             </Link>
             <Link
               href="/sponsors"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
+              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Sponsors
             </Link>
             <Link
               href="/gallery"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
+              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Gallery
             </Link>
             <Link
               href="/contact"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
+              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
               Contact Us
             </Link>
@@ -71,7 +71,7 @@ export const CollegeLogo = () => {
         </div>
       </div>
       <div
-        className="absolute cursor-pointer md:hidden lg:hidden top-3 right-5 z-50"
+        className="absolute cursor-pointer block lg:hidden top-3 right-5 z-50"
         onClick={() => {
           setNav(!nav);
           document.querySelector(".animm")?.classList.add("anim");

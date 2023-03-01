@@ -95,8 +95,8 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                   <Image
                     src={"/images/clubs/" + item.imgsrc}
                     alt={"elc"}
-                    height={300}
-                    width={300}
+                    height={200}
+                    width={200}
                   />
                   <h1 className="mt-3 font-title text-white align-center text-center text-2xl">
                     {item.name}
