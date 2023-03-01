@@ -60,7 +60,7 @@ export const debugEvents = {
           },
         ],
         date: "March 9th, 2023",
-        time:"12PM-2PM",
+        time: "12PM-2PM",
         venue: "CSE LH45",
         type: "Individual",
         organizers: [
@@ -237,7 +237,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/file/d/11u7JxetQwcT20YjKeDW6oKgbZHcRR5fM/view?usp=share_link",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdrxMgXaefYfFmlKd0uz7BGcVehe_AtjHdZMr2Td23kdHhlJQ/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdrxMgXaefYfFmlKd0uz7BGcVehe_AtjHdZMr2Td23kdHhlJQ/viewform?embedded=true"
       },
       {
         eventNames: "CODM-MAYHEM",
@@ -260,7 +260,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/file/d/11u7JxetQwcT20YjKeDW6oKgbZHcRR5fM/view?usp=share_link",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdrxMgXaefYfFmlKd0uz7BGcVehe_AtjHdZMr2Td23kdHhlJQ/viewform?embedded=true"  
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdrxMgXaefYfFmlKd0uz7BGcVehe_AtjHdZMr2Td23kdHhlJQ/viewform?embedded=true"
       }
     ]
   },
@@ -488,7 +488,7 @@ export const debugEvents = {
               phone: "6385414492"
             }
           ],
-          form: "https://docs.google.com/forms/d/e/1FAIpQLSfu--3SuW7WETDP_nLCsbQKsDOFx7f0O6EEZ26P0BD3wD6-IQ/viewform?embedded=true" 
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSfu--3SuW7WETDP_nLCsbQKsDOFx7f0O6EEZ26P0BD3wD6-IQ/viewform?embedded=true"
         },
         {
           eventNames: "Riff Off",
@@ -498,7 +498,7 @@ export const debugEvents = {
           venue: "SNU Seminar Hall",
           type: "Individual",
           rules: [
-            { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge.","The time limit for each performance is 4 minutes including sound check."] },
+            { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge.", "The time limit for each performance is 4 minutes including sound check."] },
           ],
           organizers: [
             {
@@ -543,7 +543,7 @@ export const debugEvents = {
               phone: "9941669034"
             }
           ],
-          form: "https://docs.google.com/forms/d/e/1FAIpQLSeo4F-hMLoUkMceNQekQDqqt_f5Xl_X5sqIO_r_02M7Wvg14Q/viewform?embedded=true" 
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSeo4F-hMLoUkMceNQekQDqqt_f5Xl_X5sqIO_r_02M7Wvg14Q/viewform?embedded=true"
         },
       ]
   },
@@ -574,14 +574,15 @@ export const debugEvents = {
           phone: "+91 8618584124"
         }
       ],
-      form: "https://forms.gle/vVvYh6VEG4Yc3PHAA"
+      form: "https://forms.gle/vVvYh6VEG4Yc3PHAA",
+      ruleBook: "https://drive.google.com/file/d/15M_sPaAVX9JSGPxWlAuPp7LIsfIr9jJ2/view?usp=sharing"
     },
     {
       eventNames: "Let Experts Talk",
       date: "March 10, 2023",
       time: "1 – 3:30 PM",
       showDecor: true,
-      venue: "Mini Auditorium",
+      venue: "Central Seminar Hall",
       organizers: [
         {
           name: "Kumaresh",
@@ -619,7 +620,8 @@ export const debugEvents = {
         venue: "IT Classrooms (LH 31,32,33)",
         type: "Team",
         team_size: "TBD",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSc8MG70OJobMYHKBRIq-MZCbvr7AYjELrtZ0Me28LDkDEtufA/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSc8MG70OJobMYHKBRIq-MZCbvr7AYjELrtZ0Me28LDkDEtufA/viewform?embedded=true",
+        ruleBook: "https://drive.google.com/file/d/1YB1lKfruOgnzw_tcq6ePMG0MVYDnQbDU/view?usp=sharing"
       },
       {
         eventNames: "பட்டிமன்றம்",
@@ -627,7 +629,7 @@ export const debugEvents = {
           "தமிழர் சிந்தனை கலை வெளிப்பாட்டு வடிவங்களில் சிறப்பான ஒரு வடிவமே பட்டிமன்றம். முரண்பாடான பலநோக்கங்கள் உடைய கருத்துகளை விவரிக்கவும், விவாதிக்கவும் மேலும் பேச்சுத்திறனை வெளிப்படுத்தவும் ஒரு சிறந்த மேடையை சாரல் தமிழ் மன்றம் மாணவர்களுக்கு அளிக்கிறது. ",
         date: "Prelims - March 9,2023 Finals - March 11,2023",
         time: "Prelims:3PM-5PM Finals: 10AM-12:30PM",
-        venue:"Auditorium",
+        venue: "Auditorium",
         type: "Individual",
         rules: [{
           ruleHead: "தகுதிச்சுற்று:",
@@ -964,7 +966,7 @@ export const debugEvents = {
             phone: "7824015392 ",
           }
         ],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdpf6R748jdRNP32gZ7Ts-If4roB2U2JEMwd3Vdoh-9upyXtw/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdpf6R748jdRNP32gZ7Ts-If4roB2U2JEMwd3Vdoh-9upyXtw/viewform?embedded=true"
       },
       {
         eventNames: "CHOREONITE",
@@ -1003,7 +1005,7 @@ export const debugEvents = {
             phone: "7824015392 ",
           }
         ],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSd6VMVgwUaCjgGdWigws5g_cfof_gev03GoQSTbgrYjvgMrgw/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSd6VMVgwUaCjgGdWigws5g_cfof_gev03GoQSTbgrYjvgMrgw/viewform?embedded=true"
       },
     ]
   },
@@ -1025,13 +1027,13 @@ export const debugEvents = {
         venue: "Prelims: Mini Auditorium, Finals: Auditorium",
         type: "Team",
         team_size: "4(min)-10(max)",
-        rules:[{
-          rules:["Participants MUST be college students with a valid college ID card and are required to register priorly."," Registration fees: Rs.200/- per head.","Registered details must be shown to the registration desk prior to entering the show.","Students must report 1 hour prior to the event.","Any type of talent can be exhibited.","Usage of flammable things are prohibited in the stage","No second chance will be given to the participants until a technical error occurs.","The obscenity of any kind is strictly prohibited.","The maximum time per performance allowed is 12 minutes.","All the necessary items for performing should be brought by the team.","The audio track should be provided by the team in a pen-drive before the commencement of the program."]
+        rules: [{
+          rules: ["Participants MUST be college students with a valid college ID card and are required to register priorly.", " Registration fees: Rs.200/- per head.", "Registered details must be shown to the registration desk prior to entering the show.", "Students must report 1 hour prior to the event.", "Any type of talent can be exhibited.", "Usage of flammable things are prohibited in the stage", "No second chance will be given to the participants until a technical error occurs.", "The obscenity of any kind is strictly prohibited.", "The maximum time per performance allowed is 12 minutes.", "All the necessary items for performing should be brought by the team.", "The audio track should be provided by the team in a pen-drive before the commencement of the program."]
         },
-      {
-        ruleHead: "Judging Criteria",
-        rules: ["Technical ability","Stage appearance","Personality","Uniqueness","Overall Performance","The decision of the judges will be final and binding."]
-      }],
+        {
+          ruleHead: "Judging Criteria",
+          rules: ["Technical ability", "Stage appearance", "Personality", "Uniqueness", "Overall Performance", "The decision of the judges will be final and binding."]
+        }],
         organizers: [
           {
             name: "PARTHIBAN K",
