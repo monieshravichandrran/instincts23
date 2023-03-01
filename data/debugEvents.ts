@@ -939,6 +939,7 @@ export const debugEvents = {
             phone: "7824015392 ",
           }
         ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfFndr_AuIBnZOwXTKQGAWUnHyBzXxQ9Lsn-qLT_kgda9h10Q/viewform?embedded=true"
       },
       {
         eventNames: "2v2 DANCE BATTLE",
@@ -966,6 +967,7 @@ export const debugEvents = {
             phone: "7824015392 ",
           }
         ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdpf6R748jdRNP32gZ7Ts-If4roB2U2JEMwd3Vdoh-9upyXtw/viewform?embedded=true" 
       },
       {
         eventNames: "CHOREONITE",
@@ -1004,6 +1006,7 @@ export const debugEvents = {
             phone: "7824015392 ",
           }
         ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSd6VMVgwUaCjgGdWigws5g_cfof_gev03GoQSTbgrYjvgMrgw/viewform?embedded=true" 
       },
     ]
   },
