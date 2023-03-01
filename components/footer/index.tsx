@@ -39,7 +39,7 @@ export const Footer = () => {
             alt="Aman Khemka"
           />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/charumathip21/">
           <img
             className="w-[5rem] h-[5rem] lg:w-[6rem] lg:h-[6rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"
             src="/images/charu.png"
