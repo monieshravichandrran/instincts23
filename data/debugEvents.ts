@@ -597,7 +597,8 @@ export const debugEvents = {
           phone: "+91 9995985389"
         }
       ],
-      form: "https://forms.gle/vVvYh6VEG4Yc3PHAA"
+      form: "https://forms.gle/vVvYh6VEG4Yc3PHAA",
+      ruleBook: "https://drive.google.com/file/d/15M_sPaAVX9JSGPxWlAuPp7LIsfIr9jJ2/view?usp=sharing"
     }]
   },
   saaral: {
