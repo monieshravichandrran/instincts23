@@ -20,7 +20,7 @@ export default function About() {
             <br />
             SSN SNUC Instincts is one of the most awaited cultural events in the
             country. This year, Instincts will be held offline with an exciting
-            prize pool of Rup
+            prize pool of &nbsp; <span className="text-3xl font-title relative top-1">₹5,00,000</span>
           </p>
           <Button href={"/gallery"} large>
             Explore the Instincts Gallery

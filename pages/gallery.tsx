@@ -13,7 +13,7 @@ export default function Events() {
       <div className="flex flex-col items-center justify-center min-h-screen p-2 md:p-4 m-auto text-white font-main">
         <CollegeLogo />
         <div className="w-[100vw] h-[100vh] flex justify-center">
-          <Carousel interval={2500} infiniteLoop showThumbs={false} autoPlay className="slider mt-12">
+          <Carousel interval={2500} infiniteLoop showThumbs={false} autoPlay className="slider mt-16 lg:mt-32">
             <div className="image">
               <img
                 src={"/images/instincts/instincts0.jpg"}

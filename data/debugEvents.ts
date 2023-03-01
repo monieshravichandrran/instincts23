@@ -237,7 +237,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/file/d/11u7JxetQwcT20YjKeDW6oKgbZHcRR5fM/view?usp=share_link",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSd31jxKGBBj1kkpkZKR5ecF8BcL_FXoK4n7vb-d0jqpX8MhjA/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdrxMgXaefYfFmlKd0uz7BGcVehe_AtjHdZMr2Td23kdHhlJQ/viewform?embedded=true" 
       },
       {
         eventNames: "CODM-MAYHEM",
@@ -260,7 +260,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/file/d/11u7JxetQwcT20YjKeDW6oKgbZHcRR5fM/view?usp=share_link",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSfvR4UVLdkfPWqe9Av4UdOeg35D90eiOkHnQ4jD7s24nAtDQQ/viewform?embedded=true" 
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdrxMgXaefYfFmlKd0uz7BGcVehe_AtjHdZMr2Td23kdHhlJQ/viewform?embedded=true"  
       }
     ]
   },
@@ -498,7 +498,7 @@ export const debugEvents = {
           venue: "SNU Seminar Hall",
           type: "Individual",
           rules: [
-            { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge."] },
+            { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge.","The time limit for each performance is 4 minutes including sound check."] },
           ],
           organizers: [
             {
@@ -1119,7 +1119,7 @@ export const debugEvents = {
         time: "11:30AM-1:30PM",
         venue: "SNU Block AB2 ClassRoom 001,003",
         type: "Team",
-        team_size: "2-3",
+        team_size: "2",
         organizers: [
           {
             name: "Srisailakhshmi R",
@@ -1150,7 +1150,7 @@ export const debugEvents = {
         time: "11AM-1:30PM",
         venue: "SNU Block AB2 ClassRoom 102,103",
         type: "Team",
-        team_size: "2",
+        team_size: "2-3",
         organizers: [
           {
             name: "Jagruti",
