@@ -488,7 +488,7 @@ export const debugEvents = {
               phone: "6385414492"
             }
           ],
-          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true"
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSfu--3SuW7WETDP_nLCsbQKsDOFx7f0O6EEZ26P0BD3wD6-IQ/viewform?embedded=true" 
         },
         {
           eventNames: "Riff Off",
@@ -510,7 +510,7 @@ export const debugEvents = {
               phone: "9899347675"
             }
           ],
-          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true"
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSdyD1063ILieHw-mzo2jQnH8xbKbzBxePpaBumdeJlcPrlxZQ/viewform?embedded=true"
         },
         {
           eventNames: "Band Hunt",
@@ -543,7 +543,7 @@ export const debugEvents = {
               phone: "9941669034"
             }
           ],
-          form: "https://docs.google.com/forms/d/e/1FAIpQLSezoF33tVmdLsEp_OJjOpyv6RCtmFXySBRcnLNpasoAfZ--5g/viewform?embedded=true"
+          form: "https://docs.google.com/forms/d/e/1FAIpQLSeo4F-hMLoUkMceNQekQDqqt_f5Xl_X5sqIO_r_02M7Wvg14Q/viewform?embedded=true" 
         },
       ]
   },
