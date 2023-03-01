@@ -50,7 +50,7 @@ export const CollegeLogo = () => {
               Events
             </Link>
             <Link
-              href="/sponsor"
+              href="/sponsors"
               className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
             >
               Sponsors

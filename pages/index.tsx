@@ -144,7 +144,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <h2 className="mt-20 mb-8 text-xl font-bold text-center lg:text-6xl font-title">
+          <h2 className="mt-16 mb-2 text-xl font-bold text-center lg:text-6xl font-title">
             About Instincts
           </h2>
           <p className="p-10 text-lg shadow-lg rounded-br-3xl max-w-3xl">
