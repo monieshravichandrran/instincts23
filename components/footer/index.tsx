@@ -18,7 +18,7 @@ export const Footer = () => {
       </a>
       <p className="mt-6 text-lg">{footerTextElement} With ❤️ by</p>
       <div className="flex items-center mt-24">
-      <a href="">
+      <a href="https://www.instagram.com/akash._.77/">
           <img
             className="w-[5.5rem] h-[5.5rem] lg:w-[7rem] lg:h-[7rem] duration-300 cursor-pointer hover:scale-125 relative lg:ml-10 -rotate-[20deg]"
             src="/images/akash.png"

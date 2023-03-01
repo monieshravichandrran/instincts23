@@ -1011,14 +1011,37 @@ export const debugEvents = {
   talents: {
     clubs: [
       {
-        name: "SSN English Literary Club",
-        imgsrc: "elc.jpeg"
-      },
-      {
-        name: "SNU English Literary Club",
-        imgsrc: "elc.jpeg"
+        name: "Student Variety Show",
+        imgsrc: "talent.png"
       }
-    ], events: []
+    ], events: [
+      {
+        eventNames: "STUDENT VARIETY SHOW",
+        description:
+          `Student variety show is an entertainment-based show that covers a variety of acts such as
+          skits, dance, sketch, comedy, magic acrobatics, etc.
+          Come contest with your equals, and show us what makes you stand out from them!`,
+        date: "March 10th, 2023",
+        time: "Prelims: 10AM-1PM, Finals: 2PM-4:30PM",
+        venue: "Prelims: Mini Auditorium, Finals: Auditorium",
+        type: "Team",
+        team_size: "4(min)-10(max)",
+        rules:[{
+          rules:["Participants MUST be college students with a valid college ID card and are required to register priorly."," Registration fees: Rs.200/- per head.","Registered details must be shown to the registration desk prior to entering the show.","Students must report 1 hour prior to the event.","Any type of talent can be exhibited.","Usage of flammable things are prohibited in the stage","No second chance will be given to the participants until a technical error occurs.","The obscenity of any kind is strictly prohibited.","The maximum time per performance allowed is 12 minutes.","All the necessary items for performing should be brought by the team.","The audio track should be provided by the team in a pen-drive before the commencement of the program."]
+        },
+      {
+        ruleHead: "Judging Criteria",
+        rules: ["Technical ability","Stage appearance","Personality","Uniqueness","Overall Performance","The decision of the judges will be final and binding."]
+      }],
+        organizers: [
+          {
+            name: "PARTHIBAN K",
+            phone: "8754319184",
+          }
+        ],
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSctRrKwki3FTHkil4OKTA48W48DMLeEXiOsPjpI81AIwEhAmA/viewform?embedded=true"
+      },
+    ]
   },
   handila: {
     clubs: [

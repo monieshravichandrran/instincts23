@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="w-full md:w-[60%] flex flex-col items-center justify-center min-h-screen p-2 md:p-4 m-auto text-white font-main">
         <CollegeLogo />
         <div className="mt-10 min-h-screen lg:w-[98%] sm:w-full flex flex-col items-center justify-center shadow-lg">
-          <h2 className="mt-10 text-4xl font-bold text-center lg:text-6xl font-title shimmers">
+          <h2 className="mt-10 text-4xl font-bold text-center lg:text-6xl font-title">
             Contact Us
           </h2>
           <h1 className="contacthead text-3xl w-full font-title mt-5 shimmers ml-4">Registration</h1>
