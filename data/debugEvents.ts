@@ -59,10 +59,9 @@ export const debugEvents = {
             ],
           },
         ],
-        date: "TBD",
-        time: undefined,
-        toTime: undefined,
-        venue: "TBD",
+        date: "March 9th, 2023",
+        time:"12PM-2PM",
+        venue: "CSE LH45",
         type: "Individual",
         organizers: [
           {
@@ -90,9 +89,9 @@ export const debugEvents = {
             ],
           },
         ],
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 9th, 2023",
+        time: "11:30AM-5:00PM",
+        venue: "CSE Seminar Hall",
         team_size: "2-3",
         type: "Team",
         organizers: [
@@ -333,9 +332,9 @@ export const debugEvents = {
             ],
           },
         ],
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 11th, 2023",
+        time: "2:30PM-4:30PM",
+        venue: "Mini Auditorium",
         type: "Lone-Wolf / Team",
         team_size: "2",
         organizers: [
@@ -616,9 +615,9 @@ export const debugEvents = {
         eventNames: "சகலகலா வல்லவன்",
         description:
           "இன்றைய சூழலில் பேச வேண்டிய விஷயங்களை மேடையிட்டு பேசும் சாரலின்  பட்டிமன்றத்திற்கும், நான்கு போட்டிகளை உள்ளடக்கிய சகலகலா வல்லவன் போட்டிக்கும் அனைவரையும் வரவேற்கிறது சாரல் தமிழ் மன்றம். தலைவர் பட வசனங்களை மணப்பாடமாய் பேசிய நமக்கு, அதை பேச ஒரு வாய்ப்பு தருகிறது வசன கர்த்தா போட்டி. இளங்கோவடிகள் முதல் அனிருத் வரை நம்மை கட்டி போட்ட இசையில் உள்ள சில சொற்களின் பொருளை சொல்ல பொருளை தரும் போட்டி இசை தமிழ். வாயை மூடி பேசவும் போட்டியில் திருக்குறளை குரலை பயன் படுத்தாமல் நடித்தே கண்டு பிடிக்க வைக்க வேண்டும். கடைசி போட்டி தொடரி போட்டி, தொடரியை போல் வார்த்தைகளை எடுத்து அதை கதையாய் தொடுக்க வெற்றி நமதே. தொலைந்த கண்டத்தை தேடும் முயற்சியில் வாசகங்களை வைத்து சாகசம் செய்ய இந்த இன்ஸ்டிங்க்ட்ஸில் சாரல் தமிழ் மன்றத்தோடு இணைவீர்.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 10th, 2023",
+        time: "1:30PM-4:30PM",
+        venue: "IT Classrooms (LH 31,32,33)",
         type: "Team",
         team_size: "TBD",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSc8MG70OJobMYHKBRIq-MZCbvr7AYjELrtZ0Me28LDkDEtufA/viewform?embedded=true"
@@ -627,9 +626,9 @@ export const debugEvents = {
         eventNames: "பட்டிமன்றம்",
         description:
           "தமிழர் சிந்தனை கலை வெளிப்பாட்டு வடிவங்களில் சிறப்பான ஒரு வடிவமே பட்டிமன்றம். முரண்பாடான பலநோக்கங்கள் உடைய கருத்துகளை விவரிக்கவும், விவாதிக்கவும் மேலும் பேச்சுத்திறனை வெளிப்படுத்தவும் ஒரு சிறந்த மேடையை சாரல் தமிழ் மன்றம் மாணவர்களுக்கு அளிக்கிறது. ",
-        date: "TBD",
-        time: undefined,
-        team_size: "TBD",
+        date: "Prelims - March 9,2023 Finals - March 11,2023",
+        time: "Prelims:3PM-5PM Finals: 10AM-12:30PM",
+        venue:"Auditorium",
         type: "Individual",
         rules: [{
           ruleHead: "தகுதிச்சுற்று:",
@@ -658,9 +657,9 @@ export const debugEvents = {
         eventNames: "Funda-Mavan",
         description:
           "General Quiz.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 9th, 2023",
+        time: "1:30PM-4:30PM",
+        venue: "Central Seminar Hall",
         type: "Lone Wolf/ Team",
         team_size: "1-3",
         organizers: [
@@ -688,9 +687,9 @@ export const debugEvents = {
         eventNames: "MELA Quiz",
         description:
           "Quiz on Music , Entertainment, Literature and Arts.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 10th,2023",
+        time: "1:30PM-4:30PM",
+        venue: "CSE Seminar Hall",
         type: "Lone Wolf/ Team",
         team_size: "1-3",
         organizers: [
@@ -718,9 +717,9 @@ export const debugEvents = {
         eventNames: "Sports Quiz",
         description:
           "Quiz about all types of Sports ",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 11th, 2023",
+        time: "10AM-1PM",
+        venue: "Central Seminar Hall",
         type: "Lone Wolf/ Team",
         team_size: "1-3",
         organizers: [
@@ -816,9 +815,9 @@ export const debugEvents = {
           Do you think you have a detective's brain, but an actor's heart? Well, we have the right opportunity for the Sherlock in you to play Shakespeare. 
           Mystery,madness and loads of DRAMA.
           Lights out please and All the worlds at its stage is elated to announce the second edition of  ENIGMA.`,
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 10th, 2023",
+        time: "9:30AM-12:30PM",
+        venue: "CSE Seminar Hall",
         type: "Individual",
         organizers: [
           {
@@ -1033,9 +1032,9 @@ export const debugEvents = {
         eventNames: "Roaming paris",
         description:
           "It’s time to say bonjour to your inner fashion creator et create costumes along with your amis. Instincts is back in the game with ‘Roaming Paris’!! This exclusive costume designing event will surely tickle your artistic minds for the day. Each team consisting of 2-3 members will be instructed as to what supplies are needed to design their costume on the spot and will be given 2.5 hours to complete the dress. Supplies required for the costume will be provided by the organizers and additionally each team is also allowed to bring their own art supplies.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 10th, 2023",
+        time: "2PM-4PM",
+        venue: "SNU Block AB2 Classroom 105, 106",
         type: "Team",
         team_size: "2-3",
         organizers: [
@@ -1064,9 +1063,9 @@ export const debugEvents = {
         eventNames: "Soles on Fires",
         description:
           "A competition for witty creative artists.  If a quick draw and guess is your  major then hands down this event is for you and your team. Only the best minds will draw and conquer while the others will be stuck in their own drawn hurdles. We're back with another event - 'Soles on Fire'! With 3-4 members in a team, this event highlights the excitement of a relay. The 1st member receives a topic and they should draw as understandably as possible on a chart provided by us. The second member enters 15 minutes later, and continues to draw, in turn, trying to guess the topic. Each member continues to do the same until the members have completed their time limit. The total duration is 1.5 hours, and supplies must be brought by the participants. An important note here is that the 1st member cannot communicate with remaining members. The group needs to guess the topic as they continue to draw.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 10, 2023",
+        time: "11AM-12:30PM",
+        venue: "SNU Block AB2 ClassRoom 102,103",
         type: "Team",
         team_size: "4",
         organizers: [
@@ -1095,9 +1094,9 @@ export const debugEvents = {
         eventNames: "Draw with comali",
         description:
           "A picture can paint a thousand words but can you paint a picture with a few hindrances your way? inspired from the famous tv show Cook with comali here's an opportunity to showcase your talent on the canvas while facing a few hurdles and hindrances coming through. Will you and your partner overcome the challenges and still win? Join to find out.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 9th, 2023",
+        time: "11:30AM-1:30PM",
+        venue: "SNU Block AB2 ClassRoom 001,003",
         type: "Team",
         team_size: "2-3",
         organizers: [
@@ -1126,9 +1125,9 @@ export const debugEvents = {
         eventNames: "What a look!",
         description:
           "Sheets and walls are too mainstream, showcase your painting skill on the face of your friend! What a look! Is a fun & creative face painting/makeup event that will for sure be an electrifying experience with 2-3 participants per team. The topic will be given on the spot with the total duration of 1.5 hours. It is expected that participants bring their own supplies.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 11th, 2023",
+        time: "11AM-1:30PM",
+        venue: "SNU Block AB2 ClassRoom 102,103",
         type: "Team",
         team_size: "2",
         organizers: [
@@ -1170,9 +1169,9 @@ export const debugEvents = {
         eventNames: "The SNUC IPL Auction",
         description:
           "A recreation of the massively entertaining IPL Auction - where teams are expected to bid for players and build a title-winning squad for their franchise.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 11th, 2023",
+        time: "8:30AM-3:30PM",
+        venue: "Lobby",
         type: "Team",
         team_size: "3-6",
         organizers: [
@@ -1195,9 +1194,9 @@ export const debugEvents = {
         eventNames: "Udaan",
         description:
           "Udaan is a platform which puts one’s general interpretation skills to test. It features a mixture of exciting fun filled rounds, which infuses the perspective of entrepreneurship into generic real world based scenarios.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 9th,2023",
+        time: "12PM-2PM",
+        venue: "IT Seminar Hall",
         type: "Team",
         team_size: "4-5",
         organizers: [
