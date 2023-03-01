@@ -759,9 +759,8 @@ export const debugEvents = {
         eventNames: "Quills Out Please!",
         description:
           "Do you have worlds built out of clouds, imagination running wild? Here's your chance to pen down your dream stories! (or if you've already written and formulated the script, why wait?) We see that you have a story to tell, so we present the place for you. Register now for Quills out please, the scriptwriting competition hosted by Lights out please, the SSN Theatre club.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "On/Before 9th March 2023",
+        venue: "Online",
         type: "Individual",
         organizers: [
           {
@@ -783,12 +782,12 @@ export const debugEvents = {
         form: "https://docs.google.com/forms/d/e/1FAIpQLSeqKVRLY5YRPOTqHnvtcZvePv7nyd8Ca674EErgFQjDJiG0lg/viewform?embedded=true"
       },
       {
-        eventNames: "Mono Acting",
+        eventNames: "Spotlight",
         description:
           "Have you ever caught yourself giving a pretend Oscar acceptance speech with your shampoo bottle? Ever notice how you mimic your heroes in front of the mirror or how you instantly become depressed when a sad song comes on the car’s stereo? If you’ve done all this, here’s your chance to come up and do it on the stage! Sign up for the Mono Acting Competition hosted by Lights Out Please, the most celebrated and the only theatre club of SSN.",
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 10, 2023",
+        time: "1:30PM-4:30PM",
+        venue: "IT Seminar Hall",
         type: "Individual",
         organizers: [
           {
