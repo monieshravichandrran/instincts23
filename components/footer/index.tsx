@@ -17,19 +17,33 @@ export const Footer = () => {
         <InstagramLogo size={32} />
       </a>
       <p className="mt-6 text-lg">{footerTextElement} With ❤️ by</p>
-      <div className="flex items-center gap-4 mt-5">
+      <div className="flex items-center mt-24">
+      <a href="">
+          <img
+            className="w-[7rem] h-[7rem] duration-300 cursor-pointer hover:scale-125 relative lg:ml-10 -rotate-[20deg]"
+            src="/images/akash.png"
+            alt="akash"
+          />
+        </a>
         <a href="https://www.instagram.com/iammoniesh208/">
           <img
-            className="w-[6rem] h-[6rem] duration-300 cursor-pointer hover:scale-125"
+            className="w-[7rem] h-[7rem] duration-300 cursor-pointer hover:scale-125 relative bottom-24 lg:ml-10"
             src="/images/moniesh.png"
             alt="Moniesh"
           />
         </a>
         <a href="https://twitter.com/Amanrk28">
           <img
-            className="w-[7rem] h-[7rem] mt-2 duration-300 cursor-pointer hover:scale-125"
+            className="w-[8.2rem] h-[8.2rem] duration-300 cursor-pointer hover:scale-125 relative bottom-24 lg:ml-10"
             src="/images/aman.png"
             alt="Aman Khemka"
+          />
+        </a>
+        <a href="">
+          <img
+            className="w-[7rem] h-[7rem] duration-300 cursor-pointer hover:scale-125 relative lg:ml-10 rotate-[20deg]"
+            src="/images/charu.png"
+            alt="Moniesh"
           />
         </a>
       </div>

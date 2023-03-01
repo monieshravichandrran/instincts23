@@ -911,7 +911,7 @@ export const debugEvents = {
       },
       {
         name: "SNUC-RHYTHM",
-        imgsrc: "n2k.jpeg"
+        imgsrc: "rhythm.jpg"
       }
     ], events: [
       {
