@@ -463,9 +463,9 @@ export const debugEvents = {
         {
           eventNames: "Anunad",
           description: "Anunad is SMC's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!",
-          date: "TBD",
-          time: undefined,
-          venue: "TBD",
+          date: "March 11, 2023",
+          time: "Prelims: 10AM-1PM, Finals 2PM-4PM",
+          venue: "Prelims: Mini Auditorium, Finals: Auditorium",
           type: "Individual",
           rules: [
             { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge."] },
@@ -493,9 +493,9 @@ export const debugEvents = {
         {
           eventNames: "Riff Off",
           description: "Riff Off is the solo instrumental event where you can showcase your talent as an individual. Be it with a guitar or drums, literally anything under the sky defined to be an instrument, the stage is yours! Come participate and explore your boundaries as a musician! ",
-          date: "TBD",
-          time: undefined,
-          venue: "TBD",
+          date: "March 9th, 2023",
+          time: "11:30AM-2PM",
+          venue: "SNU Seminar Hall",
           type: "Individual",
           rules: [
             { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge."] },
@@ -517,9 +517,9 @@ export const debugEvents = {
           description: `Band hunt is SMC's Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
           Music Lovers everywhere, this event is handcrafted just for you. Don't miss it!!
           `,
-          date: "TBD",
-          time: undefined,
-          venue: "TBD",
+          date: "March 10th, 2023",
+          time: "9AM-1PM",
+          venue: "Open Air Theatre",
           type: "Team",
           team_size: "3-10",
           rules: [
@@ -561,7 +561,6 @@ export const debugEvents = {
       eventNames: "Online Photography Contest",
       description: "Got a knack for composing great pictures? Or do you look for frames whenever your eyes are open? If your answer is yes for either of the questions, flex your talents here and win alluring prizes.",
       date: "On/Before March 5",
-      time: undefined,
       venue: "Online",
       type: "Individual",
       rules: [{ rules: ["Only one submission per participant (Open to all college students)", "Theme: Portraits", "Participants must follow @ssn_photography_club, @snuc_capturesque and @thiscamerawoman.", "Basic Colour Correction is allowed; photo manipulation is to be prohibited. Plagiarism will lead to disqualification.", "Pictures to be sent as .jpeg/.jpg (along with RAW if picture has been edited)", "Pictures with watermarks will not be evaluated.", "Your submission along with your Name and Contact Details is to be emailed to ssnphotographyclub@ssn.edu.in with the subject OPC '23 (Format for file name: FullName_College)", "Deadline: On / Before March 5, 2023.", "Entries will be judged by Sneha Nair (@thiscamerawoman), a Photographer and Cinematographer. Decision of the judge is final and binding."] }],

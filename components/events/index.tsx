@@ -58,7 +58,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
   const [modalIsOpen, setIsOpen] = useState(false);
   const previousValue = useRef(selecteId);
   var isTamil = false;
-  if (clubName == "Saaral Thamizh Mandram"){
+  if (clubName == "Saaral Thamizh Mandram") {
     isTamil = true;
   }
 
@@ -71,7 +71,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
   }, [selecteId]);
 
   function openModal() {
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     setIsOpen(true);
   }
 
@@ -138,9 +138,9 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
               </h3>
               {eventDetails.events[selecteId].description ?
                 isTamil ? <p className="text-lg lg:text-justify md:text-justify text-white font-body md:text-xl">
-            {eventDetails.events[selecteId].description}
-          </p> :<p className="text-lg text-justify  white font-body md:text-xl">
-            {eventDetails.events[selecteId].description} </p>
+                  {eventDetails.events[selecteId].description}
+                </p> : <p className="text-lg text-justify  white font-body md:text-xl">
+                  {eventDetails.events[selecteId].description} </p>
                 : null}
               {decor && eventDetails.events[selecteId].showDecor ?
                 <p className="text-lg text-justify text-white font-body md:text-xl">
@@ -165,7 +165,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                           >
                             {item}
                           </li>
-                        )):li_item.rules?.map((item) => (
+                        )) : li_item.rules?.map((item) => (
                           <li
                             key={item}
                             className="text-lg text-justify text-white font-body md:text-xl"
@@ -185,18 +185,13 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                     <BsFillCalendarCheckFill size={20} className="mr-2" />
                     <p> {eventDetails.events[selecteId].date}</p>
                   </div>
-                  <div className="rounded-3xl bg-white flex justify-around items-center p-2 text-black w-fit">
-                    <BsFillClockFill size={20} className="mr-2" />
-                    <p>
-                      {eventDetails.events[selecteId].time ? (
-                        <>
-                          {eventDetails.events[selecteId].time}
-                        </>
-                      ) : (
-                        "TBD"
-                      )}
-                    </p>
-                  </div>
+                  {eventDetails.events[selecteId].time ?
+                    <div className="rounded-3xl bg-white flex justify-around items-center p-2 text-black w-fit">
+                      <BsFillClockFill size={20} className="mr-2" />
+                      <p>
+                        {eventDetails.events[selecteId].time}
+                      </p>
+                    </div> : null}
                 </div>
                 {eventDetails.events[selecteId].type ?
                   <div className="rounded-3xl  flex justify-around items-center bg-white p-3 mt-3 text-black  w-fit">
@@ -251,14 +246,14 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
               )}
               <br />
               <div className="relative top-[30px] mt-10 flex justify-center">
-              {eventDetails.events[selecteId].form ?
-                <button
-                  className="neon-button mt-10 !text-white"
-                  onClick={openModal}
-                >
-                  Register
-                </button>
-                : null}
+                {eventDetails.events[selecteId].form ?
+                  <button
+                    className="neon-button mt-10 !text-white"
+                    onClick={openModal}
+                  >
+                    Register
+                  </button>
+                  : null}
               </div>
             </div>
           </div>
