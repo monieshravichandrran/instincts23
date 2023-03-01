@@ -20,7 +20,7 @@ export const Footer = () => {
       <div className="flex items-center mt-6">
       <a href="https://www.instagram.com/akash._.77/">
           <img
-            className="w-[5rem] h-[5rem] lg:w-[6rem] lg:h-[6rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"
+            className="w-[5.5rem] h-[5.5rem] lg:w-[6.5rem] lg:h-[6.5rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"
             src="/images/akash.png"
             alt="akash"
           />
