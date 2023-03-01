@@ -20,28 +20,28 @@ export const Footer = () => {
       <div className="flex items-center mt-20">
       <a href="https://www.instagram.com/akash._.77/">
           <img
-            className="w-[5.5rem] h-[5.5rem] lg:w-[7rem] lg:h-[7rem] duration-300 cursor-pointer hover:scale-125 relative lg:ml-10 -rotate-[20deg]"
+            className="w-[5rem] h-[5rem] lg:w-[6rem] lg:h-[6rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"
             src="/images/akash.png"
             alt="akash"
           />
         </a>
         <a href="https://www.instagram.com/iammoniesh208/">
           <img
-            className="w-[5.5rem] h-[5.5rem] lg:w-[7rem] lg:h-[7rem] duration-300 cursor-pointer hover:scale-125 relative bottom-20 lg:ml-10"
+            className="w-[5.5rem] h-[5.5rem] lg:w-[7rem] lg:h-[7rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"
             src="/images/moniesh.png"
             alt="Moniesh"
           />
         </a>
         <a href="https://twitter.com/Amanrk28">
           <img
-            className="w-[6.5rem] h-[6.5rem] lg:w-[8.2rem] lg:h-[8.2rem] duration-300 cursor-pointer hover:scale-125 relative bottom-20 lg:ml-10"
+            className="w-[7rem] h-[7rem] lg:w-[8.5rem] lg:h-[8.5rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"
             src="/images/aman.png"
             alt="Aman Khemka"
           />
         </a>
         <a href="">
           <img
-            className="w-[5.5rem] h-[5.5rem] lg:w-[7rem] lg:h-[7rem] duration-300 cursor-pointer hover:scale-125 relative lg:ml-10 rotate-[20deg]"
+            className="w-[5rem] h-[5rem] lg:w-[6rem] lg:h-[6rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"
             src="/images/charu.png"
             alt="Moniesh"
           />
