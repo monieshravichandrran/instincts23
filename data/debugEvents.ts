@@ -577,7 +577,7 @@ export const debugEvents = {
       form: "https://forms.gle/vVvYh6VEG4Yc3PHAA"
     },
     {
-      eventNames: "Let Experts Talk:",
+      eventNames: "Let Experts Talk",
       date: "March 10, 2023",
       time: "1 – 3:30 PM",
       showDecor: true,
