@@ -21,52 +21,51 @@ export const CollegeLogo = () => {
         <img
             src="/images/SSN-white.png"
             alt="SSN"
-            className="mr-14 inline-block w-[70px] lg:w-[120px] absolute top-[1rem] md:top-[4.25rem] right-2 md:mr-0"
+            className="mr-14 inline-block w-[70px] lg:w-[120px] absolute top-[1rem] md:top-[4.35rem] right-2 md:mr-0"
           />
-        <Link href="/">
-          <img
-            src="/images/instinctsLogo1.png"
-            alt="SNUC"
-            className="w-16 h-16 mt-[-10px] md:w-20 md:h-20 md:mt-[-20px] z-50 relative md:top-[4.5rem]"
-          />
-        </Link>
         <div className="absolute text-white top-3 right-10 sm:text-xl md:text-2xl">
           <div className="relative right-30 top-2">
-            <Link
-              href="/events"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+          <Link
+              href="/"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
             >
-              Events
+              Home
             </Link>
             <Link
               href="/about"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
             >
               About
             </Link>
             <Link
               href="/schedule"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
             >
               Schedule
             </Link>
             <Link
-              href="/contact"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+              href="/events"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
             >
-              Contact
+              Events
             </Link>
             <Link
-              href="/sponsors"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+              href="/sponsor"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
             >
               Sponsors
             </Link>
             <Link
               href="/gallery"
-              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium font-title text-2xl shimmer1"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
             >
               Gallery
+            </Link>
+            <Link
+              href="/contact"
+              className="sm:hidden lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl"
+            >
+              Contact Us
             </Link>
           </div>
         </div>
@@ -119,20 +118,28 @@ export const CollegeLogo = () => {
           <div className="my-4 border-b border-gray-300"></div>
           <div className="flex-col py-4  animm">
             <ul className="uppercase ">
-              <Link href="/events">
+            <Link href="/">
                 <li
                   className="py-4 font-medium text-white animm_li opacity-0"
                   onClick={() => setNav(false)}
                 >
-                  Events
+                  Home
                 </li>
               </Link>
               <Link href="/about">
                 <li
-                  className="py-4 font-medium text-white  animm_li opacity-0"
+                  className="py-4 font-medium text-white animm_li opacity-0"
                   onClick={() => setNav(false)}
                 >
                   About
+                </li>
+              </Link>
+              <Link href="/events">
+                <li
+                  className="py-4 font-medium text-white  animm_li opacity-0"
+                  onClick={() => setNav(false)}
+                >
+                  Events
                 </li>
               </Link>
               <Link href="/schedule">
@@ -141,14 +148,6 @@ export const CollegeLogo = () => {
                   onClick={() => setNav(false)}
                 >
                   Schedule
-                </li>
-              </Link>
-              <Link href="/contact">
-                <li
-                  className="py-4 font-medium text-white  animm_li opacity-0"
-                  onClick={() => setNav(false)}
-                >
-                  Contact
                 </li>
               </Link>
               <Link href="/sponsors">
@@ -165,6 +164,14 @@ export const CollegeLogo = () => {
                   onClick={() => setNav(false)}
                 >
                   Gallery
+                </li>
+              </Link>
+              <Link href="/contact">
+                <li
+                  className="py-4 font-medium text-white  animm_li opacity-0"
+                  onClick={() => setNav(false)}
+                >
+                  Contact Us
                 </li>
               </Link>
             </ul>

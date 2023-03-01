@@ -26,9 +26,9 @@ export const debugEvents = {
             ],
           },
         ],
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 10, 2023",
+        time: "9:30AM TO 4:30PM",
+        venue: "CSE LH45",
         team_size: "2",
         type: "Team",
         organizers: [
@@ -130,9 +130,9 @@ export const debugEvents = {
             ],
           }
         ],
-        date: "TBD",
-        time: undefined,
-        venue: "TBD",
+        date: "March 11, 2023",
+        time: "10AM - 1PM",
+        venue: "Open Air Theatre",
         type: "Individual",
         organizers: [
           {
@@ -157,7 +157,7 @@ export const debugEvents = {
         ],
         date: "March 11, 2023",
         time: "2PM - 5PM",
-        venue: "Central seminar hall",
+        venue: "CSE Lab",
         type: "Individual",
         organizers: [
           {
@@ -188,9 +188,9 @@ export const debugEvents = {
             ],
           },
         ],
-        date: "March 11, 2023",
-        time: "10:30AM - 1:30PM",
-        venue: "Seminar hall",
+        date: "March 10, 2023",
+        time: "9:30AM - 12:30PM",
+        venue: "IT Seminar hall",
         type: "Individual",
         organizers: [
           {
@@ -217,9 +217,9 @@ export const debugEvents = {
         eventNames: "Valor Cup",
         description:
           "This is a Valorant game event. Plan your strike and plant the spike! Clutch your way to the top in classic 5v5 team battles.",
-        date: "TBD",
-        time: "TBD",
-        venue: "TBD",
+        date: "March 10, 2023",
+        time: "9:30AM - 1:30PM",
+        venue: "CSE Lab",
         type: "Team",
         team_size: "5",
         organizers: [
@@ -240,8 +240,8 @@ export const debugEvents = {
         description:
           "This is an exciting and competitive mobile gaming multiplayer tournament, where you will get to showcase your skills and strategies in a series of rounds. The objective is to defeat opposing teams in a variety of game modes using various weapons and tactics.",
         date: "TBD",
-        time: "TBD",
-        venue: "TBD",
+        time: "10AM-2PM",
+        venue: "CSE LH49",
         type: "Team",
         team_size: "5-6",
         organizers: [

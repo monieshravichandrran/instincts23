@@ -1040,7 +1040,7 @@ body {
 #navBar {
   width: 100vw;
   height: 70px;
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3))!important;
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1))!important;
   transition: 0.2s;
   display: flex;
 }

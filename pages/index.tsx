@@ -18,7 +18,7 @@ export default function Home() {
             alt="Instincts 2023 - Lost Continent"
             height={0}
             width={450}
-            className="mt-10 mb-[2rem] lg:p-8 clubitem"
+            className="mt-16 md:mt-12 mb-[2rem] lg:p-8 clubitem"
           />
           <h1 className="text-[2rem] lg:text-[4rem] leading-[3rem] lg:leading-[5rem] font-title font-bold text-center mb-4 shimmer">
             Registration Opens Soon
