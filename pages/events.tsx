@@ -13,10 +13,6 @@ export default function Events() {
         <h2 className="mt-20 mb-2 font-bold text-center lg:text-4xl sm:text-3xl font-title">
           Events
         </h2>
-        <h2 className="mb-8 font-bold text-center lg:text-4xl sm:text-2xl">
-          All events for SSN SNUC Instincts are powered by our different clubs,
-          do check them out!
-        </h2>
         <div
           id="container"
           className="justify-center min-w-[96vw] flex md:min-w-[85vw]"

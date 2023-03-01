@@ -220,8 +220,8 @@ export const debugEvents = {
         eventNames: "Valor Cup",
         description:
           "This is a Valorant game event. Plan your strike and plant the spike! Clutch your way to the top in classic 5v5 team battles.",
-        date: "March 10, 2023",
-        time: "9:30AM - 1:30PM",
+        date: "Prelims: March 9 2023 ,Finals: March 10 2023",
+        time: "Prelims: 11:30AM - 3:30PM, Finals: 9:30-1:30",
         venue: "CSE Lab",
         type: "Team",
         team_size: "5",
@@ -236,18 +236,18 @@ export const debugEvents = {
           }
         ],
         ruleBook:
-          "https://drive.google.com/open?id=1jw2fWcqE8x6kGJja78Gzb2NcMhVXBfup",
+          "https://drive.google.com/file/d/11u7JxetQwcT20YjKeDW6oKgbZHcRR5fM/view?usp=share_link",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSd31jxKGBBj1kkpkZKR5ecF8BcL_FXoK4n7vb-d0jqpX8MhjA/viewform?embedded=true"
       },
       {
         eventNames: "CODM-MAYHEM",
         description:
           "This is an exciting and competitive mobile gaming multiplayer tournament, where you will get to showcase your skills and strategies in a series of rounds. The objective is to defeat opposing teams in a variety of game modes using various weapons and tactics.",
-        date: "TBD",
+        date: "Prelims: March 10 2023, Finals: March 11 2023",
         time: "10AM-2PM",
-        venue: "CSE LH49",
+        venue: "CSE LH46",
         type: "Team",
-        team_size: "5-6",
+        team_size: "5",
         organizers: [
           {
             name: "Anish Panicker",
@@ -259,7 +259,7 @@ export const debugEvents = {
           }
         ],
         ruleBook:
-          "https://drive.google.com/open?id=1HrIkmR93Gl9Dw6rSEmMGrc6kKvkW5CAe",
+          "https://drive.google.com/file/d/11u7JxetQwcT20YjKeDW6oKgbZHcRR5fM/view?usp=share_link",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSfvR4UVLdkfPWqe9Av4UdOeg35D90eiOkHnQ4jD7s24nAtDQQ/viewform?embedded=true" 
       }
     ]
@@ -917,7 +917,7 @@ export const debugEvents = {
           "The Western Solo competition is set to be a dazzling display of skill, as participants showcase their talents with either a choreographed solo performance or a freestyle routine, with both options being limited to western dance styles. As you watch the competition, you'll see dancers moving to the beat with precision and energy. Each performer brings their own unique style and personality to the dance, creating a memorable and engaging performance.",
         date: "9th March 2023",
         time: "11:30AM - 2:30PM",
-        venue: "SNU Lobby",
+        venue: "SNU Academic Block 1 Lobby",
         type: "Individual",
         rules: [{
           rules: ["Time limit: 3 minutes.", "The registration fee is 100 per head.", "Usage of props is allowed.", "Obscenity and vulgarity will not be entertained.", "Folk themed performances are not allowed.", "Inflammable objects, water and heavy objects are not allowed on stage.", "Decisions of the judges and coordinators will be final and binding.", "The organizing committee reserves the right to modify the event at any point."]
@@ -1192,7 +1192,7 @@ export const debugEvents = {
           "A recreation of the massively entertaining IPL Auction - where teams are expected to bid for players and build a title-winning squad for their franchise.",
         date: "March 11th, 2023",
         time: "8:30AM-3:30PM",
-        venue: "Lobby",
+        venue: "SNU Academic Block 1 Lobby",
         type: "Team",
         team_size: "3-6",
         organizers: [
