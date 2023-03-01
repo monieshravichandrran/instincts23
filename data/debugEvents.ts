@@ -1012,7 +1012,7 @@ export const debugEvents = {
     clubs: [
       {
         name: "Student Variety Show",
-        imgsrc: "talent.png"
+        imgsrc: "talents.png"
       }
     ], events: [
       {
