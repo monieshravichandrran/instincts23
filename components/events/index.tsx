@@ -213,11 +213,11 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                   <IoLocationSharp size={20} />
                   <p> {eventDetails.events[selecteId].venue}</p>
                 </div>
-                <h3 className="mt-3 text-lg text-white font-title">
-                  Contact Numbers
-                </h3>
                 {eventDetails.events[selecteId].organizers?.length ? (
                   <>
+                    <h3 className="mt-3 text-lg text-white font-title">
+                      Contact Numbers
+                    </h3>
                     {eventDetails.events[selecteId].organizers?.map((item) => (
                       <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black">
                         <>
@@ -229,12 +229,7 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                         </>
                       </div>
                     ))}
-                  </>
-                ) : (
-                  <p className="text-lg text-justify text-white font-body md:text-xl">
-                    <b className="mr-1 font-title">TBD</b>
-                  </p>
-                )}
+                  </>) : null}
               </div>
               {eventDetails.events[selecteId].ruleBook && (
                 <a
