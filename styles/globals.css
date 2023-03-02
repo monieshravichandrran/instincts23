@@ -75,7 +75,6 @@ body {
   }
 }
 
-
 .shimmers {
   color: rgb(65, 28, 14, 0.1);
   background: -webkit-gradient(
@@ -102,7 +101,6 @@ body {
   background-position: 0 0;
   background-color: rgba(65, 28, 14, 0.8);
 }
-
 
 .shimmer1 {
   text-align: center;
@@ -396,7 +394,7 @@ body {
 }
 
 .anim_li {
-  animation: slide-left 1s;
+  animation: slide-left 0.4s;
   opacity: 1;
 }
 
@@ -406,8 +404,8 @@ body {
 
 @keyframes slide-left {
   from {
-    margin-left: 100%;
-    width: 300%;
+    margin-left: 90%;
+    width: 100%;
   }
 
   to {
@@ -1033,7 +1031,7 @@ body {
 }
 
 .bxl {
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   color: white !important;
 }
 
@@ -1069,18 +1067,21 @@ body {
 #navBar {
   width: 100vw;
   height: 70px;
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1))!important;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ) !important;
   transition: 0.2s;
   display: flex;
 }
 
 .floatingNav {
-  width: calc(100vh - 100px); 
+  width: calc(100vh - 100px);
   border-radius: 2px;
   box-shadow: 0px 1px 10px #999;
 }
 
-.contacthead:after{
+.contacthead:after {
   background-color: #f0af2d;
   bottom: -10px;
   height: 2px;
@@ -1090,7 +1091,7 @@ body {
 }
 
 .clubimage {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .clubimage:hover {
