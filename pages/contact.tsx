@@ -17,7 +17,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Tejesh - 95660 32425
+                  Tejesh Kumar V S - 9566032425
                 </p>
               </>
             </div>
@@ -25,7 +25,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Vahini - 9025756533
+                  Vahini M - 9025756533
                 </p>
               </>
             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Sai Senthur - 8220488090
+                Saisenthur B - 8220488090
                 </p>
               </>
             </div>
@@ -57,7 +57,7 @@ const Contact = () => {
               </>
             </div>
           </div>
-          <h1 className="contacthead text-3xl w-full font-title mt-5 shimmers ml-4">Events & Clubs Coordinators</h1>
+          <h1 className="contacthead text-3xl w-full font-title mt-5 shimmers ml-4">Event Coordinators</h1>
           <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
             <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black text-xl inline bxl text-white">
               <>
@@ -71,7 +71,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Ahamed Raja - 99445 88988
+                  Ahamed Raja - 9944588988
                 </p>
               </>
             </div>
@@ -79,7 +79,26 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Anil - 93607 90874
+                  Anil - 9360790874
+                </p>
+              </>
+            </div>
+          </div>
+          <h1 className="contacthead text-3xl w-full font-title mt-5 shimmers ml-4">Hospitality </h1>
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
+            <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black text-xl inline bxl text-white">
+              <>
+                <BsFillPersonFill size={20} />
+                <p >
+                  Akil - 9360796691
+                </p>
+              </>
+            </div>
+            <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black text-xl inline bxl text-white">
+              <>
+                <BsFillPersonFill size={20} />
+                <p >
+                  Pooja - 8220832656
                 </p>
               </>
             </div>

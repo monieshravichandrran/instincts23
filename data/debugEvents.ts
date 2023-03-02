@@ -1274,7 +1274,8 @@ export const debugEvents = {
             phone: "7395973995",
           }
         ],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSfmwcNcrrilOAWOiJokRPmyldzjDuopt8lloFO5uEM03EDjHQ/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfmwcNcrrilOAWOiJokRPmyldzjDuopt8lloFO5uEM03EDjHQ/viewform?embedded=true",
+        ruleBook: "https://drive.google.com/file/d/18FjJmvehdmS-g5rQ7zwQSoRuLxfIIfIc/view?usp=drivesdk"
       },
       {
         eventNames: "Udaan",
