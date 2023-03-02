@@ -462,7 +462,7 @@ export const debugEvents = {
       [
         {
           eventNames: "Anunad",
-          description: "Anunad is SMC's eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!",
+          description: "Anunad is eastern solo singing event. It is the right place if you are looking to prove your mettle as a singer. Flaunt your singing skills in the light music solo vocal event. Enthrall us with your voice, all eyes are going to be on you and the stage is all yours. The event is not to be missed by all you aspiring singers!",
           date: "March 11, 2023",
           time: "Prelims: 10AM-1PM, Finals 2PM-4PM",
           venue: "Prelims: Mini Auditorium, Finals: Auditorium",
@@ -514,7 +514,7 @@ export const debugEvents = {
         },
         {
           eventNames: "Band Hunt",
-          description: `Band hunt is SMC's Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
+          description: `Band hunt is Eastern and Western band event. If you love playing Carnatic fusion, rock ‘n’ roll, blues, pop or light film music with your band, this is the right place for you. Come battle it out with other amazing bands and prove that you have what it takes to be the best.
           Music Lovers everywhere, this event is handcrafted just for you. Don't miss it!!
           `,
           date: "March 10th, 2023",
@@ -615,12 +615,26 @@ export const debugEvents = {
       {
         eventNames: "சகலகலா வல்லவன்",
         description:
-          "இன்றைய சூழலில் பேச வேண்டிய விஷயங்களை மேடையிட்டு பேசும் சாரலின்  பட்டிமன்றத்திற்கும், நான்கு போட்டிகளை உள்ளடக்கிய சகலகலா வல்லவன் போட்டிக்கும் அனைவரையும் வரவேற்கிறது சாரல் தமிழ் மன்றம். தலைவர் பட வசனங்களை மணப்பாடமாய் பேசிய நமக்கு, அதை பேச ஒரு வாய்ப்பு தருகிறது வசன கர்த்தா போட்டி. இளங்கோவடிகள் முதல் அனிருத் வரை நம்மை கட்டி போட்ட இசையில் உள்ள சில சொற்களின் பொருளை சொல்ல பொருளை தரும் போட்டி இசை தமிழ். வாயை மூடி பேசவும் போட்டியில் திருக்குறளை குரலை பயன் படுத்தாமல் நடித்தே கண்டு பிடிக்க வைக்க வேண்டும். கடைசி போட்டி தொடரி போட்டி, தொடரியை போல் வார்த்தைகளை எடுத்து அதை கதையாய் தொடுக்க வெற்றி நமதே. தொலைந்த கண்டத்தை தேடும் முயற்சியில் வாசகங்களை வைத்து சாகசம் செய்ய இந்த இன்ஸ்டிங்க்ட்ஸில் சாரல் தமிழ் மன்றத்தோடு இணைவீர்.",
+          "கலைகளின் மீது நாம் கொண்ட அன்பு என்றும் மாறாது. அப்படி மாணவர்கள் திறமையை வெளிப்படுத்த ஒரு வாய்ப்பு தருகிறது சகலகலா வல்லவன் போட்டி.இருவர் கொண்ட குழுவாக பங்கேற்க வேண்டும் .",
         date: "March 10th, 2023",
         time: "1:30PM-4:30PM",
         venue: "IT Classrooms (LH 31,32,33)",
         type: "Team",
-        team_size: "TBD",
+        team_size: "2",
+        rules: [{
+          ruleHead: "தகுதிச்சுற்று:",
+          rules: [`வசன கர்த்தா போட்டி
+          தலைவர் பட வசனங்களை மணப்பாடமாய் பேசிய நமக்கு, அதை பேச ஒரு வாய்ப்பு தருகிறது வசன கர்த்தா போட்டி. கொடுக்க படும் திரை வசனத்தை பார்த்து அப்படியே பேசி காட்ட வேண்டும். `, `இசை தமிழ்
+          இளங்கோவடிகள் முதல் அனிருத் வரை நம்மை கட்டி போட்ட இசையில் உள்ள சில சொற்களின் பொருளை சொல்ல பொருளை தரும் போட்டி. 
+          `,`வாயை மூடி பேசவும் போட்டி
+          திருக்குறளை குரலை பயன் படுத்தாமல் நடித்தே கண்டு பிடிக்க வைக்க வேண்டும். (dumb charades)`,`தொடரி போட்டி
+          தொடரியை போல் இரு அணிகள் தொடர்புடைய 20  வார்த்தைகளை எடுத்து அந்த வார்த்தைகளை கதையாய் தொடுக்க வெற்றி.
+          தகுதி சுற்றின் கடைசியில் நல்ல கூட்டு மதிப்பெண் உள்ள குழுக்கள் இறுதி சுற்றுக்கு தேர்வாகும்.`]
+        },
+        {
+          ruleHead: "இறுதிச்சுற்று:",
+          rules: ["கலந்துரையாடல் (GD)", "தேர்வாகும் அணிகள் கொடுக்கப்படும் தலைப்பில் அவர்கள் கருத்தை வெளிப்படுத்த, சிறந்த கருத்துக்கு பரிசுகள் வழங்கப்படும்."]
+        }],
         form: "https://docs.google.com/forms/d/e/1FAIpQLSc8MG70OJobMYHKBRIq-MZCbvr7AYjELrtZ0Me28LDkDEtufA/viewform?embedded=true",
         ruleBook: "https://drive.google.com/file/d/1YB1lKfruOgnzw_tcq6ePMG0MVYDnQbDU/view?usp=sharing"
       },
@@ -822,8 +836,8 @@ export const debugEvents = {
         type: "Individual",
         organizers: [
           {
-            name: "Pavithra Manikandan",
-            phone: "9677023007",
+            name: "Rohan Nivash R S",
+            phone: "7598738595",
           }
         ],
         rules: [
@@ -923,7 +937,7 @@ export const debugEvents = {
         venue: "SNU Academic Block 1 Lobby",
         type: "Individual",
         rules: [{
-          rules: ["Time limit: 3 minutes.", "The registration fee is 100 per head.", "Usage of props is allowed.", "Obscenity and vulgarity will not be entertained.", "Folk themed performances are not allowed.", "Inflammable objects, water and heavy objects are not allowed on stage.", "Decisions of the judges and coordinators will be final and binding.", "The organizing committee reserves the right to modify the event at any point."]
+          rules: ["Time limit: 3 minutes.", "The registration fee is 200 per head.", "Usage of props is allowed.", "Obscenity and vulgarity will not be entertained.", "Folk themed performances are not allowed.", "Inflammable objects, water and heavy objects are not allowed on stage.", "Decisions of the judges and coordinators will be final and binding.", "The organizing committee reserves the right to modify the event at any point."]
         }],
         organizers: [
           {
