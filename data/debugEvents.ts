@@ -672,7 +672,17 @@ export const debugEvents = {
           ruleHead: "இறுதிச்சுற்று:",
           rules: ["பிரதான அரங்கத்தில் இறுதிச்சுற்று நடைபெறும்.", "போட்டியாளர்கள் இரு அணிகளாக பிரிக்கப்பட்டு பட்டிமன்றம் நடைபெறும்.", "ஒவ்வொரு போட்டியாளருக்கும் பேசுவதற்கு 7 நிமிடங்கள் வழங்கப்படும்.", "சிறந்து பேசிய போட்டியார்களுக்கு பரிசுகள் வழங்கப்படும்."]
         }],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSfHT976qp53jV9DrKhYoqEbqARIXYothKl-bEeijGK7HBPY-g/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfHT976qp53jV9DrKhYoqEbqARIXYothKl-bEeijGK7HBPY-g/viewform?embedded=true",
+        organizers: [
+          {
+            name: "Hariharan",
+            phone: "9080970163"
+          },
+          {
+            name: "Nithish",
+            phone: "8248133383"
+          }
+        ]
       },
       {
         eventNames: "Fire Silambam",
