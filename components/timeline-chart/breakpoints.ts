@@ -4,10 +4,11 @@ const fontFamily = "Azonix";
 export const dataLabelStyle = {
   fontWeight: 500,
   fontSize: "14px",
+  colors:["#fff"],
   fontFamily,
 };
 export const axisStyle = {
-  colors: ["#ffffff"],
+  colors: ["#fff"],
   fontSize: "14px",
   fontWeight: 400,
   fontFamily,
@@ -120,7 +121,7 @@ export const smOptions: ApexOptions = {
     },
   },
   chart: {
-    height: 400,
+    height: "2000",
   },
 };
 

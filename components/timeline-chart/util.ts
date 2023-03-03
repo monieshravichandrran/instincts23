@@ -302,11 +302,11 @@ export const options: ApexOptions = {
     },
   },
   yaxis: {
-    show: false,
+    show: true,
     labels: {
       style: {
-        ...axisStyle,
-        fontSize: "24px",
+        colors: ["white"],
+        fontSize: "15px",
       },
     },
   },
