@@ -26,7 +26,7 @@ export default function Events() {
                 alt={""}
                 width={244}
                 height={244}
-                className="mb-4 mx-auto w-[40vw] h-[40vw] sm:w-[40vw] sm:h-[40vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
+                className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
               />
               <h2 className="mb-4 text-3xl font-bold text-center font-title">
                 DJ Night
@@ -38,7 +38,7 @@ export default function Events() {
                 alt={""}
                 width={244}
                 height={244}
-                className="mb-4 mx-auto w-[40vw] h-[40vw] sm:w-[40vw] sm:h-[40vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
+                className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
               />
               <h2 className="mb-4 text-3xl font-bold text-center font-title">
                 Celebrity Variety Show
@@ -60,7 +60,7 @@ export default function Events() {
                 id="pro"
                 width={244}
                 height={244}
-                className="mb-4 mx-auto w-[40vw] h-[40vw] sm:w-[40vw] sm:h-[40vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
+                className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
               />
               <h2 className="mb-4 text-3xl font-bold text-center font-title">
                 Pro Show
@@ -72,7 +72,7 @@ export default function Events() {
                 alt={""}
                 width={244}
                 height={244}
-                className="mb-4 mx-auto w-[40vw] h-[40vw] sm:w-[40vw] sm:h-[40vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
+                className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
               />
               <h2 className="mb-4 text-3xl font-bold text-center font-title">
                 Bike Stunt
@@ -84,7 +84,7 @@ export default function Events() {
                 alt={""}
                 width={244}
                 height={244}
-                className="mb-4 mx-auto w-[40vw] h-[40vw] sm:w-[40vw] sm:h-[40vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
+                className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
               />
               <h2 className="mb-4 text-3xl font-bold text-center font-title">
                 Choreo Night
