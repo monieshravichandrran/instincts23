@@ -21,7 +21,7 @@ export default function Home() {
             className="mt-16 md:mt-12 mb-[2rem] lg:p-8 clubitem"
           />
           <h1 className="text-[2rem] lg:text-[4rem] leading-[3rem] lg:leading-[5rem] font-title font-bold text-center mb-4 shimmer">
-            Registration Opens Soon
+          Ready to Rock and Roll? Register Now!"
           </h1>
           <div className="md:p-4 shadow-lg rounded-br-3xl">
             <div

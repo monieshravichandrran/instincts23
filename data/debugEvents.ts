@@ -1045,7 +1045,7 @@ export const debugEvents = {
         time: "5:30pm-8:30pm",
         venue: "Open Air Theatre",
         type: "Team",
-        team_size: "2",
+        team_size: "8-25",
         rules: [{
           ruleHead: "Round 1:",
           rules: [" Online video submission round.", "Teams are requested to send a link of a recently recorded video with all the participating members to ssnn2k@gmail.com by March 1st", "The mail must contain the college name, team name and contact details of two representatives", `Results will be announced by March 3rd.`]
