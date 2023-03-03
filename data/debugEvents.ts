@@ -524,7 +524,7 @@ export const debugEvents = {
           type: "Team",
           team_size: "3-10",
           rules: [
-            { rules: ["Participants MUST be college students with a valid college ID card and are required to purchase individual music passes.", "Members of the band need not be from the same college. Cross college bands are allowed.", "Music of any genre and language is permitted.", "Original compositions will be given extra points when compared to covers."] },
+            { rules: ["Participants MUST be college students with a valid college ID card and are required to purchase individual music passes.", "Music Pass is NOT required for any/all band members to participate in the Online Shortlisting.","All members of the bands that qualify for the Offline Round, MUST purchase the Music Pass to be able to perform","Members of the band need not be from the same college. Cross college bands are allowed.", "Music of any genre and language is permitted.", "Original compositions will be given extra points when compared to covers."] },
             {
               ruleHead: "Online Shortlisting",
               rules: ["Bands should send in an online link of their performance.", " Note that the drive link shared must be accessible by ‘Anyone with the Link’.", "Bands should send in an online link of their performance. Time Limit is 5 minutes. The deadline for sending in the online submission is 3rd March"]
