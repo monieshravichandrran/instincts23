@@ -237,7 +237,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/file/d/11u7JxetQwcT20YjKeDW6oKgbZHcRR5fM/view?usp=share_link",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdrxMgXaefYfFmlKd0uz7BGcVehe_AtjHdZMr2Td23kdHhlJQ/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSd31jxKGBBj1kkpkZKR5ecF8BcL_FXoK4n7vb-d0jqpX8MhjA/viewform?embedded=true"
       },
       {
         eventNames: "CODM-MAYHEM",
@@ -260,7 +260,7 @@ export const debugEvents = {
         ],
         ruleBook:
           "https://drive.google.com/file/d/11u7JxetQwcT20YjKeDW6oKgbZHcRR5fM/view?usp=share_link",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdrxMgXaefYfFmlKd0uz7BGcVehe_AtjHdZMr2Td23kdHhlJQ/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfvR4UVLdkfPWqe9Av4UdOeg35D90eiOkHnQ4jD7s24nAtDQQ/viewform?embedded=true" 
       }
     ]
   },
