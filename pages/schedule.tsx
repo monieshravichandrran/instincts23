@@ -30,6 +30,9 @@ const Schedule = () => {
             Schedule
           </h2>
         </div>
+        <div className="w-full flex justify-center">
+          <p className="text-xl my-10 md:hidden text-white">Zoom and Click on events to explore</p>
+        </div>
         <div className="flex flex-col lg:flex-row w-11/12 lg:w-5/6 mx-auto gap-10 my-20 ">
           <div className="overflow-hidden text-white lg:overflow-auto  lg:p-10 rounded-lg lg:w-1/4  backdrop-blur-md bg-black/30 border-[0.02rem] border-gray-400 border-opacity-20">
             <ul className="flex lg:flex-col px-2 gap-10 lg:gap-0 flex-row w-full justify-between">
