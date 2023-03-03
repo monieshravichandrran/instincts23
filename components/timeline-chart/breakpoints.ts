@@ -4,11 +4,10 @@ const fontFamily = "Azonix";
 export const dataLabelStyle = {
   fontWeight: 500,
   fontSize: "14px",
-  colors:["#fff"],
   fontFamily,
 };
 export const axisStyle = {
-  colors: ["#fff"],
+  colors: ["#ffffff"],
   fontSize: "14px",
   fontWeight: 400,
   fontFamily,
@@ -78,7 +77,7 @@ export const mdOptions: ApexOptions = {
 // Breakpoint: 640px
 export const smOptions: ApexOptions = {
   legend: {
-    show: true,
+    show: false,
     position: "bottom",
     floating: true,
     fontFamily,
@@ -95,16 +94,20 @@ export const smOptions: ApexOptions = {
         : 0,
   },
   tooltip: {
-    enabled: false,
+    enabled: true,
   },
   dataLabels: {
-    enabled: false,
+    enabled: true,
+    style: {
+      ...dataLabelStyle,
+      fontSize: "15px",
+    },
   },
   yaxis: {
     labels: {
       style: {
-        ...axisStyle,
-        fontSize: "14px",
+        fontSize: "17px",
+        colors: "#fff",
       },
     },
   },
@@ -121,7 +124,7 @@ export const smOptions: ApexOptions = {
     },
   },
   chart: {
-    height: "2000",
+    height: 500,
   },
 };
 
@@ -129,8 +132,8 @@ export const xsOptions = {
   yaxis: {
     labels: {
       style: {
-        ...axisStyle,
-        fontSize: "12px",
+        fontSize: "17px",
+        colors: "#fff",
       },
     },
   },

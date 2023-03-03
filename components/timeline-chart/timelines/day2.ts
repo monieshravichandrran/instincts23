@@ -8,7 +8,9 @@ export const day2Data: ApexOptions["series"] = [
   },
   {
     name: "Student Variety Show Finals",
-    data: [{ x: "Auditorium", y: [dateFormatter(14, 0), dateFormatter(16, 30)] }],
+    data: [
+      { x: "Auditorium", y: [dateFormatter(14, 0), dateFormatter(16, 30)] },
+    ],
   },
   {
     name: "Student Variety Show ",
@@ -24,15 +26,22 @@ export const day2Data: ApexOptions["series"] = [
   },
   {
     name: "Lights. Camera. Thadhinginathom",
-    data: [{ x: "Central Seminar Hall", y: [dateFormatter(9, 0), dateFormatter(11, 0)] }],
+    data: [
+      { x: "Central seminar", y: [dateFormatter(9, 0), dateFormatter(11, 0)] },
+    ],
   },
   {
     name: "Let Experts Talk",
-    data: [{ x: "Central Seminar Hall", y: [dateFormatter(13, 0), dateFormatter(15, 30)] }],
+    data: [
+      {
+        x: "Central seminar",
+        y: [dateFormatter(13, 0), dateFormatter(15, 30)],
+      },
+    ],
   },
   {
     name: "The Valor Cup								",
-    data: [{ x: "CSE Lab", y: [dateFormatter(9, 30), dateFormatter(13, 30)] }],
+    data: [{ x: "CSE lab", y: [dateFormatter(9, 30), dateFormatter(13, 30)] }],
   },
   {
     name: "Call of Duty								",
@@ -44,38 +53,56 @@ export const day2Data: ApexOptions["series"] = [
   },
   {
     name: "ENIGMA (MYSTERY EVENT)						",
-    data: [{ x: "CSE Seminar Hall", y: [dateFormatter(9, 30), dateFormatter(12, 30)] }],
+    data: [
+      { x: "CSE seminar", y: [dateFormatter(9, 30), dateFormatter(12, 30)] },
+    ],
   },
   {
     name: "MELA						    ",
-    data: [{ x: "CSE Seminar Hall", y: [dateFormatter(13, 30), dateFormatter(16, 30)] }],
+    data: [
+      { x: "CSE seminar", y: [dateFormatter(13, 30), dateFormatter(16, 30)] },
+    ],
   },
   {
     name: "SUCC						",
-    data: [{ x: "IT Seminar Hall", y: [dateFormatter(9, 30), dateFormatter(12, 30)] }],
+    data: [
+      { x: "IT seminar", y: [dateFormatter(9, 30), dateFormatter(12, 30)] },
+    ],
   },
   {
     name: "Spotlight												",
-    data: [{ x: "IT Seminar Hall", y: [dateFormatter(13, 30), dateFormatter(16, 30)] }],
+    data: [
+      { x: "IT seminar", y: [dateFormatter(13, 30), dateFormatter(16, 30)] },
+    ],
   },
   {
     name: "Sagalakalavallavan																		",
-    data: [{ x: "IT Classrooms", y: [dateFormatter(13, 30), dateFormatter(16, 30)] }],
+    data: [
+      { x: "IT Classrooms", y: [dateFormatter(13, 30), dateFormatter(16, 30)] },
+    ],
   },
   {
     name: "Bike Stunt Show																				",
-    data: [{ x: "Fountain", y: [dateFormatter(16, 30), dateFormatter(17, 30)] }],
+    data: [
+      { x: "Fountain", y: [dateFormatter(16, 30), dateFormatter(17, 30)] },
+    ],
   },
   {
     name: "SOLES ON FIRE 																							",
-    data: [{ x: "SNU Classroom 2", y: [dateFormatter(11, 0), dateFormatter(12, 30)] }],
+    data: [
+      { x: "SNU class2", y: [dateFormatter(11, 0), dateFormatter(12, 30)] },
+    ],
   },
   {
     name: "ROAMING PARIS				",
-    data: [{ x: "SNU Classroom 2", y: [dateFormatter(14, 0), dateFormatter(16, 0)] }],
+    data: [
+      { x: "SNU class2", y: [dateFormatter(14, 0), dateFormatter(16, 0)] },
+    ],
   },
   {
     name: "Designathon										",
-    data: [{ x: "SNU Classroom 2", y: [dateFormatter(10, 0), dateFormatter(13, 30)] }],
+    data: [
+      { x: "SNU class2", y: [dateFormatter(10, 0), dateFormatter(13, 30)] },
+    ],
   },
 ];

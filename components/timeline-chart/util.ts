@@ -278,7 +278,7 @@ export const options: ApexOptions = {
       show: false,
     },
     zoom: {
-      enabled: false,
+      enabled: true,
     },
   },
   plotOptions: {
@@ -287,7 +287,7 @@ export const options: ApexOptions = {
       barHeight: "100%",
       rangeBarOverlap: true,
       dataLabels: {
-        hideOverflowingLabels: false,
+        hideOverflowingLabels: true,
       },
     },
   },
@@ -305,8 +305,8 @@ export const options: ApexOptions = {
     show: true,
     labels: {
       style: {
-        colors: ["white"],
-        fontSize: "15px",
+        fontSize: "17px",
+        colors: "#fff",
       },
     },
   },
@@ -317,23 +317,12 @@ export const options: ApexOptions = {
     type: "gradient",
     gradient: gradientStyle,
   },
-  tooltip: {
-    enabled: false,
-  },
+  tooltip: { enabled: true },
   dataLabels: {
     enabled: true,
     formatter: (val, { seriesIndex, config }) => {
       let name = config.series[seriesIndex].name;
-      if (
-        [
-          "Hexathlon",
-          "Trump the Aces",
-          "Data Utopia",
-          "IPL Auction",
-          "Mock Job Drive",
-          "Hacker's Asylum",
-        ].includes(name)
-      ) {
+      if (["Fire Silambam", "Bike Stunt Show"].includes(name)) {
         name = name.substring(0, 5) + "...";
       }
       if (["Expecto Perceptronum", "Poster Presentation"].includes(name))
