@@ -1304,11 +1304,11 @@ export const debugEvents = {
             phone: "7338796632",
           },
           {
-            name: "Keshav Muralidhar",
-            phone: "9884039394"
+            name: "Abhishek Samuel",
+            phone: "9361110197"
           }
         ],
-        ruleBook: "https://drive.google.com/open?id=11D4UQm0RfqtYKQQHbNp2J18rYd2iX-ZZ",
+        ruleBook: "https://drive.google.com/file/d/1mW8jJ9syKHJTrV9T4FAbgJvKyjJ0zNuZ/view?usp=drivesdk",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSdXKe6NNFI5BWsmJSJXUEKQTWoZHxjQhdmcw4x3eeJuCE2p1A/viewform?embedded=true"
       },
     ]
