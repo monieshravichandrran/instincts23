@@ -50,6 +50,12 @@ export const CollegeLogo = () => {
               Events
             </Link>
             <Link
+              href="/proshows"
+              className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
+            >
+              Pro Shows
+            </Link>
+            <Link
               href="/sponsors"
               className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow"
             >
@@ -144,6 +150,14 @@ export const CollegeLogo = () => {
                   onClick={() => setNav(false)}
                 >
                   Events
+                </li>
+              </Link>
+              <Link href="/proshows">
+                <li
+                  className="py-4 font-medium text-white  animm_li opacity-0"
+                  onClick={() => setNav(false)}
+                >
+                  Pro Shows
                 </li>
               </Link>
               <Link href="/schedule">

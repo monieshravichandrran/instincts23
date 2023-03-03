@@ -965,7 +965,8 @@ export const debugEvents = {
             ],
           },
         ],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSc6yRkmx4cqd0sh48j76UflZPCPmGafvlA2WO1P_MaXUhvYQw/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSc6yRkmx4cqd0sh48j76UflZPCPmGafvlA2WO1P_MaXUhvYQw/viewform?embedded=true",
+        ruleBook: "https://drive.google.com/file/d/1DH65bN31oEe3SmrXz5PIZHW7rz1HNflI/view?usp=sharing"
       },
     ]
   },
