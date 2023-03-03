@@ -314,7 +314,7 @@ export const debugEvents = {
           },
         ],
         ruleBook:
-          "https://drive.google.com/open?id=1XPZb8Xb_pwWayT4Jx8kYhQagMWOf9fad",
+        "https://drive.google.com/file/d/1A9bKOnG2sUShJG0DIoISiaPFiy-IKHaV/view?usp=share_link",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSf3OFJzHRN08nTRPgkY_02G8MYPa3-Ps-fpoD7wZ8XS_jmsrA/viewform?embedded=true"
       },
       {
@@ -355,7 +355,8 @@ export const debugEvents = {
             phone: "7598955470",
           },
         ],
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdOt5JqfqVJbuc9Ql7r9ZoiGBjz3FjK95LTnwxBrrJ3j-JbNg/viewform?embedded=true"
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdOt5JqfqVJbuc9Ql7r9ZoiGBjz3FjK95LTnwxBrrJ3j-JbNg/viewform?embedded=true",
+        ruleBook: "https://drive.google.com/file/d/1WybG6QzZybj1VstE4GM2zlMprZ9mvAjJ/view?usp=share_link"
       },
     ]
   },
