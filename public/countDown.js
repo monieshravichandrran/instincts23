@@ -1,6 +1,6 @@
 let prev = Math.floor(Math.random() * 13) + 1;
 function updateTimer() {
-  future = Date.parse("March 9, 2023 8:00:00");
+  future = Date.parse("March 9, 2023 8:30:00");
   now = new Date();
   diff = future - now;
   const box = Math.floor(Math.random() * 13) + 1;
