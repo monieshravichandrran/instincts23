@@ -13,20 +13,28 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center min-h-screen p-1 md:p-4 m-auto text-white font-main">
         <CollegeLogo />
         <div className="min-h-screen lg:w-[98%] sm:w-full flex flex-col items-center justify-center">
-        <Image
+          <Image
             src="/images/sponsors/hcl.png"
             alt="HCL"
             height={0}
             width={300}
-            className="mt-12 mb-[-2rem] md:w-[15vw] md:h-[10vw] w-[30vw] h-[24vw] lg:mt-8"
+            className="mt-16 lg:mt-12 mb-[-2rem] md:w-[15vw] md:h-[10vw] w-[30vw] h-[24vw]"
           />
-          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-0">presents</div>
+          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-2">presents</div>
           <Image
             src="/images/Instincts.png"
             alt="Instincts 2023 - Lost Continent"
             height={0}
-            width={450}
-            className="mb-[2rem] lg:p-8 !pt-0 clubitem"
+            width={500}
+            className="lg:px-8 clubitem mt-4"
+          />
+          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-10">Powered By</div>
+          <Image
+            src="/images/sponsors/aram.png"
+            alt="aram"
+            height={0}
+            width={300}
+            className="mb-4 md:w-[13vw] md:h-[8.4vw] w-[30vw] h-[24vw]"
           />
           <h1 className="text-[2rem] lg:text-[3rem] leading-[2rem] lg:leading-[4rem] font-title font-bold text-center mb-4 shimmer">
             Registrations Are Live Now!!!
