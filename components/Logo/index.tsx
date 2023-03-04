@@ -86,7 +86,6 @@ export const CollegeLogo = () => {
           });
           document.querySelector(".animm")?.classList.add("anim");
           document.querySelectorAll(".animm_li").forEach((li, idx) => {
-            console.log(idx);
             setTimeout(() => {
               li.classList.add("anim_li");
             }, 600 + idx * 200);

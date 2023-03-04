@@ -86,7 +86,6 @@ document.onkeydown = function(e) {
 
 
 function slide( toSlide, currentSlide ) {
-  //console.log('slide: to/cur '+toSlide+' / '+currentSlide )
   if ( toSlide > currentSlide ) {
       var direction = 'down'
   }
@@ -101,7 +100,6 @@ function slide( toSlide, currentSlide ) {
     toSlide = 0
   }
   nextPhoto = toSlide
-  //console.log(' nextPhoto: '+nextPhoto +' l '+allImages.length)
   
   currentTextEle = document.querySelector(' .slider .text .current ')
   nextTextEle = document.querySelector(' .slider .text div[data-key="'+toSlide+'"] ')

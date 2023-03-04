@@ -6,7 +6,6 @@ if (timelineElements[0]) {
   timelineElements[0].classList.add(activeClass);
 }
 
-console.log(time);
 window.onscroll = () => {
   let min,
     max,
@@ -21,7 +20,6 @@ window.onscroll = () => {
       for (let i of timelineElements) {
         i.classList.remove(activeClass);
       }
-      // console.log(timelineElements);
       time.style.backgroundImage =
         "url(" + timelineElements[itemLength - 1].src + ")";
       timelineElements[itemLength - 1].classList.add(activeClass);

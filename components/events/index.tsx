@@ -111,7 +111,6 @@ export const Events = ({ clubName, eventDetails, decor }: Children) => {
                 <div
                   key={item.eventNames}
                   onClick={() => {
-                    console.log("hello")
                     document
                       .querySelector(`.btn-${previousValue.current}`)
                       ?.classList.remove("btn-color");

@@ -84,6 +84,7 @@ export const debugEvents = {
             rules: [
               "Two round event.",
               " Round 1 is a written quiz with a time limit of 1 hour.",
+              "Entries for round 1 will be considered only till 2PM. Entries post 2PM will not be considered",
               "Teams that clear first round enter round 2.",
               "Round 2 is a miscellaneous round of team games",
             ],
@@ -637,23 +638,11 @@ export const debugEvents = {
       },
       {
         eventNames: "பட்டிமன்றம்",
-        description:
-          "தமிழர் சிந்தனை கலை வெளிப்பாட்டு வடிவங்களில் சிறப்பான ஒரு வடிவமே பட்டிமன்றம். முரண்பாடான பலநோக்கங்கள் உடைய கருத்துகளை விவரிக்கவும், விவாதிக்கவும் மேலும் பேச்சுத்திறனை வெளிப்படுத்தவும் ஒரு சிறந்த மேடையை சாரல் தமிழ் மன்றம் மாணவர்களுக்கு அளிக்கிறது. ",
         date: "முதற்சுற்று: March 9,2023 இறுதிச்சுற்று: March 11,2023",
         time: "முதற்சுற்று: 3PM-5PM இறுதிச்சுற்று: 10AM-12:30PM",
         venue: "Auditorium",
         type: "Individual",
-        rules: [
-          {
-            ruleHead: "முதற்சுற்று - பேச்சுப்போட்டி தலைப்புகள்:",
-            rules: [" ‘ பாலினச் சமத்துவம் ‘", " ‘ போர்முனை விட்டு ஏர்முனை தொழுவோம் ‘", "‘ உழவை மறந்து உணவைத் தேடும் சமுதாயம் ‘", "போட்டியாளர்கள் மேற்கண்ட தலைப்புகளுள் ஏதேனும் ஒரு தலைப்பில் 5 நிமிடங்கள் பேச வேண்டும்."]
-          },
-          {
-            ruleHead: "இறுதிச்சுற்று:",
-            rules: ["நடுவர் : புலவர்.திரு.ராமலிங்கம்", `தலைப்பு: 
-            ‘ இன்றைய நவீன நாகரீக வாழ்க்கை, 
-            வருந்தத்தக்கதா? வரவேற்கத்தக்கதா? ‘`, "முதற்சுற்றில் சிறப்பாக பேசிய 6 போட்டியாளர்கள் இறுதிச்சுற்றுக்கு தேர்ந்தெடுக்கப்படுவர்.", "ஒவ்வொரு போட்டியாளருக்கும் 5 நிமிடங்கள் தங்கள் கருத்துகளை பதிவு செய்ய வழங்கப்படும்.", "சிறப்பாக பேசிய 3 போட்டியாளர்களுக்கு பரிசுகள் வழங்கப்படும்.", "நடுவரின் தீர்ப்பே இறுதியானது."]
-          }],
+        showDecor: true,
         form: "https://docs.google.com/forms/d/e/1FAIpQLSfHT976qp53jV9DrKhYoqEbqARIXYothKl-bEeijGK7HBPY-g/viewform?embedded=true",
         organizers: [
           {

@@ -4,13 +4,11 @@ function updateTimer() {
   now = new Date();
   diff = future - now;
   const box = Math.floor(Math.random() * 13) + 1;
-  //console.log(ocument.getElementById("pin-"+prev));
   if (document.getElementById("pin-" + prev)) {
     document.getElementById("pin-" + prev).classList.remove("zoomeff");
   }
 
   prev = box;
-  // console.log(ocument.getElementById("pin-"+prev));
   if (document.getElementById("pin-" + box)) {
     document.getElementById("pin-" + box).classList.add("zoomeff");
   }
