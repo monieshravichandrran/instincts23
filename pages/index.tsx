@@ -18,7 +18,7 @@ export default function Home() {
             alt="HCL"
             height={0}
             width={300}
-            className="mt-24 mb-[-2rem] md:w-[15vw] md:h-[10vw] w-[30vw] h-[24vw] lg:mt-8"
+            className="mt-10 mb-[-2rem] md:w-[15vw] md:h-[10vw] w-[30vw] h-[24vw] lg:mt-8"
           />
           <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-0">presents</div>
           <Image
