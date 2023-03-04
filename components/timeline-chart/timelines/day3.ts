@@ -30,7 +30,7 @@ export const day3Data: ApexOptions["series"] = [
   },
   {
     name: "DJ Night",
-    data: [{ x: "OAT", y: [dateFormatter(18, 30), dateFormatter(20, 30)] }],
+    data: [{ x: "OAT", y: [dateFormatter(18,30), dateFormatter(20, 30)] }],
   },
   {
     name: "Sports Quiz",
