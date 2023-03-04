@@ -16,10 +16,10 @@ export default function Elc() {
                 <p className="text-lg lg:text-justify md:text-justify text-white font-body md:text-xl">
                   தமிழர் சிந்தனை கலை வெளிப்பாட்டு வடிவங்களில் சிறப்பான ஒரு வடிவமே பட்டிமன்றம். முரண்பாடான பலநோக்கங்கள் உடைய கருத்துகளை விவரிக்கவும், விவாதிக்கவும் மேலும் பேச்சுத்திறனை வெளிப்படுத்தவும் ஒரு சிறந்த மேடையை சாரல் தமிழ் மன்றம் மாணவர்களுக்கு அளிக்கிறது.
                 </p>
-                <h3 className="mt-10 text-3xl text-white font-title">
+                <h3 className="mt-10 text-2xl text-white font-title">
                   முதற்சுற்று: <br /> பேச்சுப்போட்டி
                 </h3>
-                <h3 className="mt-3 text-2xl text-white font-title">
+                <h3 className="mt-3 text-xl text-white font-title">
                   தலைப்புகள்:
                 </h3>
                 <ul className="list-disc list-inside">
@@ -34,11 +34,11 @@ export default function Elc() {
                   >உழவை மறந்து உணவைத் தேடும் சமுதாயம்</li>
                 </ul>
                 <p className="text-lg lg:text-justify md:text-justify text-white font-body md:text-xl">போட்டியாளர்கள் மேற்கண்ட தலைப்புகளுள் ஏதேனும் ஒரு தலைப்பில் 5 நிமிடங்கள் பேச வேண்டும்.</p>
-                <h3 className="mt-16 text-3xl text-white font-title">
+                <h3 className="mt-16 text-2xl text-white font-title">
                   இறுதிச்சுற்று:
                 </h3>
                 <h3 className="mt-3 text-xl text-white font-title">
-                  நடுவர் : புலவர்.திரு.ராமலிங்கம்
+                  நடுவர்: <br /> புலவர்.திரு.ராமலிங்கம்
                 </h3>
                 <h3 className="mt-3 md:text-2xl text-white font-title">
                 தலைப்பு: <br /> இன்றைய நவீன நாகரீக வாழ்க்கை, வருந்தத்தக்கதா? வரவேற்கத்தக்கதா? 
