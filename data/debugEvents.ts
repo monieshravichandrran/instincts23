@@ -279,17 +279,6 @@ export const debugEvents = {
         eventNames: "Reels of Fire",
         description:
           "Reels of Fire is a fiercely competitive short film contest, where aspiring filmmakers worldwide can create a diverse array of short films and vie for a chance to win the prestigious ‘Best Short Film’ Award, amongst other categories. The submitted shorts are perused by the members of the SSN Film Club, where 10 of the best films are shortlisted. The shortlisted shorts will get screened at our auditorium on the day of the main event. Our panel of esteemed individuals from the Kollywood industry will judge the shorts, and award them with prizes accordingly. Reels of Fire continues to remain a prestigious platform for budding talents. Here, they showcase their works not only to a large audience of young, passionate, and enthusiastic filmgoers but also to the people in the industry who can take them to the next level.",
-        rules: [
-          {
-            rules: [
-              "Duration - Films must be 30 minutes or shorter. However longer films will be considered if we find them exceptional.",
-              "Only films made after or during the month of January 2021 may be submitted.",
-              "Obscenities - Films must put to use the relevant censors to avoid the blatant display of obscenities. (Beep sounds for verbal obscenities, blurs for visual, etc)",
-              "Language - Films in all languages are welcome. All films regardless of language must be subtitled in English.",
-              "Final Verdicts - The decisions made by the judges are completely final and must be treated as such.",
-            ],
-          },
-        ],
         date: "March 10, 2023",
         time: "9AM - 12AM",
         venue: "Main Auditorium",
@@ -314,24 +303,13 @@ export const debugEvents = {
           },
         ],
         ruleBook:
-        "https://drive.google.com/file/d/1A9bKOnG2sUShJG0DIoISiaPFiy-IKHaV/view?usp=share_link",
+        "https://drive.google.com/file/d/1WybG6QzZybj1VstE4GM2zlMprZ9mvAjJ/view?usp=share_link",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSf3OFJzHRN08nTRPgkY_02G8MYPa3-Ps-fpoD7wZ8XS_jmsrA/viewform?embedded=true"
       },
       {
         eventNames: "Lights, Camera, Sale!",
         description:
           "Lights Camera Sale, an auction event. Several teams will compete by bidding on a topic or question related to movies. There are three rounds where the topic is given each time. The different teams are expected to bid and name the different answers in the category in a stipulated time. Teams are eliminated in each passing round according to the points scored. This is the first time we are conducting this particular event as part of Instincts, the biggest cultural fest in South India.",
-        rules: [
-          {
-            rules: [
-              "The entry fee per person is Rs.50/-",
-              "This game event can participate as an individual as well as a team of two.",
-              "There are three rounds and each round is an elimination round.",
-              "Based on the scores, the team will be proceeding to the next round.",
-              "The first round is an Auction round followed by Kahoot and Connexion is the final round.",
-            ],
-          },
-        ],
         date: "March 11th, 2023",
         time: "2:30PM-4:30PM",
         venue: "Mini Auditorium",
@@ -356,7 +334,7 @@ export const debugEvents = {
           },
         ],
         form: "https://docs.google.com/forms/d/e/1FAIpQLSdOt5JqfqVJbuc9Ql7r9ZoiGBjz3FjK95LTnwxBrrJ3j-JbNg/viewform?embedded=true",
-        ruleBook: "https://drive.google.com/file/d/1WybG6QzZybj1VstE4GM2zlMprZ9mvAjJ/view?usp=share_link"
+        ruleBook: "https://drive.google.com/file/d/1A9bKOnG2sUShJG0DIoISiaPFiy-IKHaV/view?usp=share_link"
       },
     ]
   },
