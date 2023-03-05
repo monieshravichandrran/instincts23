@@ -1,4 +1,4 @@
-let idchor = 1;
+let idchor = 2;
 const chorid = document.getElementById("chorid");
 setInterval(() => {
     chorid.src = "/images/proshows/choreo/chor" + idchor + ".jpg";

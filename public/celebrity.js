@@ -1,4 +1,4 @@
-let idceleb = 1;
+let idceleb = 2;
 const chorid = document.getElementById("celebrityid");
 setInterval(() => {
     chorid.src = "/images/proshows/celebrity/celeb" + idceleb + ".jpg";

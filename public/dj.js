@@ -1,4 +1,4 @@
-let iddj = 1;
+let iddj = 2;
 const djid = document.getElementById("djid");
 setInterval(() => {
     djid.src = "/images/proshows/dj/dj" + iddj + ".jpg";

@@ -1,4 +1,4 @@
-let idpro = 1;
+let idpro = 2;
 const proid = document.getElementById("proid");
 setInterval(() => {
     proid.src = "/images/proshows/pro/pro" + idpro + ".jpg";

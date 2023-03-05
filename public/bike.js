@@ -1,4 +1,4 @@
-let idbike = 1;
+let idbike = 2;
 const bikeid = document.getElementById("bikeid");
 setInterval(() => {
     bikeid.src = "/images/proshows/bike/bike" + idbike + ".jpg";
