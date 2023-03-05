@@ -28,7 +28,7 @@ export default function Home() {
             width={500}
             className="lg:px-8 clubitem mt-4"
           />
-          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-10">Powered By</div>
+          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-10">Associate Sponsor</div>
           <Image
             src="/images/sponsors/aram.png"
             alt="aram"

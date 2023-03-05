@@ -52,7 +52,7 @@ const Sponsors = () => {
                   alt={""}
                   width={244}
                   height={244}
-                  className="mx-auto w-[75vw] h-[40vw] md:w-[25vw] md:h-[15vw] lg:w-[25vw] lg:h-[15vw] items-center"
+                  className="mx-auto w-[85vw] h-[40vw] md:w-[25vw] md:h-[15vw] lg:w-[25vw] lg:h-[15vw] items-center"
                 />
               </div>
               <div className="w-full flex justify-center mb-10">
@@ -92,6 +92,15 @@ const Sponsors = () => {
                 />
               </div>
             </div>
+            <div className="w-full flex justify-center mb-10">
+                <Image
+                  src={"/images/sponsors/adamsuvai.png"}
+                  alt={""}
+                  width={244}
+                  height={244}
+                  className="mx-auto w-[40vw] h-[40vw] md:w-[17vw] md:h-[17vw] lg:w-[17vw] lg:h-[17vw]"
+                />
+              </div>
           </div>
         </div>
       </div>
