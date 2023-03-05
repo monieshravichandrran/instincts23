@@ -49,6 +49,7 @@ export default function Dj() {
           </div>
         </div>
       </div>
+      <Footer />
       <Script src="dj.js" />
     </>
   );

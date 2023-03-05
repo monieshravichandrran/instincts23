@@ -58,6 +58,7 @@ export default function Bike() {
           </div>
         </div>
       </div>
+      <Footer />
       <Script src="choreo.js" />
     </>
   );

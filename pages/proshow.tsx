@@ -49,6 +49,7 @@ export default function Pro() {
           </div>
         </div>
       </div>
+      <Footer />
       <Script src="pro.js" />
     </>
   );

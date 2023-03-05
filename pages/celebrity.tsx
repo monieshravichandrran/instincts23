@@ -58,6 +58,7 @@ export default function Celebrity() {
           </div>
         </div>
       </div>
+      <Footer />
       <Script src="celebrity.js" />
     </>
   );

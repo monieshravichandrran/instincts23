@@ -49,6 +49,7 @@ export default function Bike() {
           </div>
         </div>
       </div>
+      <Footer />
       <Script src="bike.js" />
     </>
   );
