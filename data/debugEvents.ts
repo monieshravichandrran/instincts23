@@ -478,7 +478,7 @@ export const debugEvents = {
           venue: "SNU Seminar Hall",
           type: "Individual",
           rules: [
-            { rules: ["All Participants MUST be college students with a valid college ID card.", "Registration Fee can be paid on spot", "This is a two stage event. Both Prelims and Finals will be conducted offline.", "Songs performed by participants must be in Indian languages. The presence of a considerable amount of foreign language in performance might lead to disqualification and this is up to the judge.", "The time limit for each performance is 4 minutes including sound check."] },
+            { rules: ["All Participants MUST be college students with a valid college ID card.", "This event consists of one round.", "Use of a karaoke backing track is allowed.", "Participants using backing tracks must submit their tracks (in a USB device) at the desk before the event begins, aux connections will be available too.", "Choice of genre is up to the participant.","Time limit is 4 minutes.","Drum kit and Keyboard stand will be provided, any other instrument must be arranged by the participant.","The judge's decision will be final"] },
           ],
           organizers: [
             {
