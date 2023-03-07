@@ -3,25 +3,33 @@ function updateTimer() {
   future = Date.parse("March 9, 2023 8:30:00");
   now = new Date();
   diff = future - now;
-  const box = Math.floor(Math.random() * 13) + 1;
-  if (document.getElementById("pin-" + prev)) {
-    document.getElementById("pin-" + prev).classList.remove("zoomeff");
+  if (diff > 0) {
+    const box = Math.floor(Math.random() * 13) + 1;
+    if (document.getElementById("pin-" + prev)) {
+      document.getElementById("pin-" + prev).classList.remove("zoomeff");
+    }
+
+    prev = box;
+    if (document.getElementById("pin-" + box)) {
+      document.getElementById("pin-" + box).classList.add("zoomeff");
+    }
+
+    days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    hours = Math.floor(diff / (1000 * 60 * 60));
+    mins = Math.floor(diff / (1000 * 60));
+    secs = Math.floor(diff / 1000);
+
+    d = Math.max(days, 0);
+    h = Math.max(hours - days * 24, 0);
+    m = Math.max(mins - hours * 60, 0);
+    s = Math.max(secs - mins * 60, 0);
   }
-
-  prev = box;
-  if (document.getElementById("pin-" + box)) {
-    document.getElementById("pin-" + box).classList.add("zoomeff");
+  else{
+    d = 0;
+    h = 0;
+    m = 0;
+    s = 0;
   }
-
-  days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  hours = Math.floor(diff / (1000 * 60 * 60));
-  mins = Math.floor(diff / (1000 * 60));
-  secs = Math.floor(diff / 1000);
-
-  d = days;
-  h = hours - days * 24;
-  m = mins - hours * 60;
-  s = secs - mins * 60;
 
   if (document.getElementById("timer")) {
     document.getElementById(
