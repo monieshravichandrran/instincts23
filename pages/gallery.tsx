@@ -17,14 +17,14 @@ export default function Events() {
             <div className="image">
               <img
                 src={"/images/instincts/instincts0.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Students of SSN and SNUC performing a classical dance on stage"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts2.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Singer Andrea Jeremiah performing on previous cultural event"
                 className="img"
 
               />
@@ -32,7 +32,7 @@ export default function Events() {
             <div className="image">
               <img
                 src={"/images/instincts/instincts3.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Actor Jeyam Ravi observing events on stage"
                 className="img"
 
               />
@@ -40,7 +40,7 @@ export default function Events() {
             <div className="image">
               <img
                 src={"/images/instincts/instincts4.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Singer singing his heart out at Instincts"
                 className="img"
 
               />
@@ -48,7 +48,7 @@ export default function Events() {
             <div className="image">
               <img
                 src={"/images/instincts/instincts5.jpg"}
-                alt="ssnsnucinstincts"
+                alt="KTM Biker shocasing his talents at Instincts"
                 className="img"
 
               />
@@ -57,35 +57,35 @@ export default function Events() {
             <div className="image">
               <img
                 src={"/images/instincts/instincts6.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Group of women posing for a picture with the Pro chancellor of SNUC"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts7.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Famous actor giving a speech at Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts8.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Celebrities from the Tamil Cinema field sitting together as chief guests for Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts9.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Professional Fire breather putting on a show for instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts10.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Musical concert at Instincts"
                 className="img"
               />
             </div>
