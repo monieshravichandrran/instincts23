@@ -92,7 +92,7 @@ export default function Events() {
             <div className="image">
               <img
                 src={"/images/instincts/instincts11.jpg"}
-                alt="ssnsnucinstincts"
+                alt="2 kids standing before a stage that is set for the concert at Instincts"
                 className="img"
               />
             </div>
