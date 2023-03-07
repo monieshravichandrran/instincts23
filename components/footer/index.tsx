@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer className="h-auto w-full py-4 flex flex-col items-center justify-center shadow-xl border-[0.02rem] border-gray-400 border-opacity-20 bg-black/50 rounded-md lg:rounded-xl backdrop-blur-lg text-white font-main text-center">
       <p className="mb-4 text-3xl">Instincts 2023 - Lost Continent</p>
       <p className="text-xl">SSN & SNUC&apos;s Annual Cultural Fest</p>
-      <p className="text-xl">All rights reserved &copy; SSN SNUC</p>
+      <p className="text-xl">All rights reserved &copy; <a target="_blank" href="https://www.ssn.edu.in/">SSN</a> <a target="_blank" href="https://www.snuchennai.edu.in/">SNUC</a></p>
       <a
         className="mt-2 duration-300 hover:scale-125"
         href="https://www.instagram.com/ssnsnucinstincts/"
