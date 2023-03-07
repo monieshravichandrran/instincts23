@@ -85,6 +85,15 @@ const Contact = () => {
               </>
             </div>
           </div>
+          <div className="w-full flex justify-center mb-12">
+            <a href={"https://drive.google.com/file/d/1HyvdE5gmIndIgMn3q0WQN6L4qXOU7Qoj/view?usp=sharing"}>
+              <button
+                className="neon-button mt-4 !text-white"
+              >
+                Explore Bus Routes
+              </button>
+            </a>
+          </div>
           <h1 className="contacthead text-3xl w-full font-title mt-5 shimmers ml-4">Event Coordinators</h1>
           <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
             <div className="rounded-3xl bg-white flex justify-center items-center p-3 mt-3 text-black text-xl inline bxl text-white">
