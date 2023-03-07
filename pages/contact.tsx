@@ -17,7 +17,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Tejesh Kumar V S - 9566032425
+                  <a href="tel: +91 9566032425">Tejesh Kumar V S - 9566032425</a>
                 </p>
               </>
             </div>
@@ -25,7 +25,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Vahini M - 9025756533
+                  <a href="tel: +91 9025756533">Vahini M - 9025756533</a>
                 </p>
               </>
             </div>
@@ -36,7 +36,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Akil - 9360796691
+                  <a href="tel: +91 9360796691">Akil - 9360796691</a>
                 </p>
               </>
             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Pooja - 8220832656
+                  <a href="tel: +91 8220832656">Pooja - 8220832656</a>
                 </p>
               </>
             </div>
@@ -64,7 +64,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Pranav  Aadhithya K.B - 7338773979
+                  <a href="tel: +91 7338773979">Pranav Aadhithya K.B - 7338773979</a>
                 </p>
               </>
             </div>
@@ -72,7 +72,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Saisenthur B - 8220488090
+                  <a href="tel: +91 8220488090">Saisenthur B - 8220488090</a>
                 </p>
               </>
             </div>
@@ -80,7 +80,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Deepesh - 6381347700
+                  <a href="tel: +91 6381347700">Deepesh - 6381347700</a>
                 </p>
               </>
             </div>
@@ -91,7 +91,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Ainsely J - 9791108075
+                  <a href="tel: +91 9791108075">Ainsely J - 9791108075</a>
                 </p>
               </>
             </div>
@@ -99,7 +99,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Ahamed Raja - 9944588988
+                  <a href="tel: +91 9944588988">Ahamed Raja - 9944588988</a>
                 </p>
               </>
             </div>
@@ -107,7 +107,7 @@ const Contact = () => {
               <>
                 <BsFillPersonFill size={20} />
                 <p >
-                  Anil - 9360790874
+                  <a href="tel: +91 9360790874">Anil - 9360790874</a>
                 </p>
               </>
             </div>
