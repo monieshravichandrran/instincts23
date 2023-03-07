@@ -28,7 +28,7 @@ export default function Pro() {
           </div>
           <div className="flex justify-center mt-12 md:w-[70vw]">
             <p className="p-4 text-xl shadow-lg lg:text-2xl rounded-br-3xl">
-              Put your worries aside, gather your friends and vibe to the mesmerising music vocalised by Sathya Prakash and Rakshitha along with the band, the Non Violinist Project on the 10th of March from 5:30pm at the Open Air Theatre.
+              Put your worries aside, gather your friends and vibe to the mesmerising music vocalised by Sathya Prakash, Rakshitha and Anand Aravindakshan along with the band, the Non Violinist Project on the 10th of March from 5:30pm at the Open Air Theatre.
             </p>
           </div>
           <div className="flex flex-col items-start justify-around mt-5">
