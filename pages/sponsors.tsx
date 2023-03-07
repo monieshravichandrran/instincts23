@@ -18,7 +18,7 @@ const Sponsors = () => {
                 alt={""}
                 width={244}
                 height={244}
-                className="mx-auto w-[40vw] h-[35vw] md:w-[30vw] md:h-[28vw] lg:w-[17vw] lg:h-[15vw]"
+                className="mx-auto w-[32vw] h-[28vw] md:w-[24vw] md:h-[22.4vw] lg:w-[13.6vw] lg:h-[12vw]"
               />
             </div>
             <h2 className="mt-2 mb-2 font-bold text-center lg:text-2xl sm:text-2xl font-title">
@@ -30,20 +30,20 @@ const Sponsors = () => {
                 alt={""}
                 width={244}
                 height={244}
-                className="mx-auto w-[40vw] h-[35vw] md:w-[30vw] md:h-[28vw] lg:w-[17vw] lg:h-[15vw]"
+                className="mx-auto w-[32vw] h-[28vw] md:w-[24vw] md:h-[22.4vw] lg:w-[13.6vw] lg:h-[12vw]"
               />
             </div>
             <h2 className="mt-2 mb-10 font-bold text-center lg:text-2xl sm:text-2xl font-title">
               Sponsors
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-40 gap-y-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-80 gap-y-10">
               <div className="w-full flex justify-center mb-10 items-center">
                 <Image
                   src={"/images/sponsors/seasky.jpg"}
                   alt={""}
                   width={244}
                   height={244}
-                  className="mx-auto w-[45vw] h-[45vw] md:w-[15vw] md:h-[15vw] lg:w-[15vw] lg:h-[15vw] items-center"
+                  className="mx-auto w-[36vw] h-[36vw] md:w-[12vw] md:h-[12vw] lg:w-[12vw] lg:h-[12vw] items-center"
                 />
               </div>
               <div className="w-full flex justify-center mb-10">
@@ -52,7 +52,7 @@ const Sponsors = () => {
                   alt={""}
                   width={244}
                   height={244}
-                  className="mx-auto w-[85vw] h-[40vw] md:w-[25vw] md:h-[15vw] lg:w-[25vw] lg:h-[15vw] items-center"
+                  className="mx-auto w-[68vw] h-[32vw] md:w-[20vw] md:h-[12vw] lg:w-[20vw] lg:h-[12vw] items-center"
                 />
               </div>
               <div className="w-full flex justify-center mb-10">
@@ -61,7 +61,7 @@ const Sponsors = () => {
                   alt={""}
                   width={244}
                   height={244}
-                  className="mx-auto w-[60vw] h-[60vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
+                  className="mx-auto w-[48vw] h-[48vw] md:w-[36vw] md:h-[36vw] lg:w-[16vw] lg:h-[16vw]"
                 />
               </div>
               <div className="w-full flex justify-center mb-10">
@@ -70,7 +70,7 @@ const Sponsors = () => {
                   alt={""}
                   width={244}
                   height={244}
-                  className="mx-auto w-[60vw] h-[60vw] md:w-[20vw] md:h-[15vw] lg:w-[20vw] lg:h-[15vw]"
+                  className="mx-auto w-[48vw] h-[48vw] md:w-[16vw] md:h-[12vw] lg:w-[16vw] lg:h-[12vw]"
                 />
               </div>
               <div className="w-full flex justify-center mb-10">
@@ -79,7 +79,7 @@ const Sponsors = () => {
                   alt={""}
                   width={244}
                   height={244}
-                  className="mx-auto w-[60vw] h-[60vw] md:w-[15vw] md:h-[15vw] lg:w-[15vw] lg:h-[15vw]"
+                  className="mx-auto w-[48vw] h-[48vw] md:w-[12vw] md:h-[12vw] lg:w-[12vw] lg:h-[12vw]"
                 />
               </div>
               <div className="w-full flex justify-center mb-10">
@@ -88,7 +88,7 @@ const Sponsors = () => {
                   alt={""}
                   width={244}
                   height={244}
-                  className="mx-auto w-[40vw] h-[40vw] md:w-[19vw] md:h-[15vw] lg:w-[19vw] lg:h-[15vw]"
+                  className="mx-auto w-[32vw] h-[32vw] md:w-[15.2vw] md:h-[12vw] lg:w-[15.2vw] lg:h-[12vw]"
                 />
               </div>
             </div>
@@ -98,7 +98,7 @@ const Sponsors = () => {
                   alt={""}
                   width={244}
                   height={244}
-                  className="mx-auto w-[40vw] h-[40vw] md:w-[17vw] md:h-[17vw] lg:w-[17vw] lg:h-[17vw]"
+                  className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
                 />
               </div>
           </div>

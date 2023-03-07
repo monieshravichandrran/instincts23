@@ -22,7 +22,7 @@ export default function Pro() {
                 src={"/images/proshows/pro/pro1.jpg"}
                 alt="ssnsnucinstincts"
                 id="proid"
-                className="w-[85vw] h-[40vh] md:w-[40vw] md:h-[45vh]"
+                className="w-[85vw] h-[50vh] md:w-[40vw] md:h-[50vh]"
               />
             </div>
           </div>

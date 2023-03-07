@@ -2,7 +2,7 @@ let idpro = 2;
 const proid = document.getElementById("proid");
 setInterval(() => {
     proid.src = "/images/proshows/pro/pro" + idpro + ".jpg";
-    if (idpro == 7) {
+    if (idpro == 8) {
         idpro = 1;
     }
     else

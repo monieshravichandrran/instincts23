@@ -5,10 +5,14 @@ setInterval(() => {
     if (pro) {
         if (d == 0) {
             pro.src = "/images/proshows/pro1.jpg"
-            d = 1;
+            d += 1;
         }
-        else {
+        else if(d==1) {
             pro.src = "/images/proshows/pro0.jpg"
+            d += 1;
+        }
+        else if(d==2){
+            pro.src = "/images/proshows/pro/pro3.jpg"
             d = 0;
         }
     }
