@@ -20,7 +20,7 @@ export default function Celebrity() {
             <div>
               <img
                 src={"/images/proshows/celebrity/celeb1.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Celebrities performing stand up comedy at Instincts"
                 id="celebrityid"
                 className="w-[85vw] h-[45vh] md:w-[35vw] md:h-[55vh]"
               />
