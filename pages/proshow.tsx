@@ -20,7 +20,7 @@ export default function Pro() {
             <div>
               <img
                 src={"/images/proshows/pro/pro1.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Poster for the Pro Show by the Non Violinist Project for Instincts"
                 id="proid"
                 className="w-[85vw] h-[50vh] md:w-[40vw] md:h-[50vh]"
               />
