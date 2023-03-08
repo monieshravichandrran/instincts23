@@ -3,10 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "utils/hooks/use-translation";
 import Script from "next/script";
+import ReactGA from "react-ga";
+import { useEffect } from "react";
+
+ReactGA.initialize("G-1P2963WL58");
 
 export default function Home() {
   const title = useTranslation("page.title");
   const description = useTranslation("page.description");
+  useEffect(() => {
+    ReactGA.send("pageview" as any);
+  }, []);
   return (
     <>
       <PageHead title={title} description={description} />

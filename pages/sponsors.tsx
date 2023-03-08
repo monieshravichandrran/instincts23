@@ -100,6 +100,51 @@ const Sponsors = () => {
                   className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
                 />
               </div>
+              <div className="w-full flex justify-center mb-10">
+                <Image
+                  src={"/images/sponsors/coke.png"}
+                  alt={"Adams Suvai Zone logo"}
+                  width={244}
+                  height={244}
+                  className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
+                />
+              </div>
+              <div className="w-full flex justify-center mb-10">
+                <Image
+                  src={"/images/sponsors/burger.png"}
+                  alt={"Adams Suvai Zone logo"}
+                  width={244}
+                  height={244}
+                  className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
+                />
+              </div>
+              <div className="w-full flex justify-center mb-10">
+                <Image
+                  src={"/images/sponsors/frozen.png"}
+                  alt={"Adams Suvai Zone logo"}
+                  width={244}
+                  height={244}
+                  className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
+                />
+              </div>
+              <div className="w-full flex justify-center mb-10">
+                <Image
+                  src={"/images/sponsors/kozhi.png"}
+                  alt={"Adams Suvai Zone logo"}
+                  width={244}
+                  height={244}
+                  className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
+                />
+              </div>
+              <div className="w-full flex justify-center mb-10">
+                <Image
+                  src={"/images/sponsors/joose.png"}
+                  alt={"Adams Suvai Zone logo"}
+                  width={244}
+                  height={244}
+                  className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
+                />
+              </div>
             </div>
           </div>
         </div>
