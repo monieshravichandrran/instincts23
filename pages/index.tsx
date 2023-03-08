@@ -16,6 +16,18 @@ export default function Home() {
   }, []);
   return (
     <>
+      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-1P2963WL58`} />
+
+      <Script strategy="lazyOnload">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1P2963WL58', {
+        page_path: window.location.pathname,
+        });
+    `}
+      </Script>
       <PageHead title={title} description={description} />
       <div className="flex flex-col items-center justify-center min-h-screen p-1 md:p-4 m-auto text-white font-main">
         <CollegeLogo />
