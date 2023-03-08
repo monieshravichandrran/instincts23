@@ -23,7 +23,7 @@ export default function Events() {
             <Link href="/dj" className="shadow-2xl w-full  clubimage">
               <Image
                 src={"/images/proshows/dj/dj1.jpg"}
-                alt={""}
+                alt={"Poster for the DJ night at Instincts"}
                 width={244}
                 height={244}
                 className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
@@ -36,7 +36,7 @@ export default function Events() {
               <Image
                 src={"/images/proshows/jagan.jpg"}
                 id="celeb"
-                alt={""}
+                alt={"Poster for the Celebrity Show which includes standup comedy at Instincts"}
                 width={244}
                 height={244}
                 className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
@@ -48,7 +48,7 @@ export default function Events() {
             <Link href="/proshow" className="shadow-2xl w-full  clubimage">
               <img
                 src={"/images/proshows/pro0.jpg"}
-                alt={""}
+                alt={"Poster for the pro show concert by the non violinist project at Instincts"}
                 id="pro"
                 width={244}
                 height={244}
@@ -61,7 +61,7 @@ export default function Events() {
             <Link href="/bike" className="shadow-2xl w-full  clubimage">
               <Image
                 src={"/images/proshows/bike.jpg"}
-                alt={""}
+                alt={"Poster of a man doing stunts with a superbike at Instincts"}
                 width={244}
                 height={244}
                 className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
@@ -73,7 +73,7 @@ export default function Events() {
             <Link href="/choreo" className="shadow-2xl w-full  clubimage">
               <Image
                 src={"/images/proshows/choreo.jpg"}
-                alt={""}
+                alt={"Poster for Choreo Night at Instincts"}
                 width={244}
                 height={244}
                 className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
