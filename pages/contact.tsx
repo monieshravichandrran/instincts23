@@ -7,7 +7,7 @@ interface IPageHead {
 }
 
 export const PageHead = ({
-  title = "Contact Us | SSN SNUC Instincts",
+  title = "Contact Us | SSN SNUC Instincts 2023",
   description = "Got a question or a lot of questions, reach out to the helpline numbers given here.",
 }: IPageHead) => {
   return (
