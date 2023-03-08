@@ -8,7 +8,7 @@ interface IPageHead {
 }
 
 export const PageHead = ({
-  title = "Proshows | SSN SNUC Instincts",
+  title = "Proshows | SSN SNUC Instincts 2023",
   description = "Find the list of all the celebrity appearances, stand up comedy shows, bike stunts and so on right here.",
 }: IPageHead) => {
   return (
