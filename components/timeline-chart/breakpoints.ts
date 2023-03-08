@@ -104,12 +104,7 @@ export const smOptions: ApexOptions = {
     },
   },
   yaxis: {
-    labels: {
-      style: {
-        fontSize: "17px",
-        colors: "#fff",
-      },
-    },
+    show: false,
   },
   fill: {
     type: "gradient",
@@ -130,6 +125,7 @@ export const smOptions: ApexOptions = {
 
 export const xsOptions = {
   yaxis: {
+    show: false,
     labels: {
       style: {
         fontSize: "17px",

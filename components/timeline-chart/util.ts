@@ -302,7 +302,7 @@ export const options: ApexOptions = {
     },
   },
   yaxis: {
-    show: true,
+    show: false,
     labels: {
       style: {
         fontSize: "17px",
