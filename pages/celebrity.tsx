@@ -7,7 +7,7 @@ interface IPageHead {
 }
 
 export const PageHead = ({
-  title = "Celebrity Variety Show | SSN SNUC Instincts",
+  title = "Celebrity Variety Show | SSN SNUC Instincts 2023",
   description = "Come visit celebrities and stand up comedians here to entertain you on Instincts!",
 }: IPageHead) => {
   return (
