@@ -7,7 +7,7 @@ interface IPageHead {
 }
 
 export const PageHead = ({
-  title = "Schedule | SSN SNUC Instincts",
+  title = "Schedule | SSN SNUC Instincts 2023",
   description = "Find out when and where all the exciting events of SSN and SNUC are scheduled for now!",
 }: IPageHead) => {
   return (
