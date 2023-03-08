@@ -8,7 +8,7 @@ interface IPageHead {
 }
 
 export const PageHead = ({
-  title = "Bike Stunts | SSN SNUC Instincts",
+  title = "Bike Stunts | SSN SNUC Instincts 2023",
   description = "Get a rush of adrenaline by particpating in the hype filled Bike stunts performed by professional stuntmen.",
 }: IPageHead) => {
   return (
