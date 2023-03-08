@@ -20,7 +20,7 @@ export default function Bike() {
             <div>
               <img
                 src={"/images/proshows/bike/bike1.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Man doing a bike stunt for Instincts"
                 id="bikeid"
                 className="w-[85vw] h-[60vh] md:w-[35vw] md:h-[65vh]"
               />
