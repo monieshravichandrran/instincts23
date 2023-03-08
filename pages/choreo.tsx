@@ -7,7 +7,7 @@ interface IPageHead {
 }
 
 export const PageHead = ({
-  title = "Choreo Night | SSN SNUC Instincts",
+  title = "Choreo Night | SSN SNUC Instincts 2023",
   description = "Pump up your emotions on choreo night and let it all go for a night of choreo!",
 }: IPageHead) => {
   return (
