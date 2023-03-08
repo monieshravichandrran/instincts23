@@ -99,42 +99,42 @@ export default function Events() {
             <div className="image">
               <img
                 src={"/images/instincts/instincts12.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Group of college students socializing and enjoying Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts13.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Classical Dance Bharathanatyam performace at Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts14.jpg"}
-                alt="ssnsnucinstincts"
+                alt="DJ performing at night for the DJ nightshow at Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts15.jpg"}
-                alt="ssnsnucinstincts"
+                alt="People vibing to the live music at Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts16.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Celebrity entertaining and interaccting with the audience at Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts17.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Instincts host having a casual conversation with RJ Balaji who is a chief guest for Instincts"
                 className="img"
               />
             </div>
@@ -142,21 +142,21 @@ export default function Events() {
             <div className="image">
               <img
                 src={"/images/instincts/instincts18.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Student doing the dab in front of an audience as part of an event for Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts19.jpg"}
-                alt="ssnsnucinstincts"
+                alt="The Western Dance crew of SSN performing a dance show for Instincts"
                 className="img"
               />
             </div>
             <div className="image">
               <img
                 src={"/images/instincts/instincts20.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Group of students on stage enjoying themselves on Instincts"
                 className="img"
               />
             </div>
