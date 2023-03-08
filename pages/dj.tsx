@@ -7,7 +7,7 @@ interface IPageHead {
 }
 
 export const PageHead = ({
-  title = "DJ Night | SSN SNUC Instincts",
+  title = "DJ Night | SSN SNUC Instincts 2023",
   description = "Join DJ Madhan on stage and party all night to multilinguage bops mixed in DJ style",
 }: IPageHead) => {
   return (
