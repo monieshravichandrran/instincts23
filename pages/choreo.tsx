@@ -21,7 +21,7 @@ export default function Bike() {
               <img
                 src={"/images/proshows/choreo/chor1.jpg"}
                 id="chorid"
-                alt="ssnsnucinstincts"
+                alt="Poster for the Choreo night for Instincts"
                 className="w-[85vw] h-[60vh] md:w-[35vw] md:h-[65vh]"
               />
             </div>
