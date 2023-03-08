@@ -20,7 +20,7 @@ export default function Dj() {
             <div>
               <img
                 src={"/images/proshows/dj/dj1.jpg"}
-                alt="ssnsnucinstincts"
+                alt="Poster for the DJ night at Instincts"
                 id="djid"
                 className="w-[85vw] h-[50vh] md:w-[35vw] md:h-[65vh]"
               />
