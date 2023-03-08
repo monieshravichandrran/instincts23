@@ -22,7 +22,7 @@ export const CollegeLogo = () => {
           href="https://forms.gle/DKV8xBnTGV9agkQw7"
           className="block lg:hidden hover:shadow-2xl hover:scale-110 font-medium text-sm md:text-2xl glow absolute top-[1.5rem] lg:top-[4.35rem] right-36 md:right-40 font-title"
         >
-          FootFall
+          Instincts Entry
         </a>
         <img
           src="/images/SSN-white.png"
@@ -35,7 +35,7 @@ export const CollegeLogo = () => {
               href="https://forms.gle/DKV8xBnTGV9agkQw7"
               className="hidden lg:block lg:inline-block mx-2 md:mx-6 hover:font-black hover:shadow-2xl hover:scale-110 font-medium text-2xl glow font-title"
             >
-              FootFall
+              Instincts Entry
             </a>
             <Link
               href="/"
@@ -152,7 +152,7 @@ export const CollegeLogo = () => {
                   className="py-4 font-medium text-white animm_li opacity-0"
                   onClick={() => setNav(false)}
                 >
-                  FootFall
+                  Instincts Entry
                 </li>
               </Link>
               <Link href="/about">

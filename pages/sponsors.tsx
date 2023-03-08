@@ -36,7 +36,7 @@ const Sponsors = () => {
             <h2 className="mt-2 mb-10 font-bold text-center lg:text-2xl sm:text-2xl font-title">
               Sponsors
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-80 gap-y-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-40 gap-y-10">
               <div className="w-full flex justify-center mb-10 items-center">
                 <Image
                   src={"/images/sponsors/seasky.jpg"}
@@ -91,8 +91,7 @@ const Sponsors = () => {
                   className="mx-auto w-[32vw] h-[32vw] md:w-[15.2vw] md:h-[12vw] lg:w-[15.2vw] lg:h-[12vw]"
                 />
               </div>
-            </div>
-            <div className="w-full flex justify-center mb-10">
+              <div className="w-full flex justify-center mb-10">
                 <Image
                   src={"/images/sponsors/adamsuvai.png"}
                   alt={"Adams Suvai Zone logo"}
@@ -101,6 +100,7 @@ const Sponsors = () => {
                   className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
                 />
               </div>
+            </div>
           </div>
         </div>
       </div>
