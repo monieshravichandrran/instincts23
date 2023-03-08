@@ -15,7 +15,7 @@ const Sponsors = () => {
             <div className="w-full flex justify-center">
               <Image
                 src={"/images/sponsors/hcl.png"}
-                alt={""}
+                alt={"HCL logo"}
                 width={244}
                 height={244}
                 className="mx-auto w-[32vw] h-[28vw] md:w-[24vw] md:h-[22.4vw] lg:w-[13.6vw] lg:h-[12vw]"
@@ -27,7 +27,7 @@ const Sponsors = () => {
             <div className="w-full flex justify-center">
               <Image
                 src={"/images/sponsors/aram.png"}
-                alt={""}
+                alt={"Aram IAS Academy logo"}
                 width={244}
                 height={244}
                 className="mx-auto w-[32vw] h-[28vw] md:w-[24vw] md:h-[22.4vw] lg:w-[13.6vw] lg:h-[12vw]"
@@ -40,7 +40,7 @@ const Sponsors = () => {
               <div className="w-full flex justify-center mb-10 items-center">
                 <Image
                   src={"/images/sponsors/seasky.jpg"}
-                  alt={""}
+                  alt={"Seasky logo"}
                   width={244}
                   height={244}
                   className="mx-auto w-[36vw] h-[36vw] md:w-[12vw] md:h-[12vw] lg:w-[12vw] lg:h-[12vw] items-center"
@@ -49,7 +49,7 @@ const Sponsors = () => {
               <div className="w-full flex justify-center mb-10">
                 <Image
                   src={"/images/sponsors/aerotrans.png"}
-                  alt={""}
+                  alt={"Aerotrans logo"}
                   width={244}
                   height={244}
                   className="mx-auto w-[68vw] h-[32vw] md:w-[20vw] md:h-[12vw] lg:w-[20vw] lg:h-[12vw] items-center"
@@ -58,7 +58,7 @@ const Sponsors = () => {
               <div className="w-full flex justify-center mb-10">
                 <Image
                   src={"/images/sponsors/sakthi.png"}
-                  alt={""}
+                  alt={"Sakthi Poulty logo"}
                   width={244}
                   height={244}
                   className="mx-auto w-[48vw] h-[48vw] md:w-[36vw] md:h-[36vw] lg:w-[16vw] lg:h-[16vw]"
@@ -67,7 +67,7 @@ const Sponsors = () => {
               <div className="w-full flex justify-center mb-10">
                 <Image
                   src={"/images/sponsors/mercedes.jpg"}
-                  alt={""}
+                  alt={"Mercedes Benz logo"}
                   width={244}
                   height={244}
                   className="mx-auto w-[48vw] h-[48vw] md:w-[16vw] md:h-[12vw] lg:w-[16vw] lg:h-[12vw]"
@@ -76,7 +76,7 @@ const Sponsors = () => {
               <div className="w-full flex justify-center mb-10">
                 <Image
                   src={"/images/sponsors/equitas.jpg"}
-                  alt={""}
+                  alt={"Equitas logo"}
                   width={244}
                   height={244}
                   className="mx-auto w-[48vw] h-[48vw] md:w-[12vw] md:h-[12vw] lg:w-[12vw] lg:h-[12vw]"
@@ -85,7 +85,7 @@ const Sponsors = () => {
               <div className="w-full flex justify-center mb-10">
                 <Image
                   src={"/images/sponsors/TMB.png"}
-                  alt={""}
+                  alt={"Tamilnad Mercantile Bank logo"}
                   width={244}
                   height={244}
                   className="mx-auto w-[32vw] h-[32vw] md:w-[15.2vw] md:h-[12vw] lg:w-[15.2vw] lg:h-[12vw]"
@@ -95,7 +95,7 @@ const Sponsors = () => {
             <div className="w-full flex justify-center mb-10">
                 <Image
                   src={"/images/sponsors/adamsuvai.png"}
-                  alt={""}
+                  alt={"Adams Suvai Zone logo"}
                   width={244}
                   height={244}
                   className="mx-auto w-[32vw] h-[32vw] md:w-[13.6vw] md:h-[13.6vw] lg:w-[13.6vw] lg:h-[13.6vw]"
