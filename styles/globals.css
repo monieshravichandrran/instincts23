@@ -19,6 +19,28 @@ body {
   background-repeat: repeat;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #491003 #ebbc8e;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ebbc8e;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #491003;
+    border-radius: 13px;
+    border: 0px solid #0b0505;
+  }
+
 @font-face {
   font-family: "Treasuremap";
   src: url("../public/fonts/Treasuremap.ttf");
