@@ -1,4 +1,26 @@
 import { CollegeLogo, Footer, PageHead } from "components";
+
+import Head from "next/head";
+
+interface IPageHead {
+  title?: string;
+  description?: string;
+}
+
+export const PageHead = ({
+  title = "Events | SSN SNUC Instincts 2023",
+  description = "Find out all the events planned for Instincts 2023 and get to know about them here.",
+}: IPageHead) => {
+  return (
+    <Head>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/images/instinctsLogo.jpeg" />
+    </Head>
+  );
+};
+
 import { Club } from "components/clubs";
 import { Clubs } from "data/debugClubs";
 import React from "react";
