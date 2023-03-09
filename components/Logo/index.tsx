@@ -13,22 +13,26 @@ export const CollegeLogo = () => {
         <div id="navBar"></div>
       </div>
       <div className="z-40">
-        <img
+       <a href="https://www.ssnsnucinstincts.com/"> 
+         <img
           src="/images/SNUC-white.png"
           alt="SNUC"
           className="w-[100px] top-5 lg:w-[180px] absolute lg:top-20 left-2"
-        />
+          /> 
+        </a>
         <a
           href="https://forms.gle/DKV8xBnTGV9agkQw7"
           className="block lg:hidden hover:shadow-2xl hover:scale-110 font-medium text-sm md:text-2xl glow absolute top-[1.5rem] lg:top-[4.35rem] right-36 md:right-40 font-title"
         >
           Entry
         </a>
+        <a href="https://www.ssnsnucinstincts.com/">
         <img
           src="/images/SSN-white.png"
           alt="SSN"
           className="mr-14 inline-block w-[70px] lg:w-[120px] absolute top-[1rem] lg:top-[4.35rem] right-2 lg:mr-0"
         />
+        </a>
         <div className="absolute text-white top-3 right-10 sm:text-xl md:text-2xl">
           <div className="relative right-30 top-2">
             <a

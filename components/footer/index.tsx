@@ -18,6 +18,13 @@ export const Footer = () => {
       </a>
       <p className="mt-6 text-lg">{footerTextElement} With ❤️ by</p>
       <div className="flex items-center mt-6">
+        <a target="_blank" href="https://www.linkedin.com/in/judahjacinth/">
+          <img
+            className="w-[5.5rem] h-[5.5rem] lg:w-[6.5rem] lg:h-[6.5rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"
+            src="/images/Judah.png"
+            alt="Judah"
+          />
+        </a>
       <a href="https://www.instagram.com/akash._.77/">
           <img
             className="w-[5.5rem] h-[5.5rem] lg:w-[6.5rem] lg:h-[6.5rem] duration-300 cursor-pointer hover:scale-125 lg:ml-10"

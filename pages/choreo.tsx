@@ -1,4 +1,25 @@
 import { Button, CollegeLogo, Footer, PageHead } from "components";
+import Head from "next/head";
+
+interface IPageHead {
+  title?: string;
+  description?: string;
+}
+
+export const PageHead = ({
+  title = "Choreo Night | SSN SNUC Instincts 2023",
+  description = "Pump up your emotions on choreo night and let it all go for a night of choreo!",
+}: IPageHead) => {
+  return (
+    <Head>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/images/instinctsLogo.jpeg" />
+    </Head>
+  );
+};
+
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel';
 import Script from "next/script";

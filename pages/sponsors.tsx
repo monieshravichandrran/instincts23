@@ -1,4 +1,26 @@
 import { CollegeLogo, ComingSoon, Footer, PageHead } from "components";
+
+import Head from "next/head";
+
+interface IPageHead {
+  title?: string;
+  description?: string;
+}
+
+export const PageHead = ({
+  title = "Sponsors | SSN SNUC Instincts 2023",
+  description = "All the incredible companies and businesses who are the sponsors of Instincts 2023",
+}: IPageHead) => {
+  return (
+    <Head>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/images/instinctsLogo.jpeg" />
+    </Head>
+  );
+};
+
 import Image from "next/image";
 
 const Sponsors = () => {

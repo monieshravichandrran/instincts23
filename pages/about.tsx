@@ -1,5 +1,26 @@
 import { Button, CollegeLogo, Footer, PageHead } from "components";
 
+import Head from "next/head";
+
+interface IPageHead {
+  title?: string;
+  description?: string;
+}
+
+export const PageHead = ({
+  title = "About | SSN SNUC Instincts 2023",
+  description = "What is SSN and SNUC Instincts all about? Come find here at the About page!",
+}: IPageHead) => {
+  return (
+    <Head>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/images/instinctsLogo.jpeg" />
+    </Head>
+  );
+};
+
 export default function About() {
   return (
     <>
