@@ -1,10 +1,10 @@
-import { Button, CollegeLogo, Footer, PageHead } from "components";
+import { Button, CollegeLogo, Footer } from "components"
 
-import Head from "next/head";
+import Head from "next/head"
 
 interface IPageHead {
-  title?: string;
-  description?: string;
+  title?: string
+  description?: string
 }
 
 export const PageHead = ({
@@ -18,8 +18,8 @@ export const PageHead = ({
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/instinctsLogo.jpeg" />
     </Head>
-  );
-};
+  )
+}
 
 export default function About() {
   return (
@@ -34,14 +34,18 @@ export default function About() {
           <p className="p-4 text-xl shadow-lg lg:text-2xl rounded-br-3xl">
             Marching towards its 18th year, INSTINCTS has set a benchmark in the
             conduct of college fests where intellectual, social, cultural and
-            artistic talents are brought to view. This alluring platform offers to
-            showcase the latent talents of the students from colleges across the
-            nation. Instincts has seen an average footfall of 30,000+ every year.
+            artistic talents are brought to view. This alluring platform offers
+            to showcase the latent talents of the students from colleges across
+            the nation. Instincts has seen an average footfall of 30,000+ every
+            year.
             <br />
             <br />
             SSN SNUC Instincts is one of the most awaited cultural events in the
             country. This year, Instincts will be held offline with an exciting
-            prize pool of &nbsp; <span className="text-3xl font-title relative top-1">₹5,00,000</span>
+            prize pool of &nbsp;{" "}
+            <span className="text-3xl font-title relative top-1">
+              ₹5,00,000
+            </span>
           </p>
           <Button href={"/gallery"} large>
             Explore the Instincts Gallery
@@ -50,5 +54,5 @@ export default function About() {
       </div>
       <Footer />
     </>
-  );
+  )
 }

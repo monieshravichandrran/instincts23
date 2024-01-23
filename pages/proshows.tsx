@@ -1,10 +1,10 @@
-import { CollegeLogo, Footer, PageHead } from "components";
+import { CollegeLogo, Footer } from "components"
 
-import Head from "next/head";
+import Head from "next/head"
 
 interface IPageHead {
-  title?: string;
-  description?: string;
+  title?: string
+  description?: string
 }
 
 export const PageHead = ({
@@ -18,15 +18,15 @@ export const PageHead = ({
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/instinctsLogo.jpeg" />
     </Head>
-  );
-};
+  )
+}
 
-import { Club } from "components/clubs";
-import { Clubs } from "data/debugClubs";
-import React from "react";
-import Script from "next/script";
-import Link from "next/link";
-import Image from "next/image";
+import { Club } from "components/clubs"
+import { Clubs } from "data/debugClubs"
+import React from "react"
+import Script from "next/script"
+import Link from "next/link"
+import Image from "next/image"
 
 export default function Events() {
   return (
@@ -54,11 +54,16 @@ export default function Events() {
                 DJ Night
               </h2>
             </Link>
-            <Link href="/celebrity" className="shadow-2xl w-full  clubimage mb-4">
+            <Link
+              href="/celebrity"
+              className="shadow-2xl w-full  clubimage mb-4"
+            >
               <Image
                 src={"/images/proshows/jagan.jpg"}
                 id="celeb"
-                alt={"Poster for the Celebrity Show which includes standup comedy at Instincts"}
+                alt={
+                  "Poster for the Celebrity Show which includes standup comedy at Instincts"
+                }
                 width={244}
                 height={244}
                 className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
@@ -70,7 +75,9 @@ export default function Events() {
             <Link href="/proshow" className="shadow-2xl w-full  clubimage">
               <img
                 src={"/images/proshows/pro0.jpg"}
-                alt={"Poster for the pro show concert by the non violinist project at Instincts"}
+                alt={
+                  "Poster for the pro show concert by the non violinist project at Instincts"
+                }
                 id="pro"
                 width={244}
                 height={244}
@@ -83,7 +90,9 @@ export default function Events() {
             <Link href="/bike" className="shadow-2xl w-full  clubimage">
               <Image
                 src={"/images/proshows/bike.jpg"}
-                alt={"Poster of a man doing stunts with a superbike at Instincts"}
+                alt={
+                  "Poster of a man doing stunts with a superbike at Instincts"
+                }
                 width={244}
                 height={244}
                 className="mb-4 mx-auto w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw] lg:w-[20vw] lg:h-[20vw]"
@@ -108,9 +117,8 @@ export default function Events() {
         </div>
       </div>
       <Footer />
-      <Script src="imagechanges.js">
-      </Script>
+      <Script src="imagechanges.js"></Script>
       <Script src="imagechanges2.js"></Script>
     </>
-  );
+  )
 }

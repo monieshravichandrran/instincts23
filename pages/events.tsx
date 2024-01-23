@@ -1,10 +1,10 @@
-import { CollegeLogo, Footer, PageHead } from "components";
+import { CollegeLogo, Footer } from "components"
 
-import Head from "next/head";
+import Head from "next/head"
 
 interface IPageHead {
-  title?: string;
-  description?: string;
+  title?: string
+  description?: string
 }
 
 export const PageHead = ({
@@ -18,13 +18,13 @@ export const PageHead = ({
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/instinctsLogo.jpeg" />
     </Head>
-  );
-};
+  )
+}
 
-import { Club } from "components/clubs";
-import { Clubs } from "data/debugClubs";
-import React from "react";
-import Script from "next/script";
+import { Club } from "components/clubs"
+import { Clubs } from "data/debugClubs"
+import React from "react"
+import Script from "next/script"
 
 export default function Events() {
   return (
@@ -56,5 +56,5 @@ export default function Events() {
       <Footer />
       <Script src="controller.js" />
     </>
-  );
+  )
 }

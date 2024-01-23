@@ -1,9 +1,9 @@
-import { Button, CollegeLogo, Footer, PageHead } from "components";
-import Head from "next/head";
+import { Button, CollegeLogo, Footer } from "components"
+import Head from "next/head"
 
 interface IPageHead {
-  title?: string;
-  description?: string;
+  title?: string
+  description?: string
 }
 
 export const PageHead = ({
@@ -17,15 +17,15 @@ export const PageHead = ({
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/instinctsLogo.jpeg" />
     </Head>
-  );
-};
+  )
+}
 
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import { Carousel } from 'react-responsive-carousel';
-import Script from "next/script";
-import { BsFillCalendarCheckFill } from "react-icons/bs";
-import { BsFillClockFill } from "react-icons/bs";
-import { IoLocationSharp } from "react-icons/io5";
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from "react-responsive-carousel"
+import Script from "next/script"
+import { BsFillCalendarCheckFill } from "react-icons/bs"
+import { BsFillClockFill } from "react-icons/bs"
+import { IoLocationSharp } from "react-icons/io5"
 
 export default function Bike() {
   return (
@@ -49,7 +49,10 @@ export default function Bike() {
           </div>
           <div className="flex justify-center mt-12 md:w-[70vw]">
             <p className="p-4 text-xl shadow-lg lg:text-2xl rounded-br-3xl">
-              Energising beats, a congregation of the best moves ever, judged by the founder of the BFab dance crew-Ravi Varma. Witness the emotions and passion take form in the Choreonite on the 9th of March from 5:30pm at the Open Air Theatre.
+              Energising beats, a congregation of the best moves ever, judged by
+              the founder of the BFab dance crew-Ravi Varma. Witness the
+              emotions and passion take form in the Choreonite on the 9th of
+              March from 5:30pm at the Open Air Theatre.
             </p>
           </div>
           <div className="flex flex-col items-start justify-around mt-5">
@@ -69,10 +72,12 @@ export default function Bike() {
             </div>
           </div>
           <div className="w-full flex justify-center">
-            <a href={"https://docs.google.com/forms/d/e/1FAIpQLSd6VMVgwUaCjgGdWigws5g_cfof_gev03GoQSTbgrYjvgMrgw/viewform?embedded=true"}>
-              <button
-                className="neon-button mt-10 !text-white"
-              >
+            <a
+              href={
+                "https://docs.google.com/forms/d/e/1FAIpQLSd6VMVgwUaCjgGdWigws5g_cfof_gev03GoQSTbgrYjvgMrgw/viewform?embedded=true"
+              }
+            >
+              <button className="neon-button mt-10 !text-white">
                 Register
               </button>
             </a>
@@ -82,5 +87,5 @@ export default function Bike() {
       <Footer />
       <Script src="choreo.js" />
     </>
-  );
+  )
 }

@@ -1,10 +1,10 @@
-import { CollegeLogo, ComingSoon, Footer, PageHead } from "components";
+import { CollegeLogo, ComingSoon, Footer } from "components"
 
-import Head from "next/head";
+import Head from "next/head"
 
 interface IPageHead {
-  title?: string;
-  description?: string;
+  title?: string
+  description?: string
 }
 
 export const PageHead = ({
@@ -18,10 +18,10 @@ export const PageHead = ({
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/instinctsLogo.jpeg" />
     </Head>
-  );
-};
+  )
+}
 
-import Image from "next/image";
+import Image from "next/image"
 
 const Sponsors = () => {
   return (
@@ -128,7 +128,7 @@ const Sponsors = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Sponsors;
+export default Sponsors

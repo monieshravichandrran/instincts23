@@ -1,9 +1,9 @@
-import { CollegeLogo, Footer, PageHead } from "components";
-import Head from "next/head";
+import { CollegeLogo, Footer } from "components"
+import Head from "next/head"
 
 interface IPageHead {
-  title?: string;
-  description?: string;
+  title?: string
+  description?: string
 }
 
 export const PageHead = ({
@@ -17,29 +17,29 @@ export const PageHead = ({
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/instinctsLogo.jpeg" />
     </Head>
-  );
-};
+  )
+}
 
-import { Department } from "../types";
+import { Department } from "../types"
 import {
   day1Data,
   day2Data,
   day3Data,
-} from "../components/timeline-chart/timelines";
-import { TimelineChart } from "../components/timeline-chart";
+} from "../components/timeline-chart/timelines"
+import { TimelineChart } from "../components/timeline-chart"
 
-import { useState } from "react";
+import { useState } from "react"
 
 const dataMap = {
   [Department.DAY1]: day1Data,
   [Department.DAY2]: day2Data,
   [Department.DAY3]: day3Data,
-};
+}
 
-const depts = Object.values(Department);
+const depts = Object.values(Department)
 
 const Schedule = () => {
-  const [selectedDept, setSelectedDept] = useState<string>(depts[0]);
+  const [selectedDept, setSelectedDept] = useState<string>(depts[0])
 
   return (
     <>
@@ -52,7 +52,9 @@ const Schedule = () => {
           </h2>
         </div>
         <div className="w-full flex justify-center">
-          <p className="text-xl my-10 md:hidden text-white">Zoom and Click on events to explore</p>
+          <p className="text-xl my-10 md:hidden text-white">
+            Zoom and Click on events to explore
+          </p>
         </div>
         <div className="flex flex-col lg:flex-row w-11/12 lg:w-5/6 mx-auto gap-10 my-20 ">
           <div className="overflow-hidden text-white lg:overflow-auto  lg:p-10 rounded-lg lg:w-1/4  backdrop-blur-md bg-black/30 border-[0.02rem] border-gray-400 border-opacity-20">
@@ -84,7 +86,7 @@ const Schedule = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Schedule;
+export default Schedule

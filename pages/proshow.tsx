@@ -1,9 +1,9 @@
-import { Button, CollegeLogo, Footer, PageHead } from "components";
-import Head from "next/head";
+import { Button, CollegeLogo, Footer } from "components"
+import Head from "next/head"
 
 interface IPageHead {
-  title?: string;
-  description?: string;
+  title?: string
+  description?: string
 }
 
 export const PageHead = ({
@@ -17,14 +17,14 @@ export const PageHead = ({
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/instinctsLogo.jpeg" />
     </Head>
-  );
-};
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import { Carousel } from 'react-responsive-carousel';
-import Script from "next/script";
-import { BsFillCalendarCheckFill } from "react-icons/bs";
-import { BsFillClockFill } from "react-icons/bs";
-import { IoLocationSharp } from "react-icons/io5";
+  )
+}
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from "react-responsive-carousel"
+import Script from "next/script"
+import { BsFillCalendarCheckFill } from "react-icons/bs"
+import { BsFillClockFill } from "react-icons/bs"
+import { IoLocationSharp } from "react-icons/io5"
 
 export default function Pro() {
   return (
@@ -48,7 +48,10 @@ export default function Pro() {
           </div>
           <div className="flex justify-center mt-12 md:w-[70vw]">
             <p className="p-4 text-xl shadow-lg lg:text-2xl rounded-br-3xl">
-              Put your worries aside, gather your friends and vibe to the mesmerising music vocalised by Sathya Prakash, Rakshitha and Anand Aravindakshan along with the band, the Non Violinist Project on the 10th of March from 5:30pm at the Open Air Theatre.
+              Put your worries aside, gather your friends and vibe to the
+              mesmerising music vocalised by Sathya Prakash, Rakshitha and Anand
+              Aravindakshan along with the band, the Non Violinist Project on
+              the 10th of March from 5:30pm at the Open Air Theatre.
             </p>
           </div>
           <div className="flex flex-col items-start justify-around mt-5">
@@ -72,5 +75,5 @@ export default function Pro() {
       <Footer />
       <Script src="pro.js" />
     </>
-  );
+  )
 }

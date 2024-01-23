@@ -1,15 +1,15 @@
-import { CollegeLogo, Footer, PageHead, Button } from "components";
-import Image from "next/image";
-import Link from "next/link";
-import { useTranslation } from "utils/hooks/use-translation";
-import Script from "next/script";
+import { CollegeLogo, Footer, PageHead, Button } from "components"
+import Image from "next/image"
+import Link from "next/link"
+import { useTranslation } from "utils/hooks/use-translation"
+import Script from "next/script"
 
 export default function Home() {
-  const title = useTranslation("page.title");
-  const description = useTranslation("page.description");
+  const title = useTranslation("page.title")
+  const description = useTranslation("page.description")
   return (
     <>
-      <PageHead title={title} description={description} />
+      <PageHead />
       <div className="flex flex-col items-center justify-center min-h-screen p-1 md:p-4 m-auto text-white font-main">
         <CollegeLogo />
         <div className="min-h-screen lg:w-[98%] sm:w-full flex flex-col items-center justify-center">
@@ -20,7 +20,9 @@ export default function Home() {
             width={300}
             className="mt-16 lg:mt-12 mb-[-2rem] md:w-[15vw] md:h-[10vw] w-[30vw] h-[24vw]"
           />
-          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-2">presents</div>
+          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-2">
+            presents
+          </div>
           <Image
             src="/images/Instincts.png"
             alt="Instincts 2023 - Lost Continent"
@@ -28,7 +30,9 @@ export default function Home() {
             width={500}
             className="lg:px-8 clubitem mt-4"
           />
-          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-10">Associate Sponsor</div>
+          <div className="flex justify-center font-title text-xl lg:text-2xl mt-4 lg:mt-10">
+            Associate Sponsor
+          </div>
           <Image
             src="/images/sponsors/aram.png"
             alt="aram"
@@ -174,7 +178,10 @@ export default function Home() {
             <br />
             SSN SNUC Instincts is one of the most awaited cultural events in the
             country. This year, Instincts will be held offline with an exciting
-            prize pool of &nbsp; <span className="text-3xl font-title relative top-1">₹5,00,000</span>
+            prize pool of &nbsp;{" "}
+            <span className="text-3xl font-title relative top-1">
+              ₹5,00,000
+            </span>
           </p>
           <Button href={"/gallery"} large>
             Explore the Instincts Gallery
@@ -185,5 +192,5 @@ export default function Home() {
       <Script src="https://hammerjs.github.io/dist/hammer.js" />
       <Script src="countDown.js" />
     </>
-  );
+  )
 }
