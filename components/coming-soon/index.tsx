@@ -1,13 +1,13 @@
-import { CollegeLogo, Footer, PageHead } from "components";
-import Image from "next/image";
-import { useTranslation } from "utils/hooks/use-translation";
+import { CollegeLogo, Footer, PageHead } from "components"
+import Image from "next/image"
+import { useTranslation } from "utils/hooks/use-translation"
 
 export const ComingSoon = () => {
-  const title = useTranslation("page.title");
-  const description = useTranslation("page.description");
+  const title = useTranslation("page.title")
+  const description = useTranslation("page.description")
   return (
     <>
-      <PageHead title={title} description={description} />
+      <PageHead />
       <div className="flex flex-col items-center justify-center min-h-screen p-4">
         <Image
           src="/images/Instincts.png"
@@ -29,5 +29,5 @@ export const ComingSoon = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
